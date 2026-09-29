@@ -381,8 +381,10 @@
 
   let initial = "en";
   try {
+    const queryLanguage = new URLSearchParams(window.location.search).get("lang");
     const saved = localStorage.getItem("portfolio-language");
-    if (allowed.has(saved)) initial = saved;
+    if (allowed.has(queryLanguage)) initial = queryLanguage;
+    else if (allowed.has(saved)) initial = saved;
   } catch {}
 
   window.siteI18n = {
@@ -397,9 +399,16 @@
 
   languageOptions.forEach((option, index) => {
     option.addEventListener("click", event => {
+      const next = option.dataset.language;
+      if (!allowed.has(next)) return;
       event.preventDefault();
       event.stopPropagation();
-      setLanguage(option.dataset.language);
+      setLanguage(next);
+      try {
+        const url = new URL(window.location.href);
+        url.searchParams.set("lang", next);
+        history.replaceState(null, "", url);
+      } catch {}
       if (picker) picker.open = false;
       languageButton?.focus();
     });
