@@ -123,23 +123,27 @@
     ],
     "courses": [
       {
-        "name": "Financial Accounting",
-        "grade": "A+"
+        "name": "Strategic Management",
+        "grade": "A"
       },
       {
-        "name": "Cost Accounting",
+        "name": "Factory Planning and Management",
+        "grade": "A"
+      },
+      {
+        "name": "Logistics and Supply Chain Management",
+        "grade": "A"
+      },
+      {
+        "name": "Quality Management and Six Sigma",
+        "grade": "A"
+      },
+      {
+        "name": "Industry 4.0",
         "grade": "A+"
       },
       {
         "name": "Cost Management",
-        "grade": "A+"
-      },
-      {
-        "name": "Microeconomics",
-        "grade": "A+"
-      },
-      {
-        "name": "Linear Algebra",
         "grade": "A+"
       }
     ]
