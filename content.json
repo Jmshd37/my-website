@@ -164,6 +164,19 @@
       "url": ""
     },
     {
+      "title": "Odoo Student Diploma",
+      "category": "Certification",
+      "meta": "Odoo S.A. · 04/01/2026",
+      "description": "Certificate of Achievement awarded by Odoo S.A. for successfully completing the Odoo Student Diploma. Certification No. 0001078256.",
+      "tags": [
+        "Odoo",
+        "ERP",
+        "Business Software"
+      ],
+      "featured": false,
+      "url": "assets/odoo-student-diploma.pdf"
+    },
+    {
       "title": "HKUST (Guangzhou) International Student Experience Week",
       "category": "International",
       "meta": "International · Jan 2026",
