@@ -1,4 +1,5 @@
 (() => {
+  const tr = (key, fallback, vars = {}) => window.siteI18n?.t(key, vars) || fallback;
   const navToggle = document.querySelector(".nav-toggle");
   const navLinks = document.querySelector("#nav-links");
   const navAnchors = [...document.querySelectorAll(".nav-links a[href^='#']")];
@@ -6,7 +7,7 @@
   const setMenu = open => {
     navLinks.classList.toggle("open", open);
     navToggle.setAttribute("aria-expanded", String(open));
-    navToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+    navToggle.setAttribute("aria-label", open ? tr("closeNavigation", "Close navigation") : tr("openNavigation", "Open navigation"));
     navLinks.hidden = mobile.matches && !open;
   };
   if (navToggle && navLinks) {
@@ -64,7 +65,7 @@
       if (matches) count++;
     });
     filters.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.filter === category)));
-    counter.textContent = count + " of " + cards.length + (cards.length === 1 ? " project" : " projects");
+    counter.textContent = tr("projectCount", "Showing " + count + " of " + cards.length + " projects", { count, total: cards.length });
     empty.hidden = count !== 0;
   };
   if (search) {
@@ -88,11 +89,20 @@
       const status = document.querySelector("#copy-status");
       try {
         await navigator.clipboard.writeText(copy.dataset.email);
-        status.textContent = "Email address copied.";
+        status.textContent = tr("emailCopied", "Email address copied.");
       } catch {
-        status.textContent = "Copy this address: " + copy.dataset.email;
+        status.textContent = tr("copyFallback", "Copy this address: " + copy.dataset.email, { email: copy.dataset.email });
       }
     });
   }
+  window.addEventListener("site-language-change", () => {
+    if (navToggle) {
+      const open = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-label", open ? tr("closeNavigation", "Close navigation") : tr("openNavigation", "Open navigation"));
+    }
+    if (search) filterProjects();
+    const status = document.querySelector("#copy-status");
+    if (status) status.textContent = "";
+  });
 })();
 
