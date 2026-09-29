@@ -217,12 +217,28 @@
       ]
     },
     {
-      "title": "Tools",
+      "title": "Data & Analytics",
       "items": [
         "Microsoft Excel",
+        "Google Sheets",
         "Power BI",
-        "SQL — Basic",
-        "Microsoft Office"
+        "AI-Assisted Data Analysis"
+      ]
+    },
+    {
+      "title": "Research & Productivity",
+      "items": [
+        "AI-Assisted Research",
+        "Microsoft Word",
+        "Microsoft PowerPoint"
+      ]
+    },
+    {
+      "title": "Design & Content",
+      "items": [
+        "Gamma",
+        "Canva",
+        "CapCut"
       ]
     },
     {
