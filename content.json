@@ -4,11 +4,11 @@
     "lastName": "Nurmukhammadov",
     "initials": "JN",
     "location": "Tashkent, Uzbekistan",
-    "role": "Industrial Management · Business Analysis · Project Management",
-    "intro": "I turn operational complexity into clear processes, measurable decisions and structured execution.",
+    "role": "Industrial Management · Finance · Business Analytics",
+    "intro": "Industrial Management graduate with a strong academic foundation in finance, business analytics, operations and digital transformation.",
     "availability": "Open to graduate study & professional opportunities",
-    "headline": "Business-minded. Analytically driven.",
-    "focus": "Focused on business performance, ERP, digital transformation and data-informed decisions.",
+    "headline": "Academic foundation. Applied experience.",
+    "focus": "Focused on finance, business analytics, ERP, sustainable management and data-informed decision making.",
     "email": "jamshidnurmuhammedov@gmail.com",
     "phone": "+998946460219",
     "phoneLabel": "+998 94 646 02 19",
@@ -31,8 +31,18 @@
   },
   "sections": [
     {
+      "id": "education",
+      "label": "Education",
+      "enabled": true
+    },
+    {
       "id": "about",
-      "label": "About",
+      "label": "Academic Profile",
+      "enabled": true
+    },
+    {
+      "id": "projects",
+      "label": "Research & Achievements",
       "enabled": true
     },
     {
@@ -41,18 +51,8 @@
       "enabled": true
     },
     {
-      "id": "education",
-      "label": "Education",
-      "enabled": true
-    },
-    {
-      "id": "projects",
-      "label": "Projects",
-      "enabled": true
-    },
-    {
       "id": "skills",
-      "label": "Skills",
+      "label": "Skills & Languages",
       "enabled": true
     },
     {
@@ -62,10 +62,10 @@
     }
   ],
   "about": {
-    "title": "Management thinking backed by analytical execution.",
+    "title": "An academic profile shaped by analytical and managerial thinking.",
     "paragraphs": [
-      "I studied Industrial Management at New Uzbekistan University in a fully English-taught programme. My academic and professional work sits at the intersection of operations, finance, business analysis, technology and project delivery.",
-      "I am particularly interested in how organizations improve performance through better processes, stronger cost visibility, effective ERP adoption and disciplined decision making."
+      "I completed the Bachelor’s Programme in Industrial Management at New Uzbekistan University, taught exclusively in English. My academic work spans finance, accounting, economics, analytics, operations and management.",
+      "I am preparing for graduate study in fields that connect management with finance, analytics, sustainability and digital transformation, while building on practical experience in business analysis and project delivery."
     ]
   },
   "experience": [
@@ -219,7 +219,6 @@
   ],
   "contact": {
     "title": "Have an opportunity in mind?",
-    "intro": "For graduate study, professional opportunities, collaboration or project discussions, feel free to reach out."
+    "intro": "For graduate study, academic opportunities, professional collaboration or project discussions, feel free to reach out."
   }
 }
-
