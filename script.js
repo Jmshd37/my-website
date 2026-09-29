@@ -1,57 +1,98 @@
-const navToggle = document.querySelector(".nav-toggle");
-const navLinks = document.querySelector("#nav-links");
-const navAnchors = [...document.querySelectorAll(".nav-links a[href^='#']")];
-const sections = [...document.querySelectorAll("main section[id]")];
-
-document.querySelector("#year").textContent = new Date().getFullYear();
-
-navToggle.addEventListener("click", () => {
-  const isOpen = navLinks.classList.toggle("open");
-  navToggle.setAttribute("aria-expanded", String(isOpen));
-  navToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
-});
-
-navAnchors.forEach((link) => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("open");
-    navToggle.setAttribute("aria-expanded", "false");
-    navToggle.setAttribute("aria-label", "Open navigation");
-  });
-});
-
-const revealTargets = document.querySelectorAll(
-  ".timeline-item, .education-card, .course-card, .project-card, .skill-group, .contact-card"
-);
-
-if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  revealTargets.forEach((element) => element.classList.add("reveal"));
-
-  const revealObserver = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.12 }
-  );
-
-  revealTargets.forEach((element) => revealObserver.observe(element));
-}
-
-const sectionObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      navAnchors.forEach((link) => {
-        const target = link.getAttribute("href").slice(1);
-        link.classList.toggle("active", target === entry.target.id);
-      });
+(() => {
+  const navToggle = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelector("#nav-links");
+  const navAnchors = [...document.querySelectorAll(".nav-links a[href^='#']")];
+  const mobile = window.matchMedia("(max-width: 1000px)");
+  const setMenu = open => {
+    navLinks.classList.toggle("open", open);
+    navToggle.setAttribute("aria-expanded", String(open));
+    navToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+    navLinks.hidden = mobile.matches && !open;
+  };
+  if (navToggle && navLinks) {
+    document.documentElement.classList.add("has-navigation");
+    navToggle.hidden = false;
+    setMenu(false);
+    navToggle.addEventListener("click", () => setMenu(navToggle.getAttribute("aria-expanded") !== "true"));
+    navAnchors.forEach(link => link.addEventListener("click", () => {
+      setMenu(false);
+      // Move keyboard focus out of the collapsed mobile menu to the destination.
+      const target = document.querySelector(link.getAttribute("href"));
+      if (target) { target.tabIndex = -1; target.focus({ preventScroll: true }); }
+    }));
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && navToggle.getAttribute("aria-expanded") === "true") {
+        setMenu(false); navToggle.focus();
+      }
     });
-  },
-  { rootMargin: "-35% 0px -55% 0px", threshold: 0 }
-);
+    document.addEventListener("click", event => {
+      if (mobile.matches && !event.target.closest(".nav")) setMenu(false);
+    });
+    mobile.addEventListener("change", () => setMenu(false));
+  }
+  const year = document.querySelector("#year");
+  if (year) year.textContent = new Date().getFullYear();
 
-sections.forEach((section) => sectionObserver.observe(section));
+  // Content is always visible. Observers only enhance navigation.
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        navAnchors.forEach(link => {
+          const active = link.hash === "#" + entry.target.id;
+          link.classList.toggle("active", active);
+          if (active) link.setAttribute("aria-current", "location");
+          else link.removeAttribute("aria-current");
+        });
+      });
+    }, { rootMargin: "-15% 0px -65% 0px", threshold: 0 });
+    document.querySelectorAll("main section[id]").forEach(section => observer.observe(section));
+  }
+  const cards = [...document.querySelectorAll(".project-card")];
+  const search = document.querySelector("#project-search");
+  const filters = [...document.querySelectorAll("[data-filter]")];
+  const counter = document.querySelector("#project-count");
+  const empty = document.querySelector("#project-empty");
+  let category = "All";
+  const normalize = text => text.normalize("NFKC").toLocaleLowerCase().trim();
+  const filterProjects = () => {
+    const query = normalize(search.value);
+    let count = 0;
+    cards.forEach(card => {
+      const matches = (category === "All" || card.dataset.category === category) && normalize(card.textContent).includes(query);
+      card.hidden = !matches;
+      if (matches) count++;
+    });
+    filters.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.filter === category)));
+    counter.textContent = count + " of " + cards.length + (cards.length === 1 ? " project" : " projects");
+    empty.hidden = count !== 0;
+  };
+  if (search) {
+    document.querySelector(".project-controls").hidden = false;
+    counter.hidden = false;
+    search.addEventListener("input", filterProjects);
+    filters.forEach(button => button.addEventListener("click", () => { category = button.dataset.filter; filterProjects(); }));
+    document.querySelector("#reset-projects").addEventListener("click", () => {
+      category = "All"; search.value = ""; filterProjects(); search.focus();
+    });
+    filterProjects();
+  }
+  document.querySelectorAll(".print-button").forEach(button => {
+    button.hidden = false;
+    button.addEventListener("click", () => window.print());
+  });
+  const copy = document.querySelector("#copy-email");
+  if (copy) {
+    copy.hidden = false;
+    copy.addEventListener("click", async () => {
+      const status = document.querySelector("#copy-status");
+      try {
+        await navigator.clipboard.writeText(copy.dataset.email);
+        status.textContent = "Email address copied.";
+      } catch {
+        status.textContent = "Copy this address: " + copy.dataset.email;
+      }
+    });
+  }
+})();
+

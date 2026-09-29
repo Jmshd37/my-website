@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio content editor</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f6f3ed;color:#101827;font:15px/1.5 system-ui,sans-serif}
+    header{padding:24px;max-width:1400px;margin:auto}h1{margin:0}p{max-width:80ch}
+    .layout{display:grid;grid-template-columns:minmax(300px,460px) minmax(0,1fr);gap:20px;padding:0 24px 30px;max-width:1400px;margin:auto}
+    form{max-height:75vh;overflow:auto;padding:4px 12px 20px 4px}details{border:1px solid #cbd1da;border-radius:12px;background:white;margin:0 0 12px;padding:12px}
+    summary{cursor:pointer;font-weight:700;text-transform:capitalize}label{display:grid;gap:5px;margin:14px 0;font-weight:650;font-size:13px}
+    input,textarea,button{font:inherit}input:not([type=checkbox]),textarea{width:100%;padding:10px;border:1px solid #9ba5b4;border-radius:8px}textarea{min-height:95px;resize:vertical}
+    button,.import{display:inline-block;border:1px solid #b9c1cf;border-radius:8px;background:white;color:#101827;padding:9px 12px;cursor:pointer;font-size:13px}
+    button:disabled{opacity:.5;cursor:not-allowed}.primary{background:#101827;color:white}.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    .import{margin:0;font-weight:400}.item{border-left:2px solid #d3d9e2;padding:4px 0 12px 12px;margin:12px 0}
+    iframe{width:100%;height:75vh;border:1px solid #cbd1da;border-radius:12px;background:white}
+    .status{min-height:24px;color:#3045a2;font-weight:600} :focus-visible{outline:3px solid #4b67ff;outline-offset:3px}
+    @media(max-width:800px){.layout{grid-template-columns:1fr}form{max-height:60vh}iframe{height:600px}}
+  </style>
+  <script src="editor.js" type="module"></script>
+</head>
+<body>
+<header>
+  <h1>Edit your portfolio</h1>
+  <p>Change your content, preview it, then download <strong>both files</strong>. Replace <strong>content.json</strong> and <strong>index.html</strong> in your repository to publish through your normal deployment. Changes here stay in this browser tab until you download them.</p>
+  <div class="actions">
+    <button class="primary" id="preview-button" type="button" disabled>Update preview</button>
+    <button id="download-content" type="button" disabled>Download content.json</button>
+    <button id="download-page" type="button" disabled>Download index.html</button>
+    <label class="import">Import content.json <input id="import" type="file" accept=".json,application/json"></label>
+    <a href="./index.html">View website</a>
+  </div>
+  <p id="editor-status" class="status" role="status">Loading content…</p>
+</header>
+<main class="layout">
+  <form id="editor" aria-label="Portfolio content" onsubmit="return false"></form>
+  <iframe id="preview" title="Portfolio preview" sandbox="allow-scripts allow-modals"></iframe>
+</main>
+</body>
+</html>
+

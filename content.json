@@ -1,0 +1,225 @@
+{
+  "profile": {
+    "firstName": "Jamshidbek",
+    "lastName": "Nurmukhammadov",
+    "initials": "JN",
+    "location": "Tashkent, Uzbekistan",
+    "role": "Industrial Management · Business Analysis · Project Management",
+    "intro": "I turn operational complexity into clear processes, measurable decisions and structured execution.",
+    "availability": "Open to graduate study & professional opportunities",
+    "headline": "Business-minded. Analytically driven.",
+    "focus": "Focused on business performance, ERP, digital transformation and data-informed decisions.",
+    "email": "jamshidnurmuhammedov@gmail.com",
+    "phone": "+998946460219",
+    "phoneLabel": "+998 94 646 02 19",
+    "github": "https://github.com/Jmshd37",
+    "resumeUrl": "",
+    "stats": [
+      {
+        "value": "4.01",
+        "label": "GPA / 4.5"
+      },
+      {
+        "value": "248",
+        "label": "ECTS"
+      },
+      {
+        "value": "7.0",
+        "label": "IELTS"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "about",
+      "label": "About",
+      "enabled": true
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "enabled": true
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "enabled": true
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "enabled": true
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "enabled": true
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "enabled": true
+    }
+  ],
+  "about": {
+    "title": "Management thinking backed by analytical execution.",
+    "paragraphs": [
+      "I studied Industrial Management at New Uzbekistan University in a fully English-taught programme. My academic and professional work sits at the intersection of operations, finance, business analysis, technology and project delivery.",
+      "I am particularly interested in how organizations improve performance through better processes, stronger cost visibility, effective ERP adoption and disciplined decision making."
+    ]
+  },
+  "experience": [
+    {
+      "period": "Sep 2026 — Present",
+      "role": "Project Manager",
+      "company": "MAGMASTORE",
+      "description": "Coordinate requirements, scope and cross-functional delivery for a B2B e-commerce platform, translating operational needs into structured workflows and implementation priorities.",
+      "tags": [
+        "Project Coordination",
+        "Requirements",
+        "Process Design",
+        "B2B E-commerce"
+      ]
+    },
+    {
+      "period": "Dec 2025 — Sep 2026",
+      "role": "Business Analyst",
+      "company": "Next Generation Development",
+      "description": "Worked with business requirements, process analysis, workflow definition and reporting to support clearer decisions and more structured delivery.",
+      "tags": [
+        "Business Analysis",
+        "Process Mapping",
+        "KPI Reporting",
+        "Stakeholders"
+      ]
+    },
+    {
+      "period": "Jun — Aug 2025",
+      "role": "Staff Member, Facility Operations",
+      "company": "RAY Facility Management · Germany",
+      "description": "Gained international work experience in a fast-paced operational environment while living and working independently in Nuremberg, Germany.",
+      "tags": [
+        "Operations",
+        "International Experience",
+        "Teamwork"
+      ]
+    }
+  ],
+  "education": {
+    "period": "2022 — 2026",
+    "location": "Tashkent, Uzbekistan",
+    "university": "New Uzbekistan University",
+    "degree": "Bachelor’s Programme in Industrial Management",
+    "note": "Programme taught exclusively in English.",
+    "stats": [
+      {
+        "value": "4.01 / 4.5",
+        "label": "Final GPA"
+      },
+      {
+        "value": "248 ECTS",
+        "label": "Completed credits"
+      }
+    ],
+    "courses": [
+      {
+        "name": "Financial Accounting",
+        "grade": "A+"
+      },
+      {
+        "name": "Cost Accounting",
+        "grade": "A+"
+      },
+      {
+        "name": "Cost Management",
+        "grade": "A+"
+      },
+      {
+        "name": "Microeconomics",
+        "grade": "A+"
+      },
+      {
+        "name": "Linear Algebra",
+        "grade": "A+"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "ERP Post-Implementation in Uzbek Manufacturing",
+      "category": "Research",
+      "meta": "Bachelor’s research · Grade A",
+      "description": "Examining user adoption and operational performance after ERP implementation in Uzbek manufacturing companies.",
+      "tags": [
+        "ERP",
+        "User Adoption",
+        "Operational Performance",
+        "Manufacturing"
+      ],
+      "featured": true,
+      "url": ""
+    },
+    {
+      "title": "HKUST (Guangzhou) International Student Experience Week",
+      "category": "International",
+      "meta": "International · Jan 2026",
+      "description": "Nominated to represent my university in an international academic and cultural programme at HKUST (Guangzhou).",
+      "tags": [],
+      "featured": false,
+      "url": ""
+    },
+    {
+      "title": "National Mathematics Olympiad Selection",
+      "category": "Academic",
+      "meta": "Academic · Jun 2022",
+      "description": "Selected as one of three students from my region to participate at the national level.",
+      "tags": [],
+      "featured": false,
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "title": "Business & Analysis",
+      "items": [
+        "Business requirements",
+        "Process mapping",
+        "KPI reporting",
+        "Cost & performance analysis",
+        "Statistical methods"
+      ]
+    },
+    {
+      "title": "Management",
+      "items": [
+        "Project coordination",
+        "Scope definition",
+        "Stakeholder communication",
+        "Cross-functional collaboration",
+        "Quality management / Six Sigma"
+      ]
+    },
+    {
+      "title": "Tools",
+      "items": [
+        "Microsoft Excel",
+        "Power BI",
+        "SQL — Basic",
+        "Microsoft Office"
+      ]
+    },
+    {
+      "title": "Languages",
+      "items": [
+        "Uzbek — Native",
+        "English — IELTS 7.0",
+        "Russian — B1"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Have an opportunity in mind?",
+    "intro": "For graduate study, professional opportunities, collaboration or project discussions, feel free to reach out."
+  }
+}
+
