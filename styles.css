@@ -1274,3 +1274,35 @@ main section[id] { scroll-margin-top: 104px; }
   .language-icon { display: none; }
   .language-select { width: 62px; min-height: 40px; }
 }
+
+
+/* Keep the language selector visible in the header */
+@media (min-width: 1001px) {
+  .language-picker {
+    order: 2;
+    margin-left: 0;
+  }
+  .nav-links {
+    order: 3;
+    margin-left: auto;
+    gap: 14px;
+    font-size: 12px;
+  }
+  .nav-toggle { order: 4; }
+  .language-icon { display: none; }
+  .language-select {
+    width: 64px;
+    min-height: 40px;
+    background: #fff;
+    border-color: rgba(10,16,32,.2);
+    box-shadow: 0 6px 18px rgba(10,16,32,.08);
+  }
+  .contact-pill { padding: 9px 14px; }
+}
+
+@media (max-width: 1180px) and (min-width: 1001px) {
+  .brand-name { max-width: 165px; font-size: 12px; }
+  .nav-links { gap: 10px; font-size: 11px; }
+  .contact-pill { padding: 8px 12px; }
+  .language-select { width: 60px; }
+}
