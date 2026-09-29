@@ -177,13 +177,30 @@
       "url": "assets/odoo-student-diploma.pdf"
     },
     {
-      "title": "HKUST (Guangzhou) International Student Experience Week",
+      "title": "CFT RBM International Student Experience Week (RISE Week)",
       "category": "International",
-      "meta": "International · Jan 2026",
-      "description": "Nominated to represent my university in an international academic and cultural programme at HKUST (Guangzhou).",
-      "tags": [],
+      "meta": "HKUST (Guangzhou) · 16 Jan 2026",
+      "description": "Certificate of participation in the international student experience programme at The Hong Kong University of Science and Technology (Guangzhou), College of Future Technology.",
+      "tags": [
+        "International Experience",
+        "HKUST (GZ)",
+        "RISE Week"
+      ],
       "featured": false,
-      "url": ""
+      "url": "assets/HKUST(GZ).pdf"
+    },
+    {
+      "title": "Introduction to Data Science",
+      "category": "Certification",
+      "meta": "Cisco Networking Academy · 08 Feb 2026",
+      "description": "Certificate of Course Completion covering data analytics, the role of data in AI and machine learning, and career pathways in data analytics.",
+      "tags": [
+        "Data Science",
+        "Data Analytics",
+        "AI & Machine Learning"
+      ],
+      "featured": false,
+      "url": "assets/IntrotoDataScienceUpdate.pdf"
     },
     {
       "title": "National Mathematics Olympiad Selection",
