@@ -1588,3 +1588,32 @@ main section[id] { scroll-margin-top: 104px; }
 @media print {
   .profile-photo-frame { display: none !important; }
 }
+
+
+/* Position the language selector beside the name */
+.brand { order: 1; }
+.language-picker {
+  order: 2 !important;
+  margin-left: 4px !important;
+  margin-right: 8px;
+}
+.nav-links {
+  order: 3 !important;
+  margin-left: auto !important;
+}
+.nav-toggle { order: 4 !important; }
+
+.language-option {
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .brand { flex: 0 1 auto; }
+  .language-picker {
+    order: 2 !important;
+    margin-left: auto !important;
+    margin-right: 2px;
+  }
+  .nav-toggle { order: 3 !important; }
+  .nav-links { order: 4 !important; }
+}
