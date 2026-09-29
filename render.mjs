@@ -57,6 +57,7 @@ export function render(data, year = new Date().getFullYear()) {
   const enabled = data.sections.filter(section => section.enabled);
   const email = "mailto:" + p.email;
   const phone = "tel:" + p.phone.replace(/[ ()-]/g, "");
+  const portrait = p.photo ? '<div class="profile-photo-frame"><img class="profile-photo" src="' + e(safeUrl(p.photo)) + '" alt="Portrait of ' + e(name) + '" width="240" height="300" fetchpriority="high" decoding="async"></div>' : '<div class="monogram" aria-hidden="true">' + e(p.initials) + '</div>';
   const heading = (section, index, title, description) => '<div class="section-header"><div><p class="section-label">' + String(index+1).padStart(2,"0") + " · " + e(section.label) + '</p><h2 class="section-title">' + e(title) + "</h2></div>" + (description ? "<p>" + e(description) + "</p>" : "") + "</div>";
   const sections = enabled.map((section,index) => {
     let body = "";
@@ -89,8 +90,7 @@ export function render(data, year = new Date().getFullYear()) {
     '</p><h1 id="profile-name">' + e(p.firstName) + '<br><span class="surname">' + e(p.lastName) + '</span></h1><p class="hero-role">' + e(p.role) + '</p><p class="hero-intro">' + e(p.intro) +
     '</p><div class="hero-actions"><a class="button button-primary" href="' + e(email) + '">Get in touch <span aria-hidden="true">↗</span></a>' +
     (p.resumeUrl ? '<a class="button button-secondary" href="' + e(safeUrl(p.resumeUrl)) + '">Download CV <span aria-hidden="true">↓</span></a>' : '<button class="button button-secondary print-button" type="button" hidden>Print / Save CV <span aria-hidden="true">↓</span></button>') +
-    '</div><div class="hero-socials"><a href="' + e(phone) + '">Phone</a>' + (p.github ? '<a href="' + e(safeUrl(p.github)) + '" target="_blank" rel="noopener noreferrer">GitHub ↗<span class="sr-only"> (opens in new tab)</span></a>' : "") + '<span>Personal portfolio / CV</span></div></div><div class="hero-side"><aside class="profile-card" aria-label="Profile at a glance"><div class="availability"><i aria-hidden="true"></i>' + e(p.availability) + '</div><div class="monogram" aria-hidden="true">' + e(p.initials) +
-    '</div><h2>' + e(p.headline) + '</h2><p>' + e(p.focus) + '</p><div class="mini-stats">' + stats(p.stats,"mini-stat") +
+    '</div><div class="hero-socials"><a href="' + e(phone) + '">Phone</a>' + (p.github ? '<a href="' + e(safeUrl(p.github)) + '" target="_blank" rel="noopener noreferrer">GitHub ↗<span class="sr-only"> (opens in new tab)</span></a>' : "") + '<span>Personal portfolio / CV</span></div></div><div class="hero-side"><aside class="profile-card" aria-label="Profile at a glance"><div class="availability"><i aria-hidden="true"></i>' + e(p.availability) + '</div>' + portrait + '<h2>' + e(p.headline) + '</h2><p>' + e(p.focus) + '</p><div class="mini-stats">' + stats(p.stats,"mini-stat") +
     '</div></aside></div></div></div><div class="hero-caption"><span>Education. Research. Experience.</span>' + (enabled.length ? '<a href="#' + enabled[0].id + '">Explore the profile <span aria-hidden="true">↓</span></a>' : "") + '</div></div></section>' +
     sections + '</main><footer class="footer"><div class="container footer-inner"><span>© <span id="year">' + year + "</span> " + e(name) + '</span><div class="footer-actions"><button type="button" class="print-button text-button" hidden>Print / Save CV</button><a href="#top">Back to top ↑</a></div></div></footer></body></html>\n';
 }
