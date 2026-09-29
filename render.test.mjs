@@ -36,6 +36,7 @@ test("unsafe links and duplicate sections fail clearly", () => {
   for (const link of ["javascript:alert(1)","//example.com","data:text/html,test","../secret"]) assert.throws(()=>safeUrl(link));
   assert.equal(safeUrl("https://example.com/project"),"https://example.com/project");
   assert.equal(safeUrl("assets/cv.pdf"),"assets/cv.pdf");
+  assert.equal(safeUrl("assets/HKUST(GZ).pdf"),"assets/HKUST(GZ).pdf");
   const data=structuredClone(original);
   data.sections.push(data.sections[0]);
   assert.throws(()=>validate(data),/duplicate section/);
