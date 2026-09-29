@@ -1617,3 +1617,8 @@ main section[id] { scroll-margin-top: 104px; }
   .nav-toggle { order: 3 !important; }
   .nav-links { order: 4 !important; }
 }
+
+
+/* Flag-only language button */
+.language-chevron { display: none !important; }
+.language-button { gap: 0 !important; }
