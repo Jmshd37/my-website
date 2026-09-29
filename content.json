@@ -52,7 +52,7 @@
     },
     {
       "id": "skills",
-      "label": "Skills & Languages",
+      "label": "Skills & Technical Toolkit",
       "enabled": true
     },
     {
@@ -197,45 +197,41 @@
   ],
   "skills": [
     {
-      "title": "Business & Analysis",
-      "items": [
-        "Business requirements",
-        "Process mapping",
-        "KPI reporting",
-        "Cost & performance analysis",
-        "Statistical methods"
-      ]
-    },
-    {
-      "title": "Management",
-      "items": [
-        "Project coordination",
-        "Scope definition",
-        "Stakeholder communication",
-        "Cross-functional collaboration",
-        "Quality management / Six Sigma"
-      ]
-    },
-    {
       "title": "Data & Analytics",
       "items": [
         "Microsoft Excel",
         "Google Sheets",
         "Power BI",
-        "AI-Assisted Data Analysis"
+        "KPI & Performance Analysis",
+        "Statistical Analysis"
       ]
     },
     {
-      "title": "Research & Productivity",
+      "title": "Business & Management",
       "items": [
+        "Strategic Management",
+        "Project Coordination",
+        "Business Process Analysis",
+        "Cost Management",
+        "Supply Chain & Operations",
+        "Quality Management / Six Sigma"
+      ]
+    },
+    {
+      "title": "Research & AI",
+      "items": [
+        "Academic Research",
+        "Literature Review",
         "AI-Assisted Research",
-        "Microsoft Word",
-        "Microsoft PowerPoint"
+        "AI-Assisted Data Analysis",
+        "Generative AI"
       ]
     },
     {
-      "title": "Design & Content",
+      "title": "Digital Productivity",
       "items": [
+        "Microsoft Word",
+        "Microsoft PowerPoint",
         "Gamma",
         "Canva",
         "CapCut"
