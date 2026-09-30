@@ -1892,26 +1892,33 @@ main section[id] { scroll-margin-top: 104px; }
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.12), rgba(10,16,32,.40)),
     url("assets/rbm/rise-week-cover.jpg");
+  background-position: center 28%;
 }
 .rbm-photo-hkust {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
     url("assets/rbm/hkust-gz.jpg");
+  background-position: center 30%;
 }
 .rbm-photo-xpeng {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
     url("assets/rbm/xpeng.JPG");
+  /* Keep the visitor's face inside the visible crop. */
+  background-position: center 8%;
 }
 .rbm-photo-dji {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
     url("assets/rbm/dji.JPG");
+  background-position: center 38%;
 }
 .rbm-photo-pony {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
     url("assets/rbm/pony-ai.JPG");
+  /* Favor the upper part of the portrait so the full face remains visible. */
+  background-position: center 6%;
 }
 .rbm-visit-grid {
   display: grid;
@@ -1932,7 +1939,7 @@ main section[id] { scroll-margin-top: 104px; }
   box-shadow: 0 22px 52px rgba(24,35,58,.12);
 }
 .rbm-visit-card .rbm-photo {
-  min-height: 215px;
+  min-height: 250px;
   border-radius: 0;
   box-shadow: none;
 }
@@ -1988,7 +1995,8 @@ main section[id] { scroll-margin-top: 104px; }
   .rbm-card { grid-column: auto; min-height: 0; }
   .rbm-card-visual { min-height: 165px; }
   .rbm-visit-grid { grid-template-columns: 1fr; }
-  .rbm-photo-cover { min-height: 260px; }
+  .rbm-photo-cover { min-height: 280px; }
+  .rbm-visit-card .rbm-photo { min-height: 275px; }
   .rbm-certificate { grid-template-columns: 1fr; }
   .rbm-certificate .erp-control { width: fit-content; white-space: normal; }
 }
