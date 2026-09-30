@@ -142,6 +142,60 @@
     const triggers = [...document.querySelectorAll(openSelector)];
     if (!panel || !triggers.length || typeof panel.showModal !== "function") return;
 
+    let projectLanguagePicker = null;
+
+    const mountPanelLanguagePicker = () => {
+      const source = document.querySelector(".site-header [data-language-picker]");
+      const bar = panel.querySelector(".erp-bar");
+      if (!source || !bar || bar.querySelector(".project-language-picker")) return;
+
+      const picker = source.cloneNode(true);
+      picker.classList.add("project-language-picker");
+      picker.removeAttribute("data-language-picker");
+      picker.querySelectorAll("[id]").forEach(element => element.removeAttribute("id"));
+
+      const summary = picker.querySelector("summary");
+      const options = [...picker.querySelectorAll(".language-option")];
+      const allowedLanguages = new Set(["en", "uz", "ru"]);
+
+      options.forEach((option, index) => {
+        option.addEventListener("click", event => {
+          const next = option.dataset.language;
+          if (!allowedLanguages.has(next)) return;
+          event.preventDefault();
+          event.stopPropagation();
+          window.siteI18n?.setLanguage?.(next);
+          try {
+            const url = new URL(window.location.href);
+            url.searchParams.set("lang", next);
+            history.replaceState(null, "", url);
+          } catch {}
+          picker.open = false;
+          summary?.focus();
+        });
+
+        option.addEventListener("keydown", event => {
+          if (!["ArrowDown", "ArrowUp", "Home", "End"].includes(event.key)) return;
+          event.preventDefault();
+          let nextIndex = index;
+          if (event.key === "ArrowDown") nextIndex = (index + 1) % options.length;
+          if (event.key === "ArrowUp") nextIndex = (index - 1 + options.length) % options.length;
+          if (event.key === "Home") nextIndex = 0;
+          if (event.key === "End") nextIndex = options.length - 1;
+          options[nextIndex]?.focus();
+        });
+      });
+
+      const controls = [...bar.querySelectorAll(closeSelector)];
+      bar.insertBefore(picker, controls[1] || controls[0] || null);
+      projectLanguagePicker = picker;
+
+      const currentLanguage = window.siteI18n?.language || "en";
+      window.siteI18n?.setLanguage?.(currentLanguage, false);
+    };
+
+    mountPanelLanguagePicker();
+
     let opener, scrollX = 0, scrollY = 0, savedStyle, closing = false;
 
     const animate = frames => reduced.matches || !panel.animate ? Promise.resolve() :
@@ -208,8 +262,18 @@
     });
 
     panel.querySelectorAll(closeSelector).forEach(button => button.addEventListener("click", close));
+    panel.addEventListener("click", event => {
+      if (projectLanguagePicker?.open && !projectLanguagePicker.contains(event.target)) {
+        projectLanguagePicker.open = false;
+      }
+    });
     panel.addEventListener("cancel", event => {
       event.preventDefault();
+      if (projectLanguagePicker?.open) {
+        projectLanguagePicker.open = false;
+        projectLanguagePicker.querySelector("summary")?.focus();
+        return;
+      }
       close();
     });
     panel.addEventListener("close", () => {
