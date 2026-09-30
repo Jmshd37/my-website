@@ -2066,7 +2066,7 @@ main section[id] { scroll-margin-top: 104px; }
 
 /* RISE Week is currently the only large project. */
 .project-grid .rbm-card {
-  grid-column: auto;
+  grid-column: span 2;
   grid-row: span 2;
   min-height: 655px;
 }
