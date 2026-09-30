@@ -32,7 +32,7 @@ export function validate(data) {
   for (const stat of data.profile.stats) { required(stat.value,"stat value"); required(stat.label,"stat label"); }
   data.experience.forEach(item => {
     ["period","role","company","description"].forEach(key => required(item[key],"experience." + key));
-    list(item.tags,"experience.tags"); item.tags.forEach(tag => required(tag,"experience tag"));
+    list(item.tags,"experience.tags"); item.tags.forEach(tag => required(tag,"experience tag")); safeUrl(item.url);
   });
   ["period","location","university","degree","note"].forEach(key => required(data.education?.[key],"education." + key));
   list(data.education.stats,"education.stats"); list(data.education.courses,"education.courses");
@@ -62,7 +62,7 @@ export function render(data, year = new Date().getFullYear()) {
   const sections = enabled.map((section,index) => {
     let body = "";
     if (section.id === "about") body = '<div class="about-grid"><div class="about-number"><strong>' + String(index+1).padStart(2,"0") + '</strong><span>Perspective & purpose</span></div><div class="about-copy"><p class="section-label">' + e(section.label) + '</p><h2 class="lead">' + e(data.about.title) + "</h2>" + data.about.paragraphs.map(text => "<p>" + e(text) + "</p>").join("") + "</div></div>";
-    if (section.id === "experience") body = heading(section,index,"Where I’ve worked.","Roles spanning project management, business analysis and international operations.") + '<div class="timeline">' + data.experience.map(item => '<article class="timeline-item"><div class="timeline-date">' + e(item.period) + '</div><div class="timeline-content"><div class="timeline-top"><h3>' + e(item.role) + '</h3><span class="company">' + e(item.company) + "</span></div><p>" + e(item.description) + "</p>" + tags(item.tags) + "</div></article>").join("") + "</div>";
+    if (section.id === "experience") body = heading(section,index,"Where I’ve worked.","Roles spanning project management, business analysis and international operations.") + '<div class="timeline">' + data.experience.map(item => '<article class="timeline-item"><div class="timeline-date">' + e(item.period) + '</div><div class="timeline-content"><div class="timeline-top"><h3>' + e(item.role) + '</h3>' + (item.url ? '<a class="company company-link" href="' + e(safeUrl(item.url)) + '" target="_blank" rel="noopener noreferrer">' + e(item.company) + ' <span aria-hidden="true">↗</span><span class="sr-only"> (opens in new tab)</span></a>' : '<span class="company">' + e(item.company) + "</span>") + "</div><p>" + e(item.description) + "</p>" + tags(item.tags) + "</div></article>").join("") + "</div>";
     if (section.id === "education") {
       const ed = data.education;
       body = heading(section,index,"Academic foundation.","Management, operations, analytics and business.") + '<div class="education-wrap"><div class="education-main"><div class="edu-copy"><small>' + e(ed.period) + " · " + e(ed.location) + "</small><h3>" + e(ed.university) + '</h3><p class="edu-degree">' + e(ed.degree) + '</p><p class="edu-note">' + e(ed.note) + '</p></div><div class="edu-stats">' + stats(ed.stats,"edu-stat") + '</div></div><div class="courses">' + ed.courses.map(course => '<div class="course"><span class="grade">' + e(course.grade) + "</span><p>" + e(course.name) + "</p></div>").join("") + "</div></div>";
