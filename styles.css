@@ -1785,3 +1785,213 @@ main section[id] { scroll-margin-top: 104px; }
     padding: 7px 8px;
   }
 }
+
+
+/* RBM RISE Week interactive case study */
+.rbm-card {
+  grid-column: span 2;
+  min-height: 430px;
+  padding: 18px;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(255,255,255,.96), rgba(244,247,255,.9));
+}
+.rbm-card .project-meta { padding: 8px 10px 0; }
+.rbm-card .project-body { padding: 20px 10px 10px; }
+.rbm-card .project-body h3 {
+  margin-top: 0;
+  max-width: 22ch;
+  font-size: clamp(25px, 2.8vw, 36px);
+}
+.rbm-card .project-body > p { max-width: 68ch; }
+.rbm-card-visual {
+  position: relative;
+  min-height: 185px;
+  margin-top: 16px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-image:
+    linear-gradient(135deg, rgba(10,16,32,.16), rgba(10,16,32,.58)),
+    url("assets/rbm/rise-week-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
+  transition: transform .28s ease, filter .28s ease;
+}
+.rbm-card:hover .rbm-card-visual { transform: translateY(-2px) scale(1.01); filter: saturate(1.04); }
+.rbm-card-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 15%, rgba(126,146,255,.42), transparent 34%);
+}
+.rbm-card-visual span,
+.rbm-photo span {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  min-height: 31px;
+  padding: 7px 11px;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 999px;
+  color: white;
+  background: rgba(10,16,32,.52);
+  backdrop-filter: blur(10px);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.rbm-card .project-links { margin-top: 18px; }
+
+.rbm-content { max-width: 1040px; }
+.rbm-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+  gap: 36px;
+  align-items: stretch;
+  margin-top: 12px;
+}
+.rbm-hero-copy { align-self: center; }
+.rbm-hero-copy .erp-lead { margin-bottom: 20px; }
+.rbm-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 22px;
+}
+.rbm-facts span {
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 750;
+}
+.rbm-photo {
+  position: relative;
+  overflow: hidden;
+  min-height: 260px;
+  border-radius: 24px;
+  background-size: cover;
+  background-position: center;
+  background-color: #18233a;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.15), 0 22px 55px rgba(24,35,58,.16);
+}
+.rbm-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10,16,32,.02), rgba(10,16,32,.48));
+}
+.rbm-photo-cover {
+  min-height: 390px;
+  background-image:
+    linear-gradient(135deg, rgba(75,103,255,.12), rgba(10,16,32,.40)),
+    url("assets/rbm/rise-week-cover.jpg");
+}
+.rbm-photo-hkust {
+  background-image:
+    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
+    url("assets/rbm/hkust-gz.jpg");
+}
+.rbm-photo-xpeng {
+  background-image:
+    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
+    url("assets/rbm/xpeng.jpg");
+}
+.rbm-photo-dji {
+  background-image:
+    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
+    url("assets/rbm/dji.jpg");
+}
+.rbm-photo-pony {
+  background-image:
+    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
+    url("assets/rbm/pony-ai.jpg");
+}
+.rbm-visit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 34px;
+}
+.rbm-visit-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 25px;
+  background: rgba(255,255,255,.78);
+  box-shadow: 0 16px 42px rgba(24,35,58,.07);
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+.rbm-visit-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 52px rgba(24,35,58,.12);
+}
+.rbm-visit-card .rbm-photo {
+  min-height: 215px;
+  border-radius: 0;
+  box-shadow: none;
+}
+.rbm-visit-copy { padding: 23px; }
+.rbm-kicker {
+  margin: 0 0 9px !important;
+  color: #6673cf !important;
+  font-size: 10px !important;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.rbm-visit-copy h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  letter-spacing: -.035em;
+}
+.rbm-visit-copy > p:not(.rbm-kicker) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.75;
+}
+.rbm-source-link {
+  display: inline-flex;
+  margin-top: 17px;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.rbm-certificate {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 22px;
+  align-items: center;
+}
+.rbm-certificate .erp-control {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.rbm-reflection { margin-top: 24px; }
+.rbm-reflection .tags { margin-top: 18px; }
+
+@media (max-width: 1000px) {
+  .rbm-card { grid-column: span 2; }
+  .rbm-hero-grid { grid-template-columns: 1fr; }
+  .rbm-photo-cover { min-height: 330px; }
+}
+@media (max-width: 760px) {
+  .rbm-card { grid-column: auto; min-height: 0; }
+  .rbm-card-visual { min-height: 165px; }
+  .rbm-visit-grid { grid-template-columns: 1fr; }
+  .rbm-photo-cover { min-height: 260px; }
+  .rbm-certificate { grid-template-columns: 1fr; }
+  .rbm-certificate .erp-control { width: fit-content; white-space: normal; }
+}
+@media print {
+  .rbm-card-visual { display: none !important; }
+}
