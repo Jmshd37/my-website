@@ -171,15 +171,14 @@
       "title": "MAGMASTORE — B2B E-commerce Platform",
       "category": "Digital Project",
       "meta": "Project Management · E-commerce · Business Operations",
-      "description": "MAGMASTORE is a B2B e-commerce platform in Uzbekistan connecting businesses with suppliers. I contribute to the platform’s development through project coordination, catalogue and marketplace structure, operational workflow design, vendor and customer processes, and data-driven improvements.",
+      "description": "A B2B e-commerce platform in Uzbekistan connecting businesses with suppliers. I contribute to project coordination, marketplace structure, workflow design, and process improvement.",
       "tags": [
         "B2B E-commerce",
         "Project Management",
         "Business Analysis",
-        "Process Design",
-        "Marketplace Operations"
+        "Process Design"
       ],
-      "featured": true,
+      "featured": false,
       "url": "https://magmastore.uz/",
       "linkLabel": "Visit MAGMASTORE"
     },
