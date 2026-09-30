@@ -745,6 +745,11 @@ img, svg { display: block; max-width: 100%; }
   cursor: pointer;
 }
 
+.project-card.erp-card-clickable:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 4px;
+}
+
 .project-card.magma-card-link {
   position: relative;
   cursor: pointer;
@@ -1719,6 +1724,7 @@ main section[id] { scroll-margin-top: 104px; }
 .erp-bar { position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; gap: 12px; padding: 16px max(20px, calc((100% - 960px) / 2)); background: var(--paper); border-bottom: 1px solid var(--line); }
 .erp-control { min-height: 44px; border: 1px solid var(--line); border-radius: 999px; padding: 10px 17px; color: var(--ink); background: var(--white); cursor: pointer; font-size: 13px; }
 .erp-control:hover { background: var(--blue-soft); }
+.erp-detail a.erp-control { display: inline-flex; align-items: center; text-decoration: none; }
 .erp-control:focus-visible, .erp-trigger:focus-visible, .erp-detail summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
 .erp-content { max-width: 820px; margin: auto; padding: 54px 30px max(48px, env(safe-area-inset-bottom)); overflow-wrap: anywhere; }
 .erp-content h2 { font-size: clamp(34px, 5vw, 60px); line-height: 1.12; letter-spacing: -.045em; margin: 16px 0 20px; }
