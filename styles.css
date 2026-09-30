@@ -1901,17 +1901,17 @@ main section[id] { scroll-margin-top: 104px; }
 .rbm-photo-xpeng {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/xpeng.jpg");
+    url("assets/rbm/xpeng.JPG");
 }
 .rbm-photo-dji {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/dji.jpg");
+    url("assets/rbm/dji.JPG");
 }
 .rbm-photo-pony {
   background-image:
     linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/pony-ai.jpg");
+    url("assets/rbm/pony-ai.JPG");
 }
 .rbm-visit-grid {
   display: grid;
