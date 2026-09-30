@@ -2014,7 +2014,11 @@ main section[id] { scroll-margin-top: 104px; }
 }
 
 
-/* Two-row horizontal projects rail */
+/* Two-row horizontal projects rail
+   Desktop sizing rule:
+   - regular project = 2 of 6 units (3 regular cards across)
+   - RISE Week = 3 of 6 units (2 large cards across)
+   This also allows a large + regular card on the same row. */
 .project-carousel {
   position: relative;
 }
@@ -2024,8 +2028,7 @@ main section[id] { scroll-margin-top: 104px; }
   grid-template-columns: none;
   grid-template-rows: repeat(2, minmax(320px, auto));
   grid-auto-flow: column;
-  /* Keep only about 2–3 cards visible at once; wider cards improve readability. */
-  grid-auto-columns: clamp(380px, 32vw, 560px);
+  grid-auto-columns: calc((100% - 75px) / 6);
   gap: 15px;
   overflow-x: auto;
   overflow-y: hidden;
@@ -2048,17 +2051,20 @@ main section[id] { scroll-margin-top: 104px; }
 }
 
 .project-grid .project-card {
+  grid-column: span 2;
   min-width: 0;
   min-height: 320px;
   scroll-snap-align: start;
 }
 
+/* ERP and every other project stay regular-sized for now. */
 .project-grid .project-featured {
-  grid-column: auto;
+  grid-column: span 2;
 }
 
+/* RISE Week is currently the only large project. */
 .project-grid .rbm-card {
-  grid-column: span 2;
+  grid-column: span 3;
   min-height: 360px;
 }
 
@@ -2098,11 +2104,17 @@ main section[id] { scroll-margin-top: 104px; }
   .project-grid {
     grid-template-columns: none;
     grid-template-rows: repeat(2, minmax(310px, auto));
-    grid-auto-columns: minmax(275px, 44vw);
+    grid-auto-columns: calc((100% - 45px) / 4);
   }
 
-  .project-grid .project-featured { grid-column: auto; }
-  .project-grid .rbm-card { grid-column: span 2; }
+  .project-grid .project-card,
+  .project-grid .project-featured {
+    grid-column: span 2;
+  }
+
+  .project-grid .rbm-card {
+    grid-column: span 3;
+  }
 }
 
 @media (max-width: 600px) {
@@ -2115,6 +2127,7 @@ main section[id] { scroll-margin-top: 104px; }
   }
 
   .project-grid .project-card,
+  .project-grid .project-featured,
   .project-grid .rbm-card {
     grid-column: auto;
     min-height: 300px;
