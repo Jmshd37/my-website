@@ -2383,3 +2383,29 @@ main section[id] { scroll-margin-top: 104px; }
     grid-row: auto;
   }
 }
+
+
+/* Recommendations */
+.recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.recommendation-card {
+  min-height: 320px;
+}
+
+.recommendation-empty {
+  margin-top: 8px;
+}
+
+.recommendation-letter-link {
+  margin: 30px 0 0;
+}
+
+@media (max-width: 760px) {
+  .recommendation-grid {
+    grid-template-columns: 1fr;
+  }
+}
