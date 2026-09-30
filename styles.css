@@ -741,6 +741,10 @@ img, svg { display: block; max-width: 100%; }
   box-shadow: var(--shadow);
 }
 
+.project-card.erp-card-clickable {
+  cursor: pointer;
+}
+
 .project-featured {
   color: white;
   background: linear-gradient(145deg, #233048, #0f1728);
