@@ -192,7 +192,7 @@
       card.setAttribute("role", "button");
       card.tabIndex = 0;
       const title = card.querySelector("h3")?.textContent?.trim();
-      if (title) card.setAttribute("aria-label", title + " — View Project");
+      if (title) card.setAttribute("aria-label", title);
 
       card.addEventListener("click", event => {
         if (event.target.closest("a, button, input, select, textarea, summary")) return;
