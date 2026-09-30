@@ -133,58 +133,106 @@
   });
 })();
 
-/* ERP research overlay: native modal focus containment and reversible scroll lock. */
+/* Project detail overlays: native modal focus containment and reversible scroll lock. */
 (() => {
-  const panel = document.getElementById("erp-project-panel");
-  const triggers = [...document.querySelectorAll("[data-erp-open]")];
-  if (!panel || typeof panel.showModal !== "function") return;
-  let opener, scrollX = 0, scrollY = 0, savedStyle, closing = false;
   const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
-  const animate = frames => reduced.matches || !panel.animate ? Promise.resolve() :
-    panel.animate(frames, { duration: 240, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.catch(() => {});
-  const open = async source => {
-    if (panel.open || closing) return;
-    opener = source;
-    scrollX = window.scrollX; scrollY = window.scrollY;
-    savedStyle = document.body.getAttribute("style");
-    const gap = window.innerWidth - document.documentElement.clientWidth;
-    const padding = parseFloat(getComputedStyle(document.body).paddingRight) || 0;
-    Object.assign(document.body.style, { position: "fixed", top: "-" + scrollY + "px", left: "-" + scrollX + "px", width: "100%", overflow: "hidden", paddingRight: (padding + gap) + "px" });
-    panel.showModal();
-    panel.scrollTop = 0;
-    await animate([{ opacity: 0, transform: "translateY(24px)" }, { opacity: 1, transform: "translateY(0)" }]);
-  };
-  const close = async () => {
-    if (!panel.open || closing) return;
-    closing = true;
-    await animate([{ opacity: 1, transform: "translateY(0)" }, { opacity: 0, transform: "translateY(24px)" }]);
-    panel.close();
-  };
-  triggers.forEach(trigger => {
-    trigger.hidden = false;
-    trigger.addEventListener("click", event => open(event.currentTarget));
 
-    // Make the entire ERP project card clickable while preserving any nested links/buttons.
-    const card = trigger.closest(".project-card");
-    if (!card) return;
-    card.classList.add("erp-card-clickable");
-    card.addEventListener("click", event => {
-      if (event.target.closest("a, button, input, select, textarea, summary")) return;
-      open(card);
+  const setupProjectPanel = ({ panelId, openSelector, closeSelector }) => {
+    const panel = document.getElementById(panelId);
+    const triggers = [...document.querySelectorAll(openSelector)];
+    if (!panel || !triggers.length || typeof panel.showModal !== "function") return;
+
+    let opener, scrollX = 0, scrollY = 0, savedStyle, closing = false;
+
+    const animate = frames => reduced.matches || !panel.animate ? Promise.resolve() :
+      panel.animate(frames, { duration: 240, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.catch(() => {});
+
+    const open = async source => {
+      if (panel.open || closing) return;
+      opener = source;
+      scrollX = window.scrollX;
+      scrollY = window.scrollY;
+      savedStyle = document.body.getAttribute("style");
+      const gap = window.innerWidth - document.documentElement.clientWidth;
+      const padding = parseFloat(getComputedStyle(document.body).paddingRight) || 0;
+      Object.assign(document.body.style, {
+        position: "fixed",
+        top: "-" + scrollY + "px",
+        left: "-" + scrollX + "px",
+        width: "100%",
+        overflow: "hidden",
+        paddingRight: (padding + gap) + "px"
+      });
+      panel.showModal();
+      panel.scrollTop = 0;
+      await animate([
+        { opacity: 0, transform: "translateY(24px)" },
+        { opacity: 1, transform: "translateY(0)" }
+      ]);
+    };
+
+    const close = async () => {
+      if (!panel.open || closing) return;
+      closing = true;
+      await animate([
+        { opacity: 1, transform: "translateY(0)" },
+        { opacity: 0, transform: "translateY(24px)" }
+      ]);
+      panel.close();
+    };
+
+    triggers.forEach(trigger => {
+      trigger.hidden = false;
+      trigger.addEventListener("click", event => open(event.currentTarget));
+
+      const card = trigger.closest(".project-card");
+      if (!card) return;
+
+      card.classList.add("erp-card-clickable");
+      card.setAttribute("role", "button");
+      card.tabIndex = 0;
+      const title = card.querySelector("h3")?.textContent?.trim();
+      if (title) card.setAttribute("aria-label", title + " — View Project");
+
+      card.addEventListener("click", event => {
+        if (event.target.closest("a, button, input, select, textarea, summary")) return;
+        open(card);
+      });
+
+      card.addEventListener("keydown", event => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        if (event.target.closest("a, button, input, select, textarea, summary")) return;
+        event.preventDefault();
+        open(card);
+      });
     });
+
+    panel.querySelectorAll(closeSelector).forEach(button => button.addEventListener("click", close));
+    panel.addEventListener("cancel", event => {
+      event.preventDefault();
+      close();
+    });
+    panel.addEventListener("close", () => {
+      if (savedStyle === null) document.body.removeAttribute("style");
+      else document.body.setAttribute("style", savedStyle);
+      const previous = document.documentElement.style.scrollBehavior;
+      document.documentElement.style.scrollBehavior = "auto";
+      window.scrollTo(scrollX, scrollY);
+      opener?.focus({ preventScroll: true });
+      document.documentElement.style.scrollBehavior = previous;
+      closing = false;
+    });
+  };
+
+  setupProjectPanel({
+    panelId: "erp-project-panel",
+    openSelector: "[data-erp-open]",
+    closeSelector: "[data-erp-close]"
   });
-  panel.querySelectorAll("[data-erp-close]").forEach(button => button.addEventListener("click", close));
-  panel.addEventListener("cancel", event => { event.preventDefault(); close(); });
-  panel.addEventListener("close", () => {
-    if (savedStyle === null) document.body.removeAttribute("style");
-    else document.body.setAttribute("style", savedStyle);
-    const previous = document.documentElement.style.scrollBehavior;
-    document.documentElement.style.scrollBehavior = "auto";
-    window.scrollTo(scrollX, scrollY);
-    opener?.focus({ preventScroll: true });
-    document.documentElement.style.scrollBehavior = previous;
-    closing = false;
+
+  setupProjectPanel({
+    panelId: "odoo-erp-panel",
+    openSelector: "[data-odoo-erp-open]",
+    closeSelector: "[data-odoo-erp-close]"
   });
 })();
-
-
