@@ -2239,3 +2239,15 @@ main section[id] { scroll-margin-top: 104px; }
   .industry4-flow,
   .industry4-metrics { display: none !important; }
 }
+
+
+.brand-logo {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(10,16,32,.12);
+  box-shadow: 0 8px 22px rgba(10,16,32,.18);
+}
