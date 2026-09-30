@@ -1122,6 +1122,15 @@ main section[id] { scroll-margin-top: 104px; }
 .project-featured .project-meta, .project-featured p { color: #bdc8db; }
 .project-featured .tags span { background: rgba(255,255,255,.08); color: #d1dbed; border-color: #586175; }
 .project-link { display: inline-block; margin-top: 20px; font-weight: 750; text-decoration: underline; text-underline-offset: 4px; }
+
+/* Ensure external project and employer links remain fully interactive. */
+.project-link,
+.company-link {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+  cursor: pointer;
+}
 .empty-state { padding: 40px 24px; border: 1px dashed #a1a9b6; border-radius: 20px; text-align: center; }
 .copy-email { margin-top: 24px; }
 .copy-status { min-height: 1.6em; font-size: 13px; overflow-wrap: anywhere; }
