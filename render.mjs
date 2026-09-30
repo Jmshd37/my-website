@@ -6,7 +6,7 @@ const e = escapeHtml;
 export function safeUrl(value) {
   if (!value) return "";
   if (/^https?:\/\/[^\s]+$/i.test(value)) return value;
-  if (/^(?:\.\/)?[a-z0-9_-][a-z0-9_./()\-]*$/i.test(value) && !value.includes("..")) return value;
+  if (/^(?:\.\/)?[a-z0-9_-][a-z0-9_./()%\-]*$/i.test(value) && !value.includes("..")) return value;
   throw new Error("Links must be an http(s) URL or a relative file path: " + value);
 }
 export function validate(data) {
