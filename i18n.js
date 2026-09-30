@@ -339,13 +339,13 @@
 
   Object.assign(translations.ru, {
   "University Project": "Университетский проект",
-  "Industry 4.0 Innovation Project · Group 15 · Spring 2026": "Инновационный проект Industry 4.0 · Группа 15 · Весна 2026",
+  "Industry 4.0 Innovation Project · Spring 2026": "Инновационный проект Industry 4.0 · Весна 2026",
   "University team project designing an Industry 4.0 concept that connects customer orders with live production-capacity data so Sales and Operations can make decisions from the same information.": "Командный университетский проект по разработке концепции Industry 4.0, которая связывает заказы клиентов с актуальными данными о производственных мощностях, чтобы отдел продаж и операционная команда принимали решения на основе единой информации.",
   "Capacity Planning": "Планирование мощностей",
   "Sales & Operations": "Продажи и операционная деятельность",
   "University group project · Industry 4.0": "Университетский групповой проект · Industry 4.0",
   "Real-Time Capacity Monitoring for Manufacturing": "Мониторинг производственных мощностей в реальном времени",
-  "IMGT430 · Group 15 · Spring 2026": "IMGT430 · Группа 15 · Весна 2026",
+  "IMGT430 · Spring 2026": "IMGT430 · Весна 2026",
   "A university team project exploring how real-time production data can help Sales make more realistic delivery commitments and help Operations identify capacity constraints earlier.": "Командный университетский проект о том, как производственные данные в реальном времени могут помочь отделу продаж давать более реалистичные обещания по срокам, а операционной команде — раньше выявлять ограничения мощностей.",
   "How can a factory connect incoming orders, machine status and capacity decisions without replacing its existing equipment?": "Как связать входящие заказы, состояние оборудования и решения по мощностям без полной замены существующего оборудования?",
   "Customer orders": "Заказы клиентов",
@@ -391,13 +391,13 @@
 });
   Object.assign(translations.uz, {
   "University Project": "Universitet loyihasi",
-  "Industry 4.0 Innovation Project · Group 15 · Spring 2026": "Industry 4.0 innovatsion loyihasi · 15-guruh · 2026-yil bahor",
+  "Industry 4.0 Innovation Project · Spring 2026": "Industry 4.0 innovatsion loyihasi · 2026-yil bahor",
   "University team project designing an Industry 4.0 concept that connects customer orders with live production-capacity data so Sales and Operations can make decisions from the same information.": "Mijoz buyurtmalarini real vaqt ishlab chiqarish quvvati ma’lumotlari bilan bog‘laydigan Industry 4.0 konsepsiyasini ishlab chiqishga qaratilgan universitet jamoaviy loyihasi. Maqsad — Savdo va Operatsiyalar bo‘limlari bir xil ma’lumot asosida qaror qabul qilishi.",
   "Capacity Planning": "Quvvatni rejalashtirish",
   "Sales & Operations": "Savdo va operatsiyalar",
   "University group project · Industry 4.0": "Universitet guruh loyihasi · Industry 4.0",
   "Real-Time Capacity Monitoring for Manufacturing": "Ishlab chiqarish quvvatini real vaqtda monitoring qilish",
-  "IMGT430 · Group 15 · Spring 2026": "IMGT430 · 15-guruh · 2026-yil bahor",
+  "IMGT430 · Spring 2026": "IMGT430 · 2026-yil bahor",
   "A university team project exploring how real-time production data can help Sales make more realistic delivery commitments and help Operations identify capacity constraints earlier.": "Real vaqt ishlab chiqarish ma’lumotlari Savdo bo‘limiga realistik yetkazib berish muddatlarini belgilashga va Operatsiyalar bo‘limiga quvvat cheklovlarini ertaroq aniqlashga qanday yordam berishini o‘rgangan universitet jamoaviy loyihasi.",
   "How can a factory connect incoming orders, machine status and capacity decisions without replacing its existing equipment?": "Zavod mavjud uskunalarni to‘liq almashtirmasdan buyurtmalar, uskunalar holati va quvvat bo‘yicha qarorlarni qanday bog‘lashi mumkin?",
   "Customer orders": "Mijoz buyurtmalari",
