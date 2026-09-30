@@ -1747,3 +1747,32 @@ main section[id] { scroll-margin-top: 104px; }
 .erp-back { margin-top: 28px; }
 @media (max-width: 600px) { .erp-content { padding: 32px 22px; } .erp-bar { padding: 12px 16px; } .erp-control { font-size: 12px; padding-inline: 12px; } .erp-benefit { padding: 22px; } }
 @media print { .erp-panel, .erp-trigger { display: none !important; } }
+
+
+/* Language selector inside full-screen project detail panels */
+.erp-bar .project-language-picker {
+  order: 0 !important;
+  margin: 0 !important;
+  align-self: center;
+  flex: 0 0 auto;
+  z-index: 4;
+}
+.erp-bar .project-language-picker .language-button {
+  background: var(--white);
+}
+.erp-bar .project-language-picker .language-menu {
+  z-index: 20;
+}
+@media (max-width: 600px) {
+  .erp-bar {
+    align-items: center;
+  }
+  .erp-bar .project-language-picker {
+    margin: 0 !important;
+  }
+  .erp-bar .project-language-picker .language-button {
+    min-width: 54px;
+    min-height: 40px;
+    padding: 7px 8px;
+  }
+}
