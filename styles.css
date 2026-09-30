@@ -557,6 +557,22 @@ img, svg { display: block; max-width: 100%; }
   white-space: nowrap;
 }
 
+.company-link {
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.company-link:hover {
+  transform: translateY(-1px);
+  background: #e7ebff;
+  box-shadow: 0 8px 18px rgba(51, 79, 220, .14);
+}
+
+.company-link:focus-visible {
+  outline: 3px solid rgba(51, 79, 220, .24);
+  outline-offset: 3px;
+}
+
 .timeline-content > p {
   max-width: 790px;
   margin: 13px 0 18px;
