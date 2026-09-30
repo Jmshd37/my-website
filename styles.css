@@ -2409,3 +2409,7 @@ main section[id] { scroll-margin-top: 104px; }
     grid-template-columns: 1fr;
   }
 }
+
+.recommendation-grid:has(.recommendation-card:only-child) {
+  grid-template-columns: minmax(0, 760px);
+}
