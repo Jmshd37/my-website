@@ -155,6 +155,12 @@
       picker.querySelectorAll("[id]").forEach(element => element.removeAttribute("id"));
 
       const summary = picker.querySelector("summary");
+      if (summary) {
+        summary.setAttribute("title", "Choose language");
+        summary.setAttribute("aria-label", "Choose language");
+      }
+      const menu = picker.querySelector(".language-menu");
+      if (menu) menu.setAttribute("aria-label", "Language");
       const options = [...picker.querySelectorAll(".language-option")];
       const allowedLanguages = new Set(["en", "uz", "ru"]);
 
