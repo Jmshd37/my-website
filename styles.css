@@ -2146,3 +2146,76 @@ main section[id] { scroll-margin-top: 104px; }
     min-height: 0 !important;
   }
 }
+
+
+/* Industry 4.0 university project detail */
+.industry4-content { max-width: 900px; }
+.industry4-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+  margin: 26px 0 34px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255,255,255,.74);
+}
+.industry4-flow span {
+  display: grid;
+  place-items: center;
+  min-height: 74px;
+  padding: 12px;
+  border-radius: 16px;
+  color: var(--ink);
+  background: var(--blue-soft);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.35;
+}
+.industry4-flow b {
+  color: #7080d9;
+  font-size: 18px;
+  text-align: center;
+}
+.industry4-metrics {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 10px;
+  margin: 4px 0 18px 30px;
+}
+.industry4-metrics > div {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(75,103,255,.06);
+}
+.industry4-metrics strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--ink);
+  font-size: 20px;
+  letter-spacing: -.03em;
+}
+.industry4-metrics span {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+@media (max-width: 760px) {
+  .industry4-flow {
+    grid-template-columns: 1fr;
+  }
+  .industry4-flow b {
+    transform: rotate(90deg);
+  }
+  .industry4-metrics {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+}
+@media print {
+  .industry4-flow,
+  .industry4-metrics { display: none !important; }
+}
