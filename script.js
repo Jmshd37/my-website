@@ -305,4 +305,10 @@
     openSelector: "[data-odoo-erp-open]",
     closeSelector: "[data-odoo-erp-close]"
   });
+
+  setupProjectPanel({
+    panelId: "cisco-data-panel",
+    openSelector: "[data-cisco-open]",
+    closeSelector: "[data-cisco-close]"
+  });
 })();
