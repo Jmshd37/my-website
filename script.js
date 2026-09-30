@@ -307,6 +307,12 @@
   });
 
   setupProjectPanel({
+    panelId: "rbm-experience-panel",
+    openSelector: "[data-rbm-open]",
+    closeSelector: "[data-rbm-close]"
+  });
+
+  setupProjectPanel({
     panelId: "cisco-data-panel",
     openSelector: "[data-cisco-open]",
     closeSelector: "[data-cisco-close]"
