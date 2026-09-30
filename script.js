@@ -51,6 +51,29 @@
   }
   const cards = [...document.querySelectorAll(".project-card")];
 
+  // Horizontal two-row project rail controls.
+  const projectGrid = document.querySelector("#project-grid");
+  const projectPrev = document.querySelector('[data-project-scroll="prev"]');
+  const projectNext = document.querySelector('[data-project-scroll="next"]');
+  const updateProjectScrollControls = () => {
+    if (!projectGrid || !projectPrev || !projectNext) return;
+    const maxScroll = Math.max(0, projectGrid.scrollWidth - projectGrid.clientWidth);
+    projectPrev.disabled = projectGrid.scrollLeft <= 3;
+    projectNext.disabled = projectGrid.scrollLeft >= maxScroll - 3;
+  };
+  const moveProjectRail = direction => {
+    if (!projectGrid) return;
+    const distance = Math.max(300, projectGrid.clientWidth * .82);
+    projectGrid.scrollBy({ left: distance * direction, behavior: "smooth" });
+  };
+  if (projectGrid && projectPrev && projectNext) {
+    projectPrev.addEventListener("click", () => moveProjectRail(-1));
+    projectNext.addEventListener("click", () => moveProjectRail(1));
+    projectGrid.addEventListener("scroll", updateProjectScrollControls, { passive: true });
+    window.addEventListener("resize", updateProjectScrollControls);
+    requestAnimationFrame(updateProjectScrollControls);
+  }
+
   // MAGMASTORE: make the entire project card behave like its external website link.
   cards.filter(card => card.classList.contains("magma-card-link")).forEach(card => {
     const link = card.querySelector(".project-link[href]");
@@ -94,6 +117,10 @@
     filters.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.filter === category)));
     counter.textContent = tr("projectCount", "Showing " + count + " of " + cards.length + " projects", { count, total: cards.length });
     empty.hidden = count !== 0;
+    if (projectGrid) {
+      projectGrid.scrollTo({ left: 0, behavior: "smooth" });
+      requestAnimationFrame(updateProjectScrollControls);
+    }
   };
   if (search) {
     document.querySelector(".project-controls").hidden = false;
