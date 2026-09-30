@@ -322,6 +322,12 @@
   };
 
   setupProjectPanel({
+    panelId: "academic-transcript-panel",
+    openSelector: "[data-transcript-open]",
+    closeSelector: "[data-transcript-close]"
+  });
+
+  setupProjectPanel({
     panelId: "erp-project-panel",
     openSelector: "[data-erp-open]",
     closeSelector: "[data-erp-close]"
