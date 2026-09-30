@@ -1697,3 +1697,33 @@ main section[id] { scroll-margin-top: 104px; }
 /* Flag-only language button */
 .language-chevron { display: none !important; }
 .language-button { gap: 0 !important; }
+
+/* Full-screen ERP case study, using the portfolio's existing design tokens. */
+.erp-trigger { border: 0; background: none; padding: 0; cursor: pointer; color: inherit; font-size: inherit; font-weight: 750; text-align: left; }
+.erp-panel { position: fixed; inset: 0; margin: 0; width: 100%; max-width: none; height: 100dvh; max-height: none; padding: 0; border: 0; color: var(--ink); background: var(--paper); overflow-y: auto; overscroll-behavior: contain; }
+.erp-panel::backdrop { background: rgba(10,16,32,.55); }
+.erp-bar { position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; gap: 12px; padding: 16px max(20px, calc((100% - 960px) / 2)); background: var(--paper); border-bottom: 1px solid var(--line); }
+.erp-control { min-height: 44px; border: 1px solid var(--line); border-radius: 999px; padding: 10px 17px; color: var(--ink); background: var(--white); cursor: pointer; font-size: 13px; }
+.erp-control:hover { background: var(--blue-soft); }
+.erp-control:focus-visible, .erp-trigger:focus-visible, .erp-detail summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+.erp-content { max-width: 820px; margin: auto; padding: 54px 30px max(48px, env(safe-area-inset-bottom)); overflow-wrap: anywhere; }
+.erp-content h2 { font-size: clamp(34px, 5vw, 60px); line-height: 1.12; letter-spacing: -.045em; margin: 16px 0 20px; }
+.erp-subtitle { font-size: 13px; color: var(--muted); }
+.erp-lead { font-size: 18px; line-height: 1.8; color: var(--muted); margin: 26px 0; }
+.erp-question { font-size: clamp(20px, 3vw, 27px); line-height: 1.5; padding: 26px 0; margin: 28px 0 20px; border-block: 1px solid var(--line); }
+.erp-detail { border-bottom: 1px solid var(--line); }
+.erp-detail summary { display: flex; align-items: center; gap: 16px; padding: 22px 0; list-style: none; cursor: pointer; font-weight: 600; }
+.erp-detail summary::-webkit-details-marker { display: none; }
+.erp-detail summary::after { content: "+"; margin-left: auto; font-size: 24px; }
+.erp-detail[open] summary::after { content: "−"; }
+.erp-number { font-size: 11px; color: var(--muted); }
+.erp-detail p, .erp-detail ul, .erp-detail .tags { margin: 0 0 22px 30px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.erp-detail ul { padding-left: 20px; }
+.erp-detail li { padding: 4px 0; }
+.erp-benefit { margin-top: 34px; padding: 28px; border-radius: var(--radius-md); background: var(--blue-soft); }
+.erp-benefit h3 { margin: 0 0 12px; font-size: 24px; }
+.erp-benefit p { margin: 0; }
+.erp-benefit .erp-status { margin-top: 18px; font-size: 12px; color: var(--muted); }
+.erp-back { margin-top: 28px; }
+@media (max-width: 600px) { .erp-content { padding: 32px 22px; } .erp-bar { padding: 12px 16px; } .erp-control { font-size: 12px; padding-inline: 12px; } .erp-benefit { padding: 22px; } }
+@media print { .erp-panel, .erp-trigger { display: none !important; } }

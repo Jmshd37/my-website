@@ -106,3 +106,46 @@
   });
 })();
 
+/* ERP research overlay: native modal focus containment and reversible scroll lock. */
+(() => {
+  const panel = document.getElementById("erp-project-panel");
+  const triggers = [...document.querySelectorAll("[data-erp-open]")];
+  if (!panel || typeof panel.showModal !== "function") return;
+  let opener, scrollX = 0, scrollY = 0, savedStyle, closing = false;
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const animate = frames => reduced.matches || !panel.animate ? Promise.resolve() :
+    panel.animate(frames, { duration: 240, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.catch(() => {});
+  const open = async event => {
+    if (panel.open || closing) return;
+    opener = event.currentTarget;
+    scrollX = window.scrollX; scrollY = window.scrollY;
+    savedStyle = document.body.getAttribute("style");
+    const gap = window.innerWidth - document.documentElement.clientWidth;
+    const padding = parseFloat(getComputedStyle(document.body).paddingRight) || 0;
+    Object.assign(document.body.style, { position: "fixed", top: "-" + scrollY + "px", left: "-" + scrollX + "px", width: "100%", overflow: "hidden", paddingRight: (padding + gap) + "px" });
+    panel.showModal();
+    panel.scrollTop = 0;
+    await animate([{ opacity: 0, transform: "translateY(24px)" }, { opacity: 1, transform: "translateY(0)" }]);
+  };
+  const close = async () => {
+    if (!panel.open || closing) return;
+    closing = true;
+    await animate([{ opacity: 1, transform: "translateY(0)" }, { opacity: 0, transform: "translateY(24px)" }]);
+    panel.close();
+  };
+  triggers.forEach(trigger => { trigger.hidden = false; trigger.addEventListener("click", open); });
+  panel.querySelectorAll("[data-erp-close]").forEach(button => button.addEventListener("click", close));
+  panel.addEventListener("cancel", event => { event.preventDefault(); close(); });
+  panel.addEventListener("close", () => {
+    if (savedStyle === null) document.body.removeAttribute("style");
+    else document.body.setAttribute("style", savedStyle);
+    const previous = document.documentElement.style.scrollBehavior;
+    document.documentElement.style.scrollBehavior = "auto";
+    window.scrollTo(scrollX, scrollY);
+    opener?.focus({ preventScroll: true });
+    document.documentElement.style.scrollBehavior = previous;
+    closing = false;
+  });
+})();
+
+
