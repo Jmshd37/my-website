@@ -115,9 +115,9 @@
   const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
   const animate = frames => reduced.matches || !panel.animate ? Promise.resolve() :
     panel.animate(frames, { duration: 240, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.catch(() => {});
-  const open = async event => {
+  const open = async source => {
     if (panel.open || closing) return;
-    opener = event.currentTarget;
+    opener = source;
     scrollX = window.scrollX; scrollY = window.scrollY;
     savedStyle = document.body.getAttribute("style");
     const gap = window.innerWidth - document.documentElement.clientWidth;
@@ -133,7 +133,19 @@
     await animate([{ opacity: 1, transform: "translateY(0)" }, { opacity: 0, transform: "translateY(24px)" }]);
     panel.close();
   };
-  triggers.forEach(trigger => { trigger.hidden = false; trigger.addEventListener("click", open); });
+  triggers.forEach(trigger => {
+    trigger.hidden = false;
+    trigger.addEventListener("click", event => open(event.currentTarget));
+
+    // Make the entire ERP project card clickable while preserving any nested links/buttons.
+    const card = trigger.closest(".project-card");
+    if (!card) return;
+    card.classList.add("erp-card-clickable");
+    card.addEventListener("click", event => {
+      if (event.target.closest("a, button, input, select, textarea, summary")) return;
+      open(card);
+    });
+  });
   panel.querySelectorAll("[data-erp-close]").forEach(button => button.addEventListener("click", close));
   panel.addEventListener("cancel", event => { event.preventDefault(); close(); });
   panel.addEventListener("close", () => {
