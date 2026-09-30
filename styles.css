@@ -1114,14 +1114,46 @@ main section[id] { scroll-margin-top: 104px; }
 .project-search input { min-height: 44px; width: 100%; border: 1px solid #c3c8d1; border-radius: 12px; padding: 10px 14px; color: var(--ink); background: white; }
 .results-count { color: #505b6d; font-size: 12px; margin: 0 0 18px; }
 .project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.project-card { min-width: 0; min-height: 360px; padding: 26px; }
-.project-body { margin-top: auto; padding-top: 52px; }
-.project-card h3, .project-featured h3 { margin: 0 0 16px; font-size: 25px; line-height: 1.2; overflow-wrap: anywhere; }
-.project-card p { line-height: 1.75; font-size: 14px; }
+.project-card {
+  min-width: 0;
+  min-height: 360px;
+  padding: 26px;
+}
+.project-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  padding-top: 0;
+  min-height: 0;
+}
+.project-card h3,
+.project-featured h3 {
+  min-height: 60px;
+  margin: 0 0 16px;
+  font-size: 25px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+.project-card p {
+  margin: 0 0 20px;
+  line-height: 1.75;
+  font-size: 14px;
+}
+.project-card .tags {
+  margin-top: auto;
+}
 .project-card:not(.project-featured) .project-meta { color: #566174; }
 .project-featured .project-meta, .project-featured p { color: #bdc8db; }
 .project-featured .tags span { background: rgba(255,255,255,.08); color: #d1dbed; border-color: #586175; }
-.project-link { display: inline-block; margin-top: 20px; font-weight: 750; text-decoration: underline; text-underline-offset: 4px; }
+.project-link {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 20px;
+  font-weight: 750;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 
 /* Ensure external project and employer links remain fully interactive. */
 .project-link,
