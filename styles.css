@@ -745,6 +745,18 @@ img, svg { display: block; max-width: 100%; }
   cursor: pointer;
 }
 
+.project-card.magma-card-link {
+  position: relative;
+  cursor: pointer;
+}
+
+.project-card.magma-card-link .project-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 26px;
+}
+
 .project-featured {
   color: white;
   background: linear-gradient(145deg, #233048, #0f1728);
