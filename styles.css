@@ -1192,6 +1192,15 @@ main section[id] { scroll-margin-top: 104px; }
   text-underline-offset: 4px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  margin-top: 20px;
+}
+.project-links .project-link { margin-top: 0; }
+
 /* Ensure external project and employer links remain fully interactive. */
 .project-link,
 .company-link {
