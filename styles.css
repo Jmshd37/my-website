@@ -912,6 +912,24 @@ img, svg { display: block; max-width: 100%; }
   letter-spacing: .11em;
 }
 
+.contact-channel {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  color: currentColor;
+}
+
+a.contact-row:hover .contact-channel {
+  color: #5f6878;
+}
+
 .contact-row strong {
   font-size: 12px;
   text-align: right;
