@@ -254,7 +254,40 @@
       "url": ""
     }
   ],
-  "recommendations": [],
+  "recommendations": [
+    {
+      "title": "Academic Recommendation — Prof. Dr. Dr. Paul P. Momtaz",
+      "recommender": "Prof. Dr. Dr. Paul P. Momtaz",
+      "position": "Professor of Entrepreneurial Finance",
+      "organization": "TUM School of Management · Technical University of Munich",
+      "relationship": "Guest lecturer at New Uzbekistan University",
+      "date": "March 2025",
+      "summary": "Following a guest lecture at New Uzbekistan University, Prof. Momtaz highlighted my academic engagement, quality of class contributions, maturity, reliability and ability to work across diverse backgrounds, and gave me an unreserved recommendation.",
+      "details": [
+        {
+          "heading": "Academic engagement",
+          "body": "Prof. Momtaz first encountered my work during a guest lecture at New Uzbekistan University in March 2025. He notes that I was among the most active participants and stood out for the quality of my contributions to class discussions."
+        },
+        {
+          "heading": "Character & collaboration",
+          "body": "His letter describes me as intellectually strong, modest, mature and reliable, noting calmness, decency and mutual respect in working with others."
+        },
+        {
+          "heading": "Communication & social skills",
+          "body": "He highlights my ability to communicate with and adapt to people from different backgrounds, describing my networking and social skills positively alongside my extracurricular activities."
+        },
+        {
+          "heading": "Learning & ambition",
+          "body": "He notes that I am eager to learn and equally willing to share experience with other strong students, with an ambition to contribute to management and economics."
+        },
+        {
+          "heading": "Overall assessment",
+          "body": "Drawing on his teaching experience across TUM, Goethe University Frankfurt and UCLA, including MBA and Executive MBA students, Prof. Momtaz places me at the very top of New Uzbekistan University’s graduating cohort and recommends me without reservation."
+        }
+      ],
+      "url": "https://github.com/Jmshd37/my-website/blob/main/assets/Recommendation%20letter.pdf"
+    }
+  ],
   "skills": [
     {
       "title": "Data & Analytics",
