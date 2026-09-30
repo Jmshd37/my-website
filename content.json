@@ -54,6 +54,11 @@
       "enabled": true
     },
     {
+      "id": "recommendations",
+      "label": "Recommendations",
+      "enabled": true
+    },
+    {
       "id": "skills",
       "label": "Skills & Technical Toolkit",
       "enabled": true
@@ -249,6 +254,7 @@
       "url": ""
     }
   ],
+  "recommendations": [],
   "skills": [
     {
       "title": "Data & Analytics",
