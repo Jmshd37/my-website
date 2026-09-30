@@ -2344,3 +2344,17 @@ main section[id] { scroll-margin-top: 104px; }
   .transcript-table th, .transcript-table td { padding: 11px 12px; }
 }
 @media print { .transcript-trigger, .transcript-panel { display: none !important; } }
+
+/* Academic transcript tile placement */
+@media (min-width: 1001px) {
+  .courses .transcript-trigger { grid-column: 5; }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  .courses .transcript-trigger { grid-column: 3; }
+}
+@media (min-width: 481px) and (max-width: 760px) {
+  .courses .transcript-trigger { grid-column: 2; }
+}
+@media (max-width: 480px) {
+  .courses .transcript-trigger { grid-column: 1; }
+}
