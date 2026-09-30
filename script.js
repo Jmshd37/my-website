@@ -356,4 +356,14 @@
     openSelector: "[data-cisco-open]",
     closeSelector: "[data-cisco-close]"
   });
+
+  document.querySelectorAll("[data-recommendation-open][aria-controls]").forEach(trigger => {
+    const panelId = trigger.getAttribute("aria-controls");
+    if (!panelId) return;
+    setupProjectPanel({
+      panelId,
+      openSelector: '[data-recommendation-open][aria-controls="' + panelId + '"]',
+      closeSelector: "[data-recommendation-close]"
+    });
+  });
 })();
