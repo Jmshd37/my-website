@@ -2007,7 +2007,8 @@ main section[id] { scroll-margin-top: 104px; }
   grid-template-columns: none;
   grid-template-rows: repeat(2, minmax(320px, auto));
   grid-auto-flow: column;
-  grid-auto-columns: minmax(285px, 340px);
+  /* Keep only about 2–3 cards visible at once; wider cards improve readability. */
+  grid-auto-columns: clamp(380px, 32vw, 560px);
   gap: 15px;
   overflow-x: auto;
   overflow-y: hidden;
