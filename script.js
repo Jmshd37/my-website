@@ -340,6 +340,12 @@
   });
 
   setupProjectPanel({
+    panelId: "industry4-project-panel",
+    openSelector: "[data-industry4-open]",
+    closeSelector: "[data-industry4-close]"
+  });
+
+  setupProjectPanel({
     panelId: "cisco-data-panel",
     openSelector: "[data-cisco-open]",
     closeSelector: "[data-cisco-close]"
