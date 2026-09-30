@@ -50,6 +50,33 @@
     document.querySelectorAll("main section[id]").forEach(section => observer.observe(section));
   }
   const cards = [...document.querySelectorAll(".project-card")];
+
+  // MAGMASTORE: make the entire project card behave like its external website link.
+  cards.filter(card => card.classList.contains("magma-card-link")).forEach(card => {
+    const link = card.querySelector(".project-link[href]");
+    if (!link) return;
+
+    card.setAttribute("role", "link");
+    card.tabIndex = 0;
+    card.setAttribute("aria-label", link.textContent.trim());
+
+    const followLink = () => {
+      if (link.target === "_blank") window.open(link.href, "_blank", "noopener,noreferrer");
+      else window.location.href = link.href;
+    };
+
+    card.addEventListener("click", event => {
+      if (event.target.closest("a, button, input, select, textarea, summary")) return;
+      followLink();
+    });
+
+    card.addEventListener("keydown", event => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      if (event.target.closest("a, button, input, select, textarea, summary")) return;
+      event.preventDefault();
+      followLink();
+    });
+  });
   const search = document.querySelector("#project-search");
   const filters = [...document.querySelectorAll("[data-filter]")];
   const counter = document.querySelector("#project-count");
