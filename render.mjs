@@ -135,9 +135,8 @@ export function render(data, year = new Date().getFullYear()) {
     if (section.id === "education") {
       const ed = data.education;
       const courseCards = ed.courses.map(course => '<div class="course"><span class="grade">' + e(course.grade) + "</span><p>" + e(course.name) + "</p></div>");
-      const transcriptTile = "<button type=\"button\" class=\"course transcript-trigger\" data-transcript-open aria-haspopup=\"dialog\" aria-controls=\"academic-transcript-panel\"><span class=\"grade\">↗</span><p>Full Academic Transcript</p><small>Courses · Grades · Grading system</small></button>";
-      const educationCards = courseCards.join("") + transcriptTile;
-      body = heading(section,index,"Academic foundation.","Management, operations, analytics and business.") + '<div class="education-wrap"><div class="education-main"><div class="edu-copy"><small>' + e(ed.period) + " · " + e(ed.location) + "</small><h3>" + e(ed.university) + '</h3><p class="edu-degree">' + e(ed.degree) + '</p><p class="edu-note">' + e(ed.note) + '</p></div><div class="edu-stats">' + stats(ed.stats,"edu-stat") + '</div></div><div class="courses">' + educationCards + "</div></div>";
+      const transcriptTile = "<button type=\"button\" class=\"edu-stat edu-transcript transcript-trigger\" data-transcript-open aria-haspopup=\"dialog\" aria-controls=\"academic-transcript-panel\"><span class=\"edu-transcript-icon\" aria-hidden=\"true\">↗</span><strong>Full Academic Transcript</strong><span>Courses · Grades · Grading system</span></button>";
+      body = heading(section,index,"Academic foundation.","Management, operations, analytics and business.") + '<div class="education-wrap"><div class="education-main"><div class="edu-copy"><small>' + e(ed.period) + " · " + e(ed.location) + "</small><h3>" + e(ed.university) + '</h3><p class="edu-degree">' + e(ed.degree) + '</p><p class="edu-note">' + e(ed.note) + '</p></div><div class="edu-stats">' + stats(ed.stats,"edu-stat") + transcriptTile + '</div></div><div class="courses">' + courseCards.join("") + "</div></div>";
     }
     if (section.id === "projects") {
       const categories = ["All",...new Set(data.projects.map(project => project.category))];
