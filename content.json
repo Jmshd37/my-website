@@ -130,6 +130,10 @@
       {
         "value": "248 ECTS",
         "label": "Completed credits"
+      },
+      {
+        "value": "With Distinction",
+        "label": "Graduated with Honours"
       }
     ],
     "courses": [
@@ -151,10 +155,6 @@
       },
       {
         "name": "Industry 4.0",
-        "grade": "A+"
-      },
-      {
-        "name": "Cost Management",
         "grade": "A+"
       }
     ]
