@@ -2696,3 +2696,67 @@ main section[id] { scroll-margin-top: 104px; }
   outline-offset: 5px;
   border-radius: 4px;
 }
+
+
+/* Recommendation continuous narrative */
+.recommendation-narrative {
+  max-width: 920px;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.recommendation-narrative-section {
+  display: grid;
+  grid-template-columns: minmax(180px, .42fr) minmax(0, 1.58fr);
+  gap: 42px;
+  padding: 30px 0;
+  border-top: 1px solid rgba(10,16,32,.12);
+}
+
+.recommendation-narrative-section:first-child {
+  border-top: 0;
+  padding-top: 12px;
+}
+
+.recommendation-narrative-section h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
+
+.recommendation-narrative-section p {
+  max-width: 70ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.recommendation-footer {
+  margin-top: 18px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(10,16,32,.12);
+}
+
+@media (max-width: 760px) {
+  .recommendation-narrative {
+    max-width: none;
+  }
+
+  .recommendation-narrative-section {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 24px 0;
+  }
+
+  .recommendation-narrative-section h3 {
+    font-size: 17px;
+  }
+
+  .recommendation-narrative-section p {
+    font-size: 13.5px;
+    line-height: 1.75;
+  }
+}
