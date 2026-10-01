@@ -2462,6 +2462,31 @@ main section[id] { scroll-margin-top: 104px; }
   box-shadow: 0 18px 45px rgba(10,16,32,.07);
 }
 
+.recommendation-person-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: inherit;
+  text-decoration: none;
+}
+.recommendation-person-name:hover strong {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.recommendation-person-link {
+  display: inline-flex;
+  margin-top: 12px;
+  color: var(--blue);
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.recommendation-person-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
 .recommendation-person-mark {
   display: grid;
   place-items: center;
