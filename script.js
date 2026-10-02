@@ -61,6 +61,7 @@
     if (!projectGrid) return;
     if (!phoneProjects.matches) {
       projectGrid.style.removeProperty("height");
+      projectGrid.parentElement.style.removeProperty("--phone-project-height");
       return;
     }
     const visible = [...projectGrid.querySelectorAll(".project-card:not([hidden])")];
@@ -76,6 +77,7 @@
     const height = Math.ceil(active.getBoundingClientRect().height +
       parseFloat(style.paddingTop) + parseFloat(style.paddingBottom));
     projectGrid.style.height = height + "px";
+    projectGrid.parentElement.style.setProperty("--phone-project-height", height + "px");
   };
   const updateProjectScrollControls = () => {
     fitProjectRailHeight();

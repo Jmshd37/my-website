@@ -2969,3 +2969,34 @@ main section[id] { scroll-margin-top: 104px; }
 @media screen and (max-width: 767px) {
   .project-carousel .project-grid { grid-template-rows: max-content; }
 }
+
+/* A flex rail avoids the tallest off-screen grid track determining the controls' position. */
+@media screen and (max-width: 767px) {
+  .project-carousel {
+    display: block;
+    position: relative;
+    min-height: 0;
+    padding-bottom: 70px;
+  }
+  .project-carousel .project-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    min-height: 0;
+    height: var(--phone-project-height, auto);
+  }
+  .project-carousel .project-grid > .project-card {
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+  }
+  .project-carousel .project-scroll {
+    position: absolute;
+    top: calc(var(--phone-project-height, 100%) + 12px);
+    bottom: auto;
+    margin: 0;
+  }
+  .project-carousel .project-scroll-prev { left: calc(50% - 52px); right: auto; }
+  .project-carousel .project-scroll-next { left: calc(50% + 6px); right: auto; }
+}
