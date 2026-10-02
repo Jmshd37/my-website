@@ -2868,3 +2868,56 @@ main section[id] { scroll-margin-top: 104px; }
   .erp-content { padding-inline: 16px; }
   .transcript-summary { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Appearance control: native disclosure and labelled, keyboard-accessible choices. */
+.theme-picker { position: relative; flex: 0 0 auto; order: 3; z-index: 1401; }
+.theme-button { display: grid; place-items: center; width: 44px; height: 44px; padding: 10px; list-style: none; cursor: pointer; border: 1px solid var(--line); border-radius: 50%; background: var(--white); color: var(--ink); }
+.theme-button::-webkit-details-marker { display: none; }
+.theme-options { position: absolute; right: 0; top: calc(100% + 10px); width: 180px; padding: 8px; border: 1px solid var(--line); border-radius: 18px; background: var(--white); color: var(--ink); box-shadow: var(--shadow); }
+.theme-options button { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 44px; padding: 10px; border: 0; border-radius: 10px; background: transparent; color: inherit; font-size: 14px; text-align: left; }
+.theme-options button:hover, .theme-options button[aria-pressed="true"] { background: var(--blue-soft); }
+.erp-bar .theme-picker { order: 0; align-self: center; }
+@media screen and (min-width: 1025px) { .nav { gap: 12px; } }
+@media screen and (max-width: 479px) {
+  .erp-bar { grid-template-columns: minmax(0, 1fr) auto auto; }
+  .erp-bar .theme-picker { grid-column: 2; grid-row: 1; }
+  .erp-bar > .erp-control:last-child { grid-column: 3; }
+}
+@media screen {
+  html[data-theme="light"] { color-scheme: light; }
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    --ink: #e7edf7; --ink-soft: #cad5e6; --paper: #0d1422; --paper-2: #172133;
+    --white: #182335; --muted: #b0bdd0; --line: rgba(209,222,242,.18);
+    --blue: #9cafff; --blue-soft: #253456; --shadow: 0 24px 64px rgba(0,0,0,.3);
+  }
+  [data-theme="dark"] .site-header { background: rgba(13,20,34,.94); border-color: var(--line); }
+  [data-theme="dark"] .hero-shell, [data-theme="dark"] .education-wrap, [data-theme="dark"] .skills-section { background-color: #0a1020; }
+  [data-theme="dark"] .experience { background: #111b2c; }
+  [data-theme="dark"] .contact-card, [data-theme="dark"] .project-card:not(.project-featured),
+  [data-theme="dark"] .rbm-visit-card, [data-theme="dark"] .recommendation-quote,
+  [data-theme="dark"] .industry4-flow { background: var(--white); }
+  [data-theme="dark"] .project-card:not(.project-featured):hover { background: #202e43; }
+  [data-theme="dark"] .has-navigation .nav-links { background: var(--white); }
+  html.has-navigation[data-theme="dark"] .nav-links { color: var(--ink); }
+  [data-theme="dark"] .language-button, [data-theme="dark"] .language-menu,
+  [data-theme="dark"] .project-search input, [data-theme="dark"] .project-scroll { color: var(--ink); background: var(--white); border-color: var(--line); }
+  [data-theme="dark"] .language-option { color: var(--ink); }
+  [data-theme="dark"] .language-option:hover, [data-theme="dark"] .language-option[aria-checked="true"] { color: var(--ink); background: var(--blue-soft); }
+  [data-theme="dark"] .nav-links, [data-theme="dark"] .about-copy p:not(.lead),
+  [data-theme="dark"] .hero-caption, [data-theme="dark"] .timeline-date,
+  [data-theme="dark"] .project-card:not(.project-featured) .project-meta,
+  [data-theme="dark"] .results-count, [data-theme="dark"] .footer,
+  [data-theme="dark"] .contact-row span { color: var(--muted); }
+  [data-theme="dark"] .tags span { color: #c7d4e7; background: #202d42; border-color: var(--line); }
+  [data-theme="dark"] .company { color: #bccaff; }
+  [data-theme="dark"] .company-link:hover, [data-theme="dark"] .transcript-table th { background: #202d42; }
+  [data-theme="dark"] .transcript-grade { color: #d2dcff; }
+  [data-theme="dark"] .contact-pill, [data-theme="dark"] .recommendation-letter-button,
+  [data-theme="dark"] .recommendation-person-mark, [data-theme="dark"] .filter-button[aria-pressed="true"] { background: #bbc8ff; color: #10182b !important; }
+  [data-theme="dark"] .button-primary { background: #edf2ff; color: #10182b; }
+  [data-theme="dark"] .rbm-photo, [data-theme="dark"] .rbm-card-visual { background-color: #111b2c; }
+  [data-theme="dark"] .rbm-kicker { color: #b3c1ff !important; }
+  @media (max-width: 1024px) { html.has-navigation[data-theme="dark"] .nav-links { background: var(--white); } }
+}
+@media print { .theme-picker { display: none !important; } }
