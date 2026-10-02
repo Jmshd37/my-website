@@ -3000,3 +3000,52 @@ main section[id] { scroll-margin-top: 104px; }
   .project-carousel .project-scroll-prev { left: calc(50% - 52px); right: auto; }
   .project-carousel .project-scroll-next { left: calc(50% + 6px); right: auto; }
 }
+
+/* Only phones use the Skills rail; preserve the card width, padding and type. */
+.skills-scroll-controls { display: none; }
+@media screen and (max-width: 767px) {
+  .skills-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    gap: 12px;
+    padding: 8px 0 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+  }
+  .skills-grid::-webkit-scrollbar { display: none; }
+  .skills-grid > .skill-card {
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+  .skills-scroll-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .skills-scroll {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    font-size: 22px;
+  }
+  .skills-scroll:hover:not(:disabled) { background: rgba(255,255,255,.18); }
+  .skills-scroll:disabled { opacity: .3; cursor: default; }
+}

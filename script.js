@@ -398,3 +398,78 @@
   });
 })();
 
+
+
+/* Phone-only Skills carousel; tablet and desktop retain their existing grid. */
+(() => {
+  const grid = document.querySelector(".skills-grid");
+  if (!grid) return;
+  const cards = [...grid.querySelectorAll(".skill-card")];
+  if (!cards.length) return;
+  const phone = window.matchMedia("(max-width: 767px)");
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const controls = document.createElement("div");
+  controls.className = "skills-scroll-controls";
+  controls.innerHTML = '<button type="button" class="skills-scroll" data-skills-prev>←</button><button type="button" class="skills-scroll" data-skills-next>→</button>';
+  grid.after(controls);
+  const previous = controls.querySelector("[data-skills-prev]");
+  const next = controls.querySelector("[data-skills-next]");
+  let frame = 0;
+  const activeIndex = () => {
+    const left = grid.getBoundingClientRect().left;
+    return cards.reduce((best, card, index) =>
+      Math.abs(card.getBoundingClientRect().left - left) <
+      Math.abs(cards[best].getBoundingClientRect().left - left) ? index : best, 0);
+  };
+  const update = () => {
+    frame = 0;
+    controls.hidden = !phone.matches;
+    if (!phone.matches) {
+      grid.style.removeProperty("height");
+      grid.removeAttribute("tabindex");
+      return;
+    }
+    grid.tabIndex = 0;
+    const card = cards[activeIndex()];
+    const style = getComputedStyle(grid);
+    grid.style.height = Math.ceil(card.getBoundingClientRect().height +
+      parseFloat(style.paddingTop) + parseFloat(style.paddingBottom)) + "px";
+    previous.disabled = grid.scrollLeft <= 3;
+    next.disabled = grid.scrollLeft >= grid.scrollWidth - grid.clientWidth - 3;
+  };
+  const schedule = () => { if (!frame) frame = requestAnimationFrame(update); };
+  const move = direction => {
+    const index = Math.max(0, Math.min(cards.length - 1, activeIndex() + direction));
+    const left = grid.scrollLeft + cards[index].getBoundingClientRect().left - grid.getBoundingClientRect().left;
+    grid.scrollTo({left, behavior: reduced.matches ? "instant" : "smooth"});
+  };
+  previous.addEventListener("click", () => move(-1));
+  next.addEventListener("click", () => move(1));
+  grid.addEventListener("keydown", event => {
+    if (!phone.matches || event.target !== grid || !["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+    event.preventDefault();
+    move(event.key === "ArrowLeft" ? -1 : 1);
+  });
+  grid.addEventListener("scroll", schedule, {passive: true});
+  window.addEventListener("resize", schedule);
+  phone.addEventListener("change", schedule);
+  if ("ResizeObserver" in window) {
+    const sizes = new ResizeObserver(schedule);
+    cards.forEach(card => sizes.observe(card));
+  }
+  const localize = () => {
+    const labels = {
+      en: ["Previous skills", "Next skills"],
+      uz: ["Oldingi ko‘nikmalar", "Keyingi ko‘nikmalar"],
+      ru: ["Предыдущие навыки", "Следующие навыки"]
+    }[window.siteI18n?.language || document.documentElement.lang] || ["Previous skills", "Next skills"];
+    [previous, next].forEach((button, index) => {
+      button.setAttribute("aria-label", labels[index]);
+      button.title = labels[index];
+    });
+    schedule();
+  };
+  window.addEventListener("site-language-change", localize);
+  document.fonts?.ready.then(schedule);
+  localize();
+})();
