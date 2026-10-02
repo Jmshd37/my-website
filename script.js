@@ -55,7 +55,30 @@
   const projectGrid = document.querySelector("#project-grid");
   const projectPrev = document.querySelector('[data-project-scroll="prev"]');
   const projectNext = document.querySelector('[data-project-scroll="next"]');
+  // Keep phone controls directly below the active card, not the tallest off-screen card.
+  const phoneProjects = window.matchMedia("(max-width: 767px)");
+  const fitProjectRailHeight = () => {
+    if (!projectGrid) return;
+    if (!phoneProjects.matches) {
+      projectGrid.style.removeProperty("height");
+      return;
+    }
+    const visible = [...projectGrid.querySelectorAll(".project-card:not([hidden])")];
+    if (!visible.length) {
+      projectGrid.style.removeProperty("height");
+      return;
+    }
+    const left = projectGrid.getBoundingClientRect().left;
+    const active = visible.reduce((nearest, card) =>
+      Math.abs(card.getBoundingClientRect().left - left) <
+      Math.abs(nearest.getBoundingClientRect().left - left) ? card : nearest);
+    const style = getComputedStyle(projectGrid);
+    const height = Math.ceil(active.getBoundingClientRect().height +
+      parseFloat(style.paddingTop) + parseFloat(style.paddingBottom));
+    projectGrid.style.height = height + "px";
+  };
   const updateProjectScrollControls = () => {
+    fitProjectRailHeight();
     if (!projectGrid || !projectPrev || !projectNext) return;
     const maxScroll = Math.max(0, projectGrid.scrollWidth - projectGrid.clientWidth);
     projectPrev.disabled = projectGrid.scrollLeft <= 3;
@@ -72,6 +95,11 @@
     projectGrid.addEventListener("scroll", updateProjectScrollControls, { passive: true });
     window.addEventListener("resize", updateProjectScrollControls);
     requestAnimationFrame(updateProjectScrollControls);
+    if ("ResizeObserver" in window) {
+      const cardSizes = new ResizeObserver(() => requestAnimationFrame(updateProjectScrollControls));
+      projectGrid.querySelectorAll(".project-card").forEach(card => cardSizes.observe(card));
+    }
+    document.fonts?.ready.then(() => requestAnimationFrame(updateProjectScrollControls));
   }
 
   // MAGMASTORE: make the entire project card behave like its external website link.

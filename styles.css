@@ -2964,3 +2964,8 @@ main section[id] { scroll-margin-top: 104px; }
   .project-carousel .project-scroll-prev { grid-column: 1; justify-self: end; }
   .project-carousel .project-scroll-next { grid-column: 2; justify-self: start; }
 }
+
+/* Keep each card's intrinsic height when the phone rail follows the active card. */
+@media screen and (max-width: 767px) {
+  .project-carousel .project-grid { grid-template-rows: max-content; }
+}
