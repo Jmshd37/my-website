@@ -3,7 +3,7 @@
   const navToggle = document.querySelector(".nav-toggle");
   const navLinks = document.querySelector("#nav-links");
   const navAnchors = [...document.querySelectorAll(".nav-links a[href^='#']")];
-  const mobile = window.matchMedia("(max-width: 1000px)");
+  const mobile = window.matchMedia("(max-width: 1024px)");
   const setMenu = open => {
     navLinks.classList.toggle("open", open);
     navToggle.setAttribute("aria-expanded", String(open));
@@ -367,3 +367,4 @@
     });
   });
 })();
+
