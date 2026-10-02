@@ -2921,3 +2921,46 @@ main section[id] { scroll-margin-top: 104px; }
   @media (max-width: 1024px) { html.has-navigation[data-theme="dark"] .nav-links { background: var(--white); } }
 }
 @media print { .theme-picker { display: none !important; } }
+
+/* Phone projects: swipe one full-width card at a time, retaining card typography and spacing. */
+@media screen and (max-width: 767px) {
+  .project-carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    min-width: 0;
+  }
+  .project-carousel .project-grid {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    min-width: 0;
+    width: 100%;
+    grid-template-columns: none;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    align-items: start;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 8px 0 12px;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+  }
+  .project-grid .project-card {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+  .project-grid .project-no { flex-shrink: 0; white-space: nowrap; }
+  .project-carousel .project-scroll {
+    position: static;
+    display: grid;
+    grid-row: 2;
+    transform: none;
+    width: 46px;
+    height: 46px;
+  }
+  .project-carousel .project-scroll:hover:not(:disabled) { transform: none; }
+  .project-carousel .project-scroll-prev { grid-column: 1; justify-self: end; }
+  .project-carousel .project-scroll-next { grid-column: 2; justify-self: start; }
+}
