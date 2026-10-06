@@ -4,11 +4,11 @@
     "lastName": "Nurmukhammadov",
     "initials": "JN",
     "location": "Tashkent, Uzbekistan",
-    "role": "Industrial Management · Finance · Business Analytics",
-    "intro": "Industrial Management graduate with a strong academic foundation in finance, business analytics, operations and digital transformation.",
+    "role": "Industrial Management · Business Analytics · Digital & Sustainable Operations",
+    "intro": "Industrial Management graduate connecting business analytics, manufacturing operations and digital transformation, with a strong academic foundation and applied project experience.",
     "availability": "Open to graduate study & professional opportunities",
     "headline": "Academic foundation. Applied experience.",
-    "focus": "Focused on finance, business analytics, ERP, sustainable management and data-informed decision making.",
+    "focus": "Interested in ERP adoption, data-informed operations and sustainable management, supported by research, cost analysis and project coordination.",
     "email": "jamshidnurmuhammedov@gmail.com",
     "phone": "+998946460219",
     "phoneLabel": "+998 94 646 02 19",
@@ -30,7 +30,8 @@
       }
     ],
     "telegram": "https://t.me/Jmshd37",
-    "telegramLabel": "@Jmshd37"
+    "telegramLabel": "@Jmshd37",
+    "logo": "assets/jn-moon-logo.webp"
   },
   "sections": [
     {
@@ -81,7 +82,7 @@
       "period": "Sep 2026 — Present",
       "role": "Project Manager",
       "company": "MAGMASTORE",
-      "description": "MAGMASTORE is a B2B e-commerce platform in Uzbekistan connecting business buyers with suppliers. As Project Manager, I coordinate requirements, workflows and cross-functional delivery.",
+      "description": "Coordinate requirements, workflow definition and cross-functional delivery for a B2B marketplace connecting business buyers and suppliers in Uzbekistan. Contribute to marketplace structure and process improvement.",
       "tags": [
         "Project Coordination",
         "Requirements",
@@ -94,7 +95,7 @@
       "period": "Dec 2025 — Sep 2026",
       "role": "Business Analyst",
       "company": "Next Generation Development",
-      "description": "Worked with business requirements, process analysis, workflow definition and reporting to support clearer decisions and more structured delivery.",
+      "description": "Analyzed business requirements and mapped processes into defined workflows, with KPI reporting to support operational decisions and more structured delivery.",
       "tags": [
         "Business Analysis",
         "Process Mapping",
@@ -107,7 +108,7 @@
       "period": "Jun — Aug 2025",
       "role": "Staff Member, Facility Operations",
       "company": "RAY Facility Management · Germany",
-      "description": "Gained international work experience in a fast-paced operational environment while living and working independently in Nuremberg, Germany.",
+      "description": "Worked in facility operations in Nuremberg, Germany, gaining experience in day-to-day operations and teamwork while living and working independently in an international environment.",
       "tags": [
         "Operations",
         "International Experience",
@@ -172,7 +173,163 @@
         "Manufacturing"
       ],
       "featured": true,
-      "url": ""
+      "url": "",
+      "id": "erp",
+      "details": {
+        "label": "ERP research",
+        "title": "The people behind ERP performance.",
+        "subtitle": "Bachelor’s thesis · Industrial Management",
+        "lead": "My thesis explores what happens after an ERP system goes live: how employees make it part of their daily work, and how that use may relate to manufacturing performance.",
+        "question": "The system is installed. What helps people turn it into everyday value?",
+        "sections": [
+          {
+            "title": "What I worked on",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "I focused on ERP use after implementation in Uzbek manufacturing companies, connecting academic research with practical questions about everyday work."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "My contribution",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Reviewed existing research on ERP use after launch.",
+                  "Developed a research framework connecting everyday system use with operational performance.",
+                  "Prepared a survey-based study design for employees who use ERP in their work.",
+                  "Built the study around established questionnaire measures, with English and Uzbek versions to support local participation."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Why this matters",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Production, inventory and procurement teams depend on shared information. This study asks what supports consistent ERP use across everyday operations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Who could benefit",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Manufacturing managers: better-informed decisions about employee support after launch.",
+                  "Employees: greater attention to their everyday system experience.",
+                  "Operations teams: insights that may help improve coordination and information reliability."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Skills demonstrated",
+            "blocks": [
+              {
+                "type": "tags",
+                "items": [
+                  "Research design",
+                  "Critical analysis",
+                  "Business process understanding",
+                  "Academic communication"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Academic guidance",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Supervisor"
+                  },
+                  {
+                    "break": true
+                  },
+                  {
+                    "text": "Dr. Shazadi Rameen Arshad",
+                    "strong": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Research advice and guidance"
+                  },
+                  {
+                    "break": true
+                  },
+                  {
+                    "text": "Professor Alisher Dedahanov",
+                    "strong": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "New Uzbekistan University · 2026"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "A local perspective",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "The study brings the experiences of ERP users in Uzbekistan into a wider discussion about digital transformation, with attention to local working practices."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "reflection": {
+          "title": "The intended benefit",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "Help manufacturers understand how to turn an ERP investment into more effective everyday use, with the aim of improving coordination and operational performance."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "Research focus: study design and anticipated contributions. Operational benefits remain to be evaluated."
+                }
+              ],
+              "note": true
+            }
+          ]
+        }
+      },
+      "priority": "flagship"
     },
     {
       "title": "Real-Time Capacity Monitoring for Manufacturing",
@@ -187,7 +344,171 @@
         "Manufacturing"
       ],
       "featured": false,
-      "url": ""
+      "url": "",
+      "id": "capacity",
+      "details": {
+        "label": "University group project · Industry 4.0",
+        "title": "Real-Time Capacity Monitoring for Manufacturing",
+        "subtitle": "IMGT430 · Spring 2026",
+        "lead": "A university team project exploring how real-time production data can help Sales make more realistic delivery commitments and help Operations identify capacity constraints earlier.",
+        "question": "How can a factory connect incoming orders, machine status and capacity decisions without replacing its existing equipment?",
+        "sections": [
+          {
+            "title": "The problem we addressed",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Our team focused on a common disconnect between Sales and production operations: orders may be captured manually, Sales may not have current shop-floor capacity information, and bottlenecks can become visible only when deadlines are already close."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Proposed solution",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Centralize incoming customer orders instead of relying on repeated manual spreadsheet entry.",
+                  "Use IoT retrofit sensors or existing machine data interfaces to detect whether equipment is running, stopped or idle.",
+                  "Collect and clean machine data through an edge gateway before sending it to a shared data environment.",
+                  "Use a capacity engine to combine order demand with available machine capacity and identify bottlenecks.",
+                  "Give Sales and Operations access to the same live dashboard for delivery and capacity decisions."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Real company visit & confidentiality",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "The project was informed by an on-site visit to a real manufacturing company. We are grateful to the organization for allowing us to observe its operations and learn from a real production environment. At the company’s request, its name is not disclosed publicly. This portfolio therefore presents only the project concept, process observations and academic analysis, while respecting the company’s confidentiality preference."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "What makes the concept practical",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Links customer-order information with production-capacity data instead of treating machine monitoring as a separate engineering dashboard.",
+                  "Can work with older equipment through retrofit sensors such as vibration or current-draw monitoring.",
+                  "Supports gradual rollout: begin with one production line, validate the concept, then expand.",
+                  "Uses a lightweight digital representation of available capacity rather than requiring a full 3D digital twin."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Financial feasibility model",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "As part of the academic project, our team developed an illustrative pilot business case for one production line. The model estimated an initial investment of about $120,000, a projected net annual benefit of about $68,000 and an estimated payback period of roughly 21 months."
+                  }
+                ]
+              },
+              {
+                "type": "metrics",
+                "items": [
+                  {
+                    "value": "~$120k",
+                    "label": "Illustrative pilot investment"
+                  },
+                  {
+                    "value": "~$68k",
+                    "label": "Projected net annual benefit"
+                  },
+                  {
+                    "value": "~21 mo.",
+                    "label": "Estimated payback"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "These figures are academic project estimates based on model assumptions; they are not audited results or disclosed financial data from the visited company."
+                  }
+                ],
+                "note": true
+              }
+            ]
+          },
+          {
+            "title": "Implementation approach",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Phase 1: map the process, select a pilot line and define required data.",
+                  "Phase 2: install sensors, configure the gateway and build the initial dashboard.",
+                  "Phase 3: run the pilot with Sales and Operations feedback and refine the system.",
+                  "Phase 4: expand to additional production lines and add forecasting or automated alerts."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Skills demonstrated",
+            "blocks": [
+              {
+                "type": "tags",
+                "items": [
+                  "Industry 4.0",
+                  "IoT concepts",
+                  "Process analysis",
+                  "Capacity planning",
+                  "Cost-benefit analysis",
+                  "Sales & Operations alignment",
+                  "Team project work"
+                ]
+              }
+            ]
+          }
+        ],
+        "flow": [
+          "Customer orders",
+          "IoT machine data",
+          "Capacity engine",
+          "Shared dashboard"
+        ],
+        "reflection": {
+          "title": "Project objective",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "Bridge the information gap between customer commitments and production reality by giving Sales and Operations a shared, real-time view of capacity."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "University group project · conceptual system design and feasibility analysis · no report file is published on this website."
+                }
+              ],
+              "note": true
+            }
+          ]
+        }
+      },
+      "priority": "flagship"
     },
     {
       "title": "MAGMASTORE — B2B E-commerce Platform",
@@ -202,20 +523,72 @@
       ],
       "featured": false,
       "url": "https://magmastore.uz/",
-      "linkLabel": "Visit MAGMASTORE"
-    },
-    {
-      "title": "Odoo Student Diploma",
-      "category": "Certification",
-      "meta": "Odoo S.A. · 04/01/2026",
-      "description": "Certificate of Achievement awarded by Odoo S.A. for successfully completing the Odoo Student Diploma. Certification No. 0001078256.",
-      "tags": [
-        "Odoo",
-        "ERP",
-        "Business Software"
-      ],
-      "featured": false,
-      "url": "assets/odoo-student-diploma.pdf"
+      "linkLabel": "Visit MAGMASTORE",
+      "id": "magmastore",
+      "priority": "flagship",
+      "details": {
+        "label": "Applied management · B2B marketplace",
+        "title": "Structuring a B2B marketplace for business operations.",
+        "subtitle": "MAGMASTORE · Project Manager",
+        "lead": "A B2B e-commerce platform in Uzbekistan connecting businesses with suppliers. I contribute to project coordination, marketplace structure, workflow design, and process improvement.",
+        "question": "How can marketplace requirements become clearer operational workflows?",
+        "sections": [
+          {
+            "title": "Business context",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "MAGMASTORE connects business buyers and suppliers in Uzbekistan. My work focuses on the requirements, marketplace structure and workflows that support these business relationships."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "My contribution",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Coordinate requirements and cross-functional project delivery.",
+                  "Contribute to marketplace structure and workflow design.",
+                  "Support process improvement from a business operations perspective."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Scope and evidence",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "note": true,
+                "parts": [
+                  {
+                    "text": "This case study summarizes the responsibilities documented in my portfolio. It does not claim measured business outcomes or disclose internal company information."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "reflection": {
+          "title": "Management perspective",
+          "blocks": [
+            {
+              "type": "tags",
+              "items": [
+                "Project Coordination",
+                "Requirements",
+                "Process Design",
+                "B2B E-commerce"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "title": "CFT RBM International Student Experience Week (RISE Week)",
@@ -229,7 +602,308 @@
         "Technology Visits"
       ],
       "featured": false,
-      "url": "assets/HKUST(GZ).pdf"
+      "url": "assets/HKUST(GZ).pdf",
+      "id": "rise",
+      "cover": {
+        "src": "assets/rbm/rise-week-cover.webp",
+        "small": "assets/rbm/rise-week-cover-640.webp",
+        "alt": "RISE Week photo",
+        "width": 678,
+        "height": 452,
+        "smallWidth": 640
+      },
+      "details": {
+        "label": "International experience · RBM RISE Week",
+        "title": "RISE Week at HKUST (Guangzhou)",
+        "subtitle": "College of Future Technology · January 2026",
+        "lead": "I joined the CFT RBM International Student Experience Week and explored how cross-disciplinary learning connects university research with emerging technology companies.",
+        "question": "From cross-disciplinary learning to smart mobility, drones and autonomous driving.",
+        "sections": [],
+        "reflection": {
+          "title": "What the week added to my perspective",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "The experience connected academic learning with technology companies working on mobility, drones and autonomy, strengthening my interest in innovation, digital transformation and cross-functional problem solving."
+                }
+              ]
+            },
+            {
+              "type": "tags",
+              "items": [
+                "International learning",
+                "Technology exposure",
+                "University–industry connection"
+              ]
+            }
+          ]
+        },
+        "layout": "gallery",
+        "cover": {
+          "src": "assets/rbm/rise-week-cover.webp",
+          "small": "assets/rbm/rise-week-cover-640.webp",
+          "alt": "RISE Week photo",
+          "width": 678,
+          "height": 452,
+          "smallWidth": 640
+        },
+        "facts": [
+          "Guangzhou, China",
+          "University + industry visits",
+          "International Experience"
+        ],
+        "gallery": [
+          {
+            "image": {
+              "src": "assets/rbm/hkust-gz.webp",
+              "small": "assets/rbm/hkust-gz-640.webp",
+              "alt": "HKUST Guangzhou visit photo",
+              "width": 1280,
+              "height": 853,
+              "smallWidth": 640
+            },
+            "category": "University visit",
+            "title": "HKUST (Guangzhou)",
+            "description": "During RISE Week, I attended lectures and visited laboratories at HKUST(GZ). The College of Future Technology uses cross-disciplinary, project-based learning to connect academic study with real-world challenges.",
+            "link": {
+              "url": "https://www.hkust-gz.edu.cn/",
+              "label": "Official HKUST(GZ) website ↗"
+            }
+          },
+          {
+            "image": {
+              "src": "assets/rbm/xpeng.webp",
+              "small": "assets/rbm/xpeng-640.webp",
+              "alt": "XPeng visit photo",
+              "width": 960,
+              "height": 1280,
+              "smallWidth": 480
+            },
+            "category": "Technology visit",
+            "title": "XPeng",
+            "description": "XPeng is a Guangzhou-headquartered technology company focused on smart electric vehicles. The visit gave me a closer look at how mobility companies combine vehicle development with software, intelligent systems and R&D.",
+            "link": {
+              "url": "https://www.xpeng.com/",
+              "label": "Official XPeng website ↗"
+            }
+          },
+          {
+            "image": {
+              "src": "assets/rbm/dji.webp",
+              "small": "assets/rbm/dji-640.webp",
+              "alt": "DJI visit photo",
+              "width": 960,
+              "height": 1280,
+              "smallWidth": 480
+            },
+            "category": "Technology visit",
+            "title": "DJI",
+            "description": "DJI develops drone, imaging and stabilization technologies used across creative and professional fields. The visit highlighted how advanced hardware and software can become practical tools for industries.",
+            "link": {
+              "url": "https://www.dji.com/company",
+              "label": "Official DJI website ↗"
+            }
+          },
+          {
+            "image": {
+              "src": "assets/rbm/pony-ai.webp",
+              "small": "assets/rbm/pony-ai-640.webp",
+              "alt": "Pony.ai visit photo",
+              "width": 960,
+              "height": 1280,
+              "smallWidth": 480
+            },
+            "category": "Technology visit",
+            "title": "Pony.ai",
+            "description": "Pony.ai develops autonomous-driving technology across Robotaxi, Robotruck and personally owned vehicle applications. The visit provided exposure to how self-driving systems are being developed toward real-world deployment.",
+            "link": {
+              "url": "https://pony.ai/",
+              "label": "Official Pony.ai website ↗"
+            }
+          }
+        ],
+        "certificate": {
+          "title": "Participation certificate",
+          "description": "The programme certificate remains available here as formal evidence of participation.",
+          "url": "assets/HKUST(GZ).pdf",
+          "label": "View participation certificate ↗"
+        }
+      },
+      "priority": "supporting"
+    },
+    {
+      "title": "Odoo Student Diploma",
+      "category": "Certification",
+      "meta": "Odoo S.A. · 04/01/2026",
+      "description": "Certificate of Achievement awarded by Odoo S.A. for successfully completing the Odoo Student Diploma. Certification No. 0001078256.",
+      "tags": [
+        "Odoo",
+        "ERP",
+        "Business Software"
+      ],
+      "featured": false,
+      "url": "assets/odoo-student-diploma.pdf",
+      "id": "odoo",
+      "details": {
+        "label": "ERP project · Odoo",
+        "title": "How an integrated ERP connects a business.",
+        "subtitle": "Functional ERP learning · Business process perspective",
+        "lead": "This project documents my practical study of Odoo as an integrated ERP platform and how its modules support cross-functional business processes.",
+        "question": "How can one system connect customers, sales, purchasing, inventory, operations, finance and management?",
+        "sections": [
+          {
+            "title": "What I am studying",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "I am exploring Odoo from a functional and business-process perspective: how separate departments work inside one connected ERP environment rather than as isolated tools."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "End-to-end workflow",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Lead → Quotation → Sales Order → Purchase / Replenishment → Inventory → Delivery → Invoice → Payment → Accounting."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "This workflow helps me understand how one business transaction can move across commercial, operational and financial functions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Odoo modules",
+            "blocks": [
+              {
+                "type": "tags",
+                "items": [
+                  "CRM",
+                  "Sales",
+                  "Purchase",
+                  "Inventory",
+                  "Accounting",
+                  "Manufacturing / MRP",
+                  "HR",
+                  "Project",
+                  "Website / eCommerce"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Business value I am analyzing",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Connected workflows across departments.",
+                  "A shared source of operational and financial information.",
+                  "Process automation and clearer hand-offs.",
+                  "Reporting that links transactions with business performance."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Skills I am developing",
+            "blocks": [
+              {
+                "type": "tags",
+                "items": [
+                  "ERP process mapping",
+                  "Business requirements",
+                  "Cross-functional analysis",
+                  "Workflow design",
+                  "Data & reporting"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Odoo learning & certification",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "I have completed the Odoo Student Diploma. I am also studying Odoo’s broader functional ecosystem; the official Odoo Functional Certification is a separate, version-specific certification pathway."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "View Odoo Student Diploma certificate ↗",
+                    "url": "assets/odoo-student-diploma.pdf"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Official Odoo platform",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Odoo is a modular business software platform that brings multiple business functions into one integrated environment."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Visit the official Odoo website ↗",
+                    "url": "https://www.odoo.com/"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "reflection": {
+          "title": "Project objective",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "Build a practical understanding of how ERP systems connect business processes, data and decision-making across an organization."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "Focus: functional ERP understanding, process integration and Odoo-based business workflows."
+                }
+              ],
+              "note": true
+            }
+          ]
+        }
+      },
+      "priority": "supporting"
     },
     {
       "title": "Introduction to Data Science",
@@ -242,7 +916,146 @@
         "AI & Machine Learning"
       ],
       "featured": false,
-      "url": "assets/IntrotoDataScienceUpdate.pdf"
+      "url": "assets/IntrotoDataScienceUpdate.pdf",
+      "id": "cisco",
+      "details": {
+        "label": "Cisco Networking Academy",
+        "title": "Introduction to Data Science",
+        "subtitle": "Certificate of Course Completion · Beginner · 6 hours",
+        "lead": "This Cisco Networking Academy course introduced me to the foundations of data science, data analytics and data engineering, together with how artificial intelligence and machine learning use data to support decisions and predictions.",
+        "question": "How does raw data become information that supports better decisions?",
+        "sections": [
+          {
+            "title": "What the course covers",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "The course provides a foundation in data science and explains the relationship between data analytics, data engineering, data science, artificial intelligence and machine learning."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Curriculum",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Experience Analytics",
+                  "Data Collection and Storage",
+                  "Artificial Intelligence and Machine Learning",
+                  "Embarking on Your Career in Data Analytics"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Learning format",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Beginner level with no recommended prerequisites.",
+                  "Approximately 6 hours of learning.",
+                  "4 modules and 5 practice lab activities.",
+                  "Videos, knowledge checks, module quizzes and a final exam."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Knowledge and skills",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Understanding how data analytics supports data-driven decisions.",
+                  "Recognizing structured, semi-structured and unstructured data.",
+                  "Understanding data collection, storage and preparation for analysis.",
+                  "Exploring the 5 Vs of Big Data: Volume, Velocity, Variety, Veracity and Value.",
+                  "Understanding how AI and machine learning use data.",
+                  "Distinguishing between data analyst, data engineer and data scientist roles."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Course recognition",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "Cisco Networking Academy recognizes completion of the course. Cisco also offers a related digital badge; its published earning criteria list a 70% passing score on the comprehensive exam."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Why it is relevant to my profile",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "The course strengthens my foundation in data-driven decision-making and complements my work in business analytics, management and digital transformation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Certificate & official course",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "View my Cisco certificate ↗",
+                    "url": "assets/IntrotoDataScienceUpdate.pdf"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "parts": [
+                  {
+                    "text": "View the official Cisco course ↗",
+                    "url": "https://www.netacad.com/courses/introduction-data-science?courseLang=en-US"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "reflection": {
+          "title": "What this adds to my profile",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "A structured foundation in data concepts, analytics, AI/ML and the data career landscape, supporting more informed use of data in business and management contexts."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "parts": [
+                {
+                  "text": "Cisco Networking Academy · Introduction to Data Science · Certificate completed in 2026."
+                }
+              ],
+              "note": true
+            }
+          ]
+        }
+      },
+      "priority": "supporting"
     },
     {
       "title": "National Mathematics Olympiad Selection",
@@ -251,7 +1064,9 @@
       "description": "Selected as one of three students from my region to participate at the national level.",
       "tags": [],
       "featured": false,
-      "url": ""
+      "url": "",
+      "id": "mathematics",
+      "priority": "supporting"
     }
   ],
   "recommendations": [
@@ -291,24 +1106,27 @@
   ],
   "skills": [
     {
-      "title": "Data & Analytics",
+      "id": "core",
+      "title": "Core Capabilities",
       "items": [
-        "Microsoft Excel",
-        "Google Sheets",
-        "Power BI",
+        "Business Analytics",
+        "Business Process Analysis",
+        "Project Management / Coordination",
+        "Supply Chain & Operations",
+        "Cost / Financial Analysis",
+        "ERP & Digital Transformation",
         "KPI & Performance Analysis",
-        "Statistical Analysis"
+        "Quality Management / Six Sigma"
       ]
     },
     {
-      "title": "Business & Management",
+      "id": "analytics",
+      "title": "Analytics & Business Tools",
       "items": [
-        "Strategic Management",
-        "Project Coordination",
-        "Business Process Analysis",
-        "Cost Management",
-        "Supply Chain & Operations",
-        "Quality Management / Six Sigma"
+        "Microsoft Excel",
+        "Power BI",
+        "Google Sheets",
+        "Statistical Analysis"
       ]
     },
     {
@@ -319,17 +1137,19 @@
         "AI-Assisted Research",
         "AI-Assisted Data Analysis",
         "Generative AI"
-      ]
+      ],
+      "id": "research"
     },
     {
-      "title": "Digital Productivity",
+      "title": "Productivity & Communication",
       "items": [
         "Microsoft Word",
         "Microsoft PowerPoint",
         "Gamma",
         "Canva",
         "CapCut"
-      ]
+      ],
+      "id": "productivity"
     },
     {
       "title": "Languages",
@@ -337,11 +1157,1558 @@
         "Uzbek — Native",
         "English — IELTS 7.0",
         "Russian — B1"
-      ]
+      ],
+      "id": "languages"
     }
   ],
   "contact": {
     "title": "Have an opportunity in mind?",
     "intro": "For graduate study, academic opportunities, professional collaboration or project discussions, feel free to reach out."
+  },
+  "ui": {
+    "skip_to_content": "Skip to content",
+    "main_navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "language": "Language",
+    "choose_language": "Choose language",
+    "recommendations": "Recommendations.",
+    "academic_and_professional_recommendations_that_provide_third_party_context_on_my_work_char": "Academic and professional recommendations that provide third-party context on my work, character and potential.",
+    "back_to_recommendations": "← Back to Recommendations",
+    "recommendation": "Recommendation",
+    "view_recommendation": "View recommendation →",
+    "view_original_letter": "View original letter",
+    "professor_website": "Professor website ↗",
+    "get_in_touch": "Get in touch",
+    "print_save_cv": "Print / Save CV",
+    "phone": "Phone",
+    "personal_portfolio_cv": "Personal portfolio / CV",
+    "profile_at_a_glance": "Profile at a glance",
+    "education_research_experience": "Education. Research. Experience.",
+    "explore_the_profile": "Explore the profile",
+    "academic_foundation": "Academic foundation.",
+    "management_operations_analytics_and_business": "Management, operations, analytics and business.",
+    "2022_2026_tashkent_uzbekistan": "2022 — 2026 · Tashkent, Uzbekistan",
+    "full_academic_transcript": "Full Academic Transcript",
+    "courses_grades_grading_system": "Courses · Grades · Grading system",
+    "back_to_education": "← Back to Education",
+    "academic_record_new_uzbekistan_university": "Academic record · New Uzbekistan University",
+    "academic_transcript": "Academic Transcript",
+    "complete_coursework_and_grades": "Complete coursework and grades",
+    "subjects_studied": "Subjects studied",
+    "academic_year": "Academic year",
+    "course": "Course",
+    "grade": "Grade",
+    "gpa_value": "GPA value",
+    "university_scale": "University scale",
+    "grading_system": "Grading system",
+    "maximum_gpa_4_5": "Maximum GPA: 4.5",
+    "percentage": "Percentage",
+    "meaning": "Meaning",
+    "cost_management": "Cost Management",
+    "perspective_purpose": "Perspective & purpose",
+    "projects_achievements": "Projects & achievements.",
+    "research_and_experiences_that_shaped_how_i_approach_complex_business_problems": "Research and experiences that shaped how I approach complex business problems.",
+    "filter_projects_by_category": "Filter projects by category",
+    "all": "All",
+    "search_selected_work": "Search selected work",
+    "try_erp_or_mathematics": "Try ERP or mathematics",
+    "view_certificate": "View certificate",
+    "no_matching_projects": "No matching projects",
+    "try_another_keyword_or_show_all_selected_work": "Try another keyword or show all selected work.",
+    "clear_filters": "Clear filters",
+    "where_i_ve_worked": "Where I’ve worked.",
+    "roles_spanning_project_management_business_analysis_and_international_operations": "Roles spanning project management, business analysis and international operations.",
+    "analytical_managerial_digital_toolkit": "Analytical, managerial & digital toolkit.",
+    "capabilities_and_tools_i_use_across_business_analysis_research_management_and_communicatio": "Capabilities and tools I use across business analysis, research, management and communication.",
+    "copy_email_address": "Copy email address",
+    "email": "Email",
+    "location": "Location",
+    "back_to_top": "Back to top ↑",
+    "opens_in_new_tab": "(opens in new tab)",
+    "view_project": "View Project →",
+    "back_to_projects": "← Back to Projects",
+    "close": "× Close",
+    "digital_transformation": "Digital Transformation",
+    "excellent_exceeds_the_highest_standards": "Excellent — exceeds the highest standards",
+    "excellent_meets_the_highest_standards": "Excellent — meets the highest standards",
+    "very_good_meets_standards": "Very good — meets standards",
+    "good_competent": "Good — competent",
+    "minimally_acceptable_lowest_passing_grade": "Minimally acceptable — lowest passing grade"
+  },
+  "locales": {
+    "uz": {
+      "ui.skip_to_content": "Asosiy mazmunga o‘tish",
+      "ui.main_navigation": "Asosiy navigatsiya",
+      "ui.open_navigation": "Menyuni ochish",
+      "ui.language": "Til",
+      "ui.choose_language": "Tilni tanlash",
+      "sections.education.label": "Ta’lim",
+      "sections.about.label": "Akademik profil",
+      "sections.projects.label": "Tadqiqotlar va yutuqlar",
+      "sections.experience.label": "Tajriba",
+      "sections.recommendations.label": "Tavsiyanomalar",
+      "ui.recommendations": "Tavsiyanomalar.",
+      "ui.academic_and_professional_recommendations_that_provide_third_party_context_on_my_work_char": "Mening o‘qishim va ishimni kuzatgan insonlarning akademik va professional tavsiyanomalari faoliyatim, shaxsiy fazilatlarim va salohiyatim haqida mustaqil nuqtayi nazar beradi.",
+      "ui.back_to_recommendations": "← Tavsiyanomalarga qaytish",
+      "ui.recommendation": "Tavsiyanoma",
+      "ui.view_recommendation": "Tavsiyanomani ko‘rish →",
+      "ui.view_original_letter": "Asl tavsiyanomani ko‘rish",
+      "ui.professor_website": "Professor veb-sayti ↗",
+      "recommendations.0.title": "Akademik tavsiyanoma — Prof. Dr. Dr. Paul P. Momtaz",
+      "recommendations.0.position": "Tadbirkorlik moliyasi professori",
+      "recommendations.0.organization": "TUM School of Management · Myunxen Texnika Universiteti",
+      "recommendations.0.relationship": "New Uzbekistan University’dagi mehmon ma’ruzachi",
+      "recommendations.0.date": "2025-yil mart",
+      "recommendations.0.summary": "New Uzbekistan University’dagi mehmon ma’ruzasidan so‘ng professor Momtaz mening akademik faolligim, muhokamalardagi sifatli hissam, yetukligim, ishonchliligim va turli tajribaga ega insonlar bilan samarali ishlash qobiliyatimni ta’kidlab, meni hech qanday shartsiz tavsiya qilgan.",
+      "recommendations.0.details.0.heading": "Akademik faollik",
+      "recommendations.0.details.0.body": "Professor Momtaz mening faoliyatim bilan ilk bor 2025-yil mart oyida New Uzbekistan University’da o‘tkazgan mehmon ma’ruzasi davomida tanishgan. U meni eng faol qatnashchilardan biri bo‘lganim va dars muhokamalariga qo‘shgan hissam sifati bilan ajralib turganimni qayd etadi.",
+      "recommendations.0.details.1.heading": "Shaxsiy fazilatlar va hamkorlik",
+      "recommendations.0.details.1.body": "Tavsiyanomada u meni intellektual salohiyati yuqori, kamtar, yetuk va ishonchli inson sifatida ta’riflab, boshqalar bilan ishlashda xotirjamlik, odoblilik va o‘zaro hurmatni alohida qayd etadi.",
+      "recommendations.0.details.2.heading": "Muloqot va ijtimoiy ko‘nikmalar",
+      "recommendations.0.details.2.body": "U turli tajriba va kelib chiqishga ega insonlar bilan muloqot qilish hamda ularga moslasha olish qobiliyatimni ta’kidlaydi, shuningdek networking, ijtimoiy ko‘nikmalarim va darsdan tashqari faoliyatimni ijobiy baholaydi.",
+      "recommendations.0.details.3.heading": "O‘rganish va intilish",
+      "recommendations.0.details.3.body": "U mening o‘rganishga bo‘lgan kuchli qiziqishim bilan birga boshqa kuchli talabalar bilan tajriba ulashishga tayyorligimni va menejment hamda iqtisodiyot sohalariga hissa qo‘shish istagimni qayd etadi.",
+      "recommendations.0.details.4.heading": "Umumiy baho",
+      "recommendations.0.details.4.body": "TUM, Goethe University Frankfurt va UCLA’dagi, jumladan MBA hamda Executive MBA talabalariga dars berish tajribasiga tayangan holda professor Momtaz meni New Uzbekistan University bitiruvchilarining eng kuchli qatoriga qo‘yadi va hech qanday shartsiz tavsiya qiladi.",
+      "sections.skills.label": "Ko‘nikmalar va texnik vositalar",
+      "sections.contact.label": "Aloqa",
+      "education.location": "Toshkent, O‘zbekiston",
+      "ui.get_in_touch": "Bog‘lanish",
+      "ui.print_save_cv": "CVni chop etish / saqlash",
+      "ui.phone": "Telefon",
+      "ui.personal_portfolio_cv": "Shaxsiy portfolio / CV",
+      "ui.profile_at_a_glance": "Qisqacha profil",
+      "profile.availability": "Magistratura va professional imkoniyatlar uchun ochiq",
+      "profile.headline": "Mustahkam akademik tayyorgarlik. Amaliy tajriba.",
+      "ui.education_research_experience": "Ta’lim. Tadqiqot. Tajriba.",
+      "ui.explore_the_profile": "Profilni ko‘rish",
+      "ui.academic_foundation": "Akademik tayyorgarlik.",
+      "ui.management_operations_analytics_and_business": "Boshqaruv, operatsiyalar, tahlil va biznes.",
+      "ui.2022_2026_tashkent_uzbekistan": "2022 — 2026 · Toshkent, O‘zbekiston",
+      "education.degree": "Industrial Management bakalavriat dasturi",
+      "education.note": "Dastur to‘liq ingliz tilida o‘qitilgan.",
+      "education.stats.0.label": "Yakuniy GPA",
+      "education.stats.1.label": "O‘zlashtirilgan kreditlar",
+      "ui.full_academic_transcript": "To‘liq akademik transkript",
+      "ui.courses_grades_grading_system": "Fanlar · Baholar · Baholash tizimi",
+      "ui.back_to_education": "← Ta’lim bo‘limiga qaytish",
+      "ui.academic_record_new_uzbekistan_university": "Akademik natijalar · New Uzbekistan University",
+      "ui.academic_transcript": "Akademik transkript",
+      "ui.complete_coursework_and_grades": "Barcha fanlar va baholar",
+      "ui.subjects_studied": "O‘qilgan fanlar",
+      "ui.academic_year": "O‘quv yili",
+      "ui.course": "Fan",
+      "ui.grade": "Baho",
+      "ui.gpa_value": "GPA qiymati",
+      "ui.university_scale": "Universitet shkalasi",
+      "ui.grading_system": "Baholash tizimi",
+      "ui.maximum_gpa_4_5": "Maksimal GPA: 4.5",
+      "ui.percentage": "Foiz",
+      "ui.meaning": "Izoh",
+      "education.courses.0.name": "Strategik boshqaruv",
+      "education.courses.1.name": "Ishlab chiqarishni rejalashtirish va boshqarish",
+      "education.courses.2.name": "Logistika va ta’minot zanjiri boshqaruvi",
+      "education.courses.3.name": "Sifat boshqaruvi va Six Sigma",
+      "ui.cost_management": "Xarajatlarni boshqarish",
+      "ui.perspective_purpose": "Yo‘nalish va maqsad",
+      "about.title": "Tahliliy va boshqaruvga yo‘naltirilgan fikrlash asosida shakllangan akademik profil.",
+      "about.paragraphs.0": "Men New Uzbekistan Universityda to‘liq ingliz tilida o‘qitiladigan Industrial Management bakalavriat dasturini tamomladim. Akademik tayyorgarligim moliya, buxgalteriya hisobi, iqtisodiyot, tahlil, operatsiyalar va boshqaruv yo‘nalishlarini qamrab oladi.",
+      "about.paragraphs.1": "Menejmentni moliya, tahlil, barqaror rivojlanish va raqamli transformatsiya bilan bog‘laydigan yo‘nalishlarda magistratura bosqichiga tayyorlanyapman. Bunda biznes tahlili va loyihalarni amalga oshirish bo‘yicha amaliy tajribamga tayanaman.",
+      "ui.projects_achievements": "Loyihalar va yutuqlar.",
+      "ui.research_and_experiences_that_shaped_how_i_approach_complex_business_problems": "Murakkab biznes muammolariga yondashuvimni shakllantirgan tadqiqotlar va tajribalar.",
+      "ui.filter_projects_by_category": "Loyihalarni toifa bo‘yicha filtrlash",
+      "ui.all": "Barchasi",
+      "projects.erp.category": "Tadqiqot",
+      "projects.cisco.category": "Sertifikatlar",
+      "projects.rise.category": "Xalqaro",
+      "projects.mathematics.category": "Akademik",
+      "projects.magmastore.category": "Raqamli loyiha",
+      "projects.magmastore.meta": "Loyiha boshqaruvi · E-commerce · Biznes operatsiyalari",
+      "projects.magmastore.details.lead": "O‘zbekistonda bizneslarni yetkazib beruvchilar bilan bog‘laydigan B2B e-commerce platformasi. Men loyiha muvofiqlashtiruvi, marketplace tuzilmasi, ish jarayonlarini loyihalash va jarayonlarni takomillashtirishga hissa qo‘shaman.",
+      "projects.magmastore.tags.1": "Loyiha boshqaruvi",
+      "projects.magmastore.linkLabel": "MAGMASTORE saytiga o‘tish",
+      "ui.search_selected_work": "Loyihalar bo‘yicha qidirish",
+      "ui.try_erp_or_mathematics": "Masalan: ERP yoki matematika",
+      "projects.erp.meta": "Bakalavr tadqiqoti · Baho A",
+      "projects.erp.title": "ERP joriy etilgandan keyingi bosqich: O‘zbekiston ishlab chiqarish korxonalari",
+      "projects.erp.description": "O‘zbekiston ishlab chiqarish korxonalarida ERP joriy etilgandan keyin foydalanuvchilarning tizimni qabul qilishi va operatsion samaradorlikni o‘rganish.",
+      "projects.erp.tags.1": "Foydalanuvchilar tomonidan qabul qilinishi",
+      "projects.erp.tags.2": "Operatsion samaradorlik",
+      "projects.capacity.tags.4": "Ishlab chiqarish",
+      "projects.odoo.description": "Odoo S.A. tomonidan Odoo Student Diploma dasturini muvaffaqiyatli yakunlaganlik uchun berilgan yutuq sertifikati. Sertifikat № 0001078256.",
+      "projects.odoo.tags.2": "Biznes dasturiy ta’minoti",
+      "ui.view_certificate": "Sertifikatni ko‘rish",
+      "projects.rise.meta": "HKUST (Guangzhou) · 16-yan. 2026",
+      "projects.rise.details.facts.2": "Xalqaro tajriba",
+      "projects.cisco.meta": "Cisco Networking Academy · 08-fev. 2026",
+      "projects.cisco.description": "Ma’lumotlar tahlili, AI va mashinaviy o‘rganishda ma’lumotlarning o‘rni hamda ma’lumotlar tahlili sohasidagi karyera yo‘nalishlarini qamrab olgan kursni yakunlash sertifikati.",
+      "projects.cisco.tags.1": "Ma’lumotlar tahlili",
+      "projects.cisco.tags.2": "AI va mashinaviy o‘rganish",
+      "projects.mathematics.title": "Milliy matematika olimpiadasiga saralash",
+      "projects.mathematics.meta": "Akademik yutuq · iyun 2022",
+      "projects.mathematics.description": "Hududimdan milliy bosqichda qatnashish uchun tanlangan uch nafar o‘quvchidan biri bo‘lganman.",
+      "ui.no_matching_projects": "Mos loyihalar topilmadi",
+      "ui.try_another_keyword_or_show_all_selected_work": "Boshqa kalit so‘zni sinab ko‘ring yoki barcha loyihalarni ko‘rsating.",
+      "ui.clear_filters": "Filtrlarni tozalash",
+      "ui.where_i_ve_worked": "Ish tajribam.",
+      "ui.roles_spanning_project_management_business_analysis_and_international_operations": "Loyiha boshqaruvi, biznes tahlili va xalqaro operatsion muhitdagi tajriba.",
+      "experience.0.period": "Sent. 2026 — hozirgacha",
+      "experience.0.role": "Loyiha menejeri",
+      "projects.magmastore.details.reflection.blocks.0.items.0": "Loyihalarni muvofiqlashtirish",
+      "projects.magmastore.details.reflection.blocks.0.items.1": "Talablar",
+      "projects.magmastore.details.reflection.blocks.0.items.2": "Jarayonlarni loyihalash",
+      "experience.1.period": "Dek. 2025 — sent. 2026",
+      "experience.1.role": "Biznes tahlilchisi",
+      "projects.magmastore.tags.2": "Biznes tahlili",
+      "experience.1.tags.1": "Jarayonlarni xaritalash",
+      "experience.1.tags.2": "KPI hisobotlari",
+      "experience.1.tags.3": "Manfaatdor tomonlar",
+      "experience.2.period": "Iyun — avg. 2025",
+      "experience.2.role": "Obyektlar ekspluatatsiyasi bo‘yicha xodim",
+      "experience.2.company": "RAY Facility Management · Germaniya",
+      "experience.2.tags.0": "Operatsiyalar",
+      "experience.2.tags.2": "Jamoaviy ish",
+      "ui.analytical_managerial_digital_toolkit": "Tahliliy, boshqaruv va raqamli kompetensiyalar.",
+      "ui.capabilities_and_tools_i_use_across_business_analysis_research_management_and_communicatio": "Biznes tahlili, tadqiqot, boshqaruv va kommunikatsiyada foydalanadigan ko‘nikma va vositalarim.",
+      "skills.core.items.6": "KPI va samaradorlik tahlili",
+      "skills.analytics.items.3": "Statistik tahlil",
+      "skills.core.items.1": "Biznes jarayonlarini tahlil qilish",
+      "skills.core.items.3": "Ta’minot zanjiri va operatsiyalar",
+      "skills.core.items.7": "Sifat boshqaruvi / Six Sigma",
+      "skills.research.title": "Tadqiqot va AI",
+      "skills.research.items.0": "Akademik tadqiqotlar",
+      "skills.research.items.1": "Adabiyotlar sharhi",
+      "skills.research.items.2": "AI yordamidagi tadqiqotlar",
+      "skills.research.items.3": "AI yordamida ma’lumotlar tahlili",
+      "skills.research.items.4": "Generativ AI",
+      "skills.languages.title": "Tillar",
+      "skills.languages.items.0": "O‘zbek — ona tili",
+      "skills.languages.items.1": "Ingliz — IELTS 7.0",
+      "skills.languages.items.2": "Rus — B1",
+      "contact.title": "Hamkorlik yoki imkoniyatni muhokama qilamizmi?",
+      "contact.intro": "Magistratura, akademik imkoniyatlar, professional hamkorlik yoki loyihalar bo‘yicha bemalol bog‘lanishingiz mumkin.",
+      "ui.copy_email_address": "Email manzilini nusxalash",
+      "ui.email": "Email",
+      "ui.location": "Joylashuv",
+      "ui.back_to_top": "Yuqoriga ↑",
+      "ui.opens_in_new_tab": "(yangi oynada ochiladi)",
+      "education.stats.2.value": "Qizil diplom",
+      "education.stats.2.label": "Imtiyozli diplom",
+      "ui.view_project": "Loyihani ko‘rish →",
+      "ui.back_to_projects": "← Loyihalarga qaytish",
+      "ui.close": "× Yopish",
+      "projects.erp.details.label": "ERP tadqiqoti",
+      "projects.erp.details.title": "ERP samaradorligi ortidagi insonlar.",
+      "projects.erp.details.subtitle": "Bakalavr bitiruv ishi · Sanoat boshqaruvi",
+      "projects.erp.details.lead": "Bitiruv ishim ERP tizimi ishga tushirilgandan keyingi jarayonlarni o‘rganadi: xodimlar uni kundalik ishiga qanday kiritishi va undan foydalanish ishlab chiqarish samaradorligi bilan qanday bog‘liq bo‘lishi mumkinligini.",
+      "projects.erp.details.question": "Tizim o‘rnatildi. Undan kundalik ishda foyda olishga nima yordam beradi?",
+      "projects.erp.details.sections.0.title": "Nima ustida ishladim",
+      "projects.erp.details.sections.0.blocks.0.parts.0.text": "O‘zbekiston ishlab chiqarish korxonalarida ERP joriy etilgandan keyingi foydalanishga e’tibor qaratib, akademik tadqiqotlarni kundalik ishga oid amaliy savollar bilan bog‘ladim.",
+      "projects.magmastore.details.sections.1.title": "Mening hissam",
+      "projects.erp.details.sections.1.blocks.0.items.0": "ERP ishga tushirilgandan keyingi foydalanish bo‘yicha mavjud tadqiqotlarni o‘rgandim.",
+      "projects.erp.details.sections.1.blocks.0.items.1": "Tizimdan kundalik foydalanishni operatsion samaradorlik bilan bog‘laydigan tadqiqot modelini ishlab chiqdim.",
+      "projects.erp.details.sections.1.blocks.0.items.2": "Ishida ERP tizimidan foydalanadigan xodimlar uchun so‘rovnomaga asoslangan tadqiqot rejasini tayyorladim.",
+      "projects.erp.details.sections.1.blocks.0.items.3": "Tadqiqotni mavjud ilmiy so‘rovnoma mezonlari asosida shakllantirdim; inglizcha va o‘zbekcha variantlar mahalliy ishtirokni qo‘llab-quvvatlaydi.",
+      "projects.erp.details.sections.2.title": "Bu nima uchun muhim",
+      "projects.erp.details.sections.2.blocks.0.parts.0.text": "Ishlab chiqarish, zaxiralar va xarid bo‘limlari umumiy ma’lumotlarga tayanadi. Tadqiqot kundalik operatsiyalarda ERP tizimidan izchil foydalanishga nima yordam berishini o‘rganadi.",
+      "projects.erp.details.sections.3.title": "Kimlar uchun foydali",
+      "projects.erp.details.sections.3.blocks.0.items.0": "Ishlab chiqarish rahbarlari: tizim ishga tushgandan keyin xodimlarni qo‘llab-quvvatlash bo‘yicha asosliroq qarorlar.",
+      "projects.erp.details.sections.3.blocks.0.items.1": "Xodimlar: tizimdan kundalik foydalanish tajribasiga ko‘proq e’tibor.",
+      "projects.erp.details.sections.3.blocks.0.items.2": "Operatsion jamoalar: muvofiqlashtirish va ma’lumotlar ishonchliligini yaxshilashga yordam berishi mumkin bo‘lgan tushunchalar.",
+      "projects.capacity.details.sections.6.title": "Ko‘rsatilgan ko‘nikmalar",
+      "projects.erp.details.sections.4.blocks.0.items.0": "Tadqiqotni loyihalash",
+      "projects.erp.details.sections.4.blocks.0.items.1": "Tanqidiy tahlil",
+      "projects.erp.details.sections.4.blocks.0.items.2": "Biznes jarayonlarini tushunish",
+      "projects.erp.details.sections.4.blocks.0.items.3": "Akademik muloqot",
+      "projects.erp.details.sections.5.title": "Ilmiy rahbarlik",
+      "projects.erp.details.sections.5.blocks.0.parts.0.text": "Ilmiy rahbar",
+      "projects.erp.details.sections.5.blocks.1.parts.0.text": "Tadqiqot bo‘yicha maslahat va yo‘l-yo‘riq",
+      "projects.erp.details.sections.6.title": "Mahalliy nuqtayi nazar",
+      "projects.erp.details.sections.6.blocks.0.parts.0.text": "Tadqiqot mahalliy ish amaliyotlarini hisobga olgan holda O‘zbekistondagi ERP foydalanuvchilari tajribasini raqamli transformatsiya haqidagi kengroq muhokamaga olib kiradi.",
+      "projects.erp.details.reflection.title": "Ko‘zlangan foyda",
+      "projects.erp.details.reflection.blocks.0.parts.0.text": "Ishlab chiqaruvchilarga ERP investitsiyasidan kundalik ishda samaraliroq foydalanishni tushunishga yordam berish; maqsad — muvofiqlashtirish va operatsion samaradorlikni yaxshilash.",
+      "projects.erp.details.reflection.blocks.1.parts.0.text": "Tadqiqot yo‘nalishi: tadqiqot rejasi va kutilayotgan hissa. Operatsion foydalar hali baholanishi kerak.",
+      "ui.digital_transformation": "Raqamli transformatsiya",
+      "projects.odoo.details.label": "ERP loyihasi · Odoo",
+      "projects.odoo.details.title": "Integratsiyalashgan ERP biznesni qanday bog‘laydi.",
+      "projects.odoo.details.subtitle": "ERP funksiyalarini o‘rganish · Biznes jarayonlari nuqtayi nazari",
+      "projects.odoo.details.lead": "Ushbu loyiha Odoo’ni integratsiyalashgan ERP platformasi sifatida amaliy o‘rganishimni va uning modullari funksiyalararo biznes jarayonlarini qanday qo‘llab-quvvatlashini yoritadi.",
+      "projects.odoo.details.question": "Bitta tizim mijozlar, savdo, xarid, zaxiralar, operatsiyalar, moliya va boshqaruvni qanday bog‘lashi mumkin?",
+      "projects.odoo.details.sections.0.title": "Nimani o‘rganyapman",
+      "projects.odoo.details.sections.0.blocks.0.parts.0.text": "Men Odoo’ni funksional va biznes jarayonlari nuqtayi nazaridan o‘rganyapman: alohida bo‘limlar mustaqil vositalarda emas, balki yagona bog‘langan ERP muhitida qanday ishlashini.",
+      "projects.odoo.details.sections.1.title": "Boshidan oxirigacha biznes jarayoni",
+      "projects.odoo.details.sections.1.blocks.1.parts.0.text": "Bu jarayon bitta biznes operatsiyasi tijorat, operatsion va moliyaviy funksiyalar bo‘ylab qanday harakatlanishini tushunishga yordam beradi.",
+      "projects.odoo.details.sections.2.title": "Odoo’ning asosiy modullari",
+      "projects.odoo.details.sections.2.blocks.0.items.2": "Xarid",
+      "projects.odoo.details.sections.2.blocks.0.items.3": "Zaxiralar",
+      "projects.odoo.details.sections.2.blocks.0.items.4": "Buxgalteriya",
+      "projects.odoo.details.sections.2.blocks.0.items.5": "Ishlab chiqarish / MRP",
+      "projects.odoo.details.sections.2.blocks.0.items.7": "Loyihalar",
+      "projects.odoo.details.sections.2.blocks.0.items.8": "Veb-sayt / eCommerce",
+      "projects.odoo.details.sections.3.title": "Men tahlil qilayotgan biznes qiymati",
+      "projects.odoo.details.sections.3.blocks.0.items.0": "Bo‘limlar o‘rtasidagi bog‘langan ish jarayonlari.",
+      "projects.odoo.details.sections.3.blocks.0.items.1": "Operatsion va moliyaviy ma’lumotlar uchun yagona manba.",
+      "projects.odoo.details.sections.3.blocks.0.items.2": "Jarayonlarni avtomatlashtirish va vazifalarni funksiyalar o‘rtasida aniqroq uzatish.",
+      "projects.odoo.details.sections.3.blocks.0.items.3": "Operatsiyalarni biznes natijalari bilan bog‘laydigan hisobotlar.",
+      "projects.odoo.details.sections.4.title": "Rivojlantirayotgan ko‘nikmalarim",
+      "projects.odoo.details.sections.4.blocks.0.items.0": "ERP jarayonlarini xaritalash",
+      "projects.odoo.details.sections.4.blocks.0.items.1": "Biznes talablar",
+      "projects.odoo.details.sections.4.blocks.0.items.2": "Funksiyalararo tahlil",
+      "projects.odoo.details.sections.4.blocks.0.items.3": "Ish jarayonlarini loyihalash",
+      "projects.odoo.details.sections.4.blocks.0.items.4": "Ma’lumotlar va hisobotlar",
+      "projects.odoo.details.sections.5.title": "Odoo o‘rganish va sertifikatsiya",
+      "projects.odoo.details.sections.5.blocks.0.parts.0.text": "Men Odoo Student Diploma dasturini yakunlaganman va Odoo’ning kengroq funksional ekotizimini ham o‘rganyapman. Rasmiy Odoo Functional Certification esa alohida, muayyan versiyaga bog‘langan sertifikatsiya yo‘nalishidir.",
+      "projects.odoo.details.sections.6.title": "Rasmiy Odoo platformasi",
+      "projects.odoo.details.sections.6.blocks.0.parts.0.text": "Odoo — ko‘plab biznes funksiyalarini yagona integratsiyalashgan muhitga birlashtiradigan modulli biznes dasturiy platformasi.",
+      "projects.odoo.details.sections.6.blocks.1.parts.0.text": "Odoo rasmiy saytiga o‘tish ↗",
+      "projects.odoo.details.reflection.title": "Loyiha maqsadi",
+      "projects.odoo.details.reflection.blocks.0.parts.0.text": "ERP tizimlari tashkilot bo‘ylab biznes jarayonlari, ma’lumotlar va qaror qabul qilishni qanday bog‘lashini amaliy jihatdan tushunish.",
+      "projects.odoo.details.reflection.blocks.1.parts.0.text": "Fokus: ERP funksiyalarini tushunish, jarayonlar integratsiyasi va Odoo asosidagi biznes jarayonlari.",
+      "projects.odoo.details.sections.5.blocks.1.parts.0.text": "Odoo Student Diploma sertifikatini ko‘rish ↗",
+      "projects.cisco.details.subtitle": "Kursni tamomlash sertifikati · Boshlang‘ich daraja · 6 soat",
+      "projects.cisco.details.lead": "Ushbu Cisco Networking Academy kursi menga Data Science, ma’lumotlar tahlili va data engineering asoslarini, shuningdek sun’iy intellekt va mashinaviy o‘rganish qarorlar va prognozlarni qo‘llab-quvvatlash uchun ma’lumotlardan qanday foydalanishini o‘rgatdi.",
+      "projects.cisco.details.question": "Xom ma’lumotlar qanday qilib yaxshiroq qaror qabul qilishga yordam beradigan axborotga aylanadi?",
+      "projects.cisco.details.sections.0.title": "Kurs nimalarni qamrab oladi",
+      "projects.cisco.details.sections.0.blocks.0.parts.0.text": "Kurs Data Science bo‘yicha asosiy tushunchalarni beradi va ma’lumotlar tahlili, data engineering, Data Science, sun’iy intellekt hamda mashinaviy o‘rganish o‘rtasidagi bog‘liqlikni tushuntiradi.",
+      "projects.cisco.details.sections.1.title": "Kurs mazmuni",
+      "projects.cisco.details.sections.1.blocks.0.items.0": "Analitika bilan amaliy tanishuv",
+      "projects.cisco.details.sections.1.blocks.0.items.1": "Ma’lumotlarni yig‘ish va saqlash",
+      "projects.cisco.details.sections.1.blocks.0.items.2": "Sun’iy intellekt va mashinaviy o‘rganish",
+      "projects.cisco.details.sections.1.blocks.0.items.3": "Ma’lumotlar tahlili sohasidagi karyerani boshlash",
+      "projects.cisco.details.sections.2.title": "O‘qish formati",
+      "projects.cisco.details.sections.2.blocks.0.items.0": "Boshlang‘ich daraja, tavsiya etilgan oldindan talablar yo‘q.",
+      "projects.cisco.details.sections.2.blocks.0.items.1": "Taxminan 6 soatlik ta’lim.",
+      "projects.cisco.details.sections.2.blocks.0.items.2": "4 modul va 5 ta amaliy laboratoriya mashg‘uloti.",
+      "projects.cisco.details.sections.2.blocks.0.items.3": "Videolar, bilimni tekshirish topshiriqlari, modul testlari va yakuniy imtihon.",
+      "projects.cisco.details.sections.3.title": "Bilim va ko‘nikmalar",
+      "projects.cisco.details.sections.3.blocks.0.items.0": "Ma’lumotlar tahlili ma’lumotlarga asoslangan qarorlarni qanday qo‘llab-quvvatlashini tushunish.",
+      "projects.cisco.details.sections.3.blocks.0.items.1": "Tuzilgan, yarim tuzilgan va tuzilmagan ma’lumotlarni farqlash.",
+      "projects.cisco.details.sections.3.blocks.0.items.2": "Ma’lumotlarni yig‘ish, saqlash va tahlilga tayyorlashni tushunish.",
+      "projects.cisco.details.sections.3.blocks.0.items.3": "Big Data’ning 5V tushunchalari: hajm, tezlik, xilma-xillik, ishonchlilik va qiymatni o‘rganish.",
+      "projects.cisco.details.sections.3.blocks.0.items.4": "AI va mashinaviy o‘rganish ma’lumotlardan qanday foydalanishini tushunish.",
+      "projects.cisco.details.sections.3.blocks.0.items.5": "Data analyst, data engineer va data scientist rollari o‘rtasidagi farqlarni tushunish.",
+      "projects.cisco.details.sections.4.title": "Kurs natijasining tasdig‘i",
+      "projects.cisco.details.sections.4.blocks.0.parts.0.text": "Cisco Networking Academy kurs yakunlanganini tasdiqlaydi. Cisco ushbu kursga tegishli raqamli badge ham taklif qiladi; e’lon qilingan mezonlarda kompleks imtihondan o‘tish uchun 70% natija ko‘rsatilgan.",
+      "projects.cisco.details.sections.5.title": "Bu mening profilim uchun nega muhim",
+      "projects.cisco.details.sections.5.blocks.0.parts.0.text": "Kurs ma’lumotlarga asoslangan qaror qabul qilish bo‘yicha tayyorgarligimni kuchaytiradi va biznes tahlili, menejment hamda raqamli transformatsiyadagi faoliyatimni to‘ldiradi.",
+      "projects.cisco.details.sections.6.title": "Sertifikat va rasmiy kurs",
+      "projects.cisco.details.sections.6.blocks.0.parts.0.text": "Cisco sertifikatimni ko‘rish ↗",
+      "projects.cisco.details.sections.6.blocks.1.parts.0.text": "Cisco rasmiy kursini ko‘rish ↗",
+      "projects.cisco.details.reflection.title": "Bu mening profilimga nima qo‘shadi",
+      "projects.cisco.details.reflection.blocks.0.parts.0.text": "Ma’lumotlar tushunchalari, tahlil, AI/ML va ma’lumotlar sohasidagi karyera yo‘nalishlari bo‘yicha tizimli asos bo‘lib, biznes va menejmentda ma’lumotlardan yanada ongli foydalanishga yordam beradi.",
+      "projects.cisco.details.reflection.blocks.1.parts.0.text": "Cisco Networking Academy · Introduction to Data Science · Sertifikat 2026 yilda yakunlangan.",
+      "projects.rise.description": "HKUST (Guangzhou)dagi xalqaro talabalar haftaligi: ma’ruzalar va laboratoriya tashriflari XPeng, DJI va Pony.ai texnologik kompaniyalariga tashriflar bilan uyg‘unlashgan.",
+      "projects.rise.tags.3": "Texnologik tashriflar",
+      "projects.rise.details.label": "Xalqaro tajriba · RBM RISE Week",
+      "projects.rise.details.title": "HKUST (Guangzhou)dagi RISE Week",
+      "projects.rise.details.subtitle": "College of Future Technology · 2026-yil yanvar",
+      "projects.rise.details.lead": "Men CFT RBM International Student Experience Week dasturida qatnashib, fanlararo ta’lim universitet tadqiqotlarini rivojlanayotgan texnologik kompaniyalar bilan qanday bog‘lashini yaqindan ko‘rdim.",
+      "projects.rise.details.facts.0": "Guanchjou, Xitoy",
+      "projects.rise.details.facts.1": "Universitet + kompaniya tashriflari",
+      "projects.rise.details.question": "Fanlararo ta’limdan aqlli mobilitet, dronlar va avtonom boshqaruvgacha.",
+      "projects.rise.details.gallery.0.category": "Universitet tashrifi",
+      "projects.rise.details.gallery.0.description": "RISE Week davomida HKUST(GZ)da ma’ruzalarda qatnashdim va laboratoriyalarga tashrif buyurdim. College of Future Technology akademik ta’limni real muammolar bilan bog‘lash uchun fanlararo, loyihaga asoslangan ta’limdan foydalanadi.",
+      "projects.rise.details.gallery.0.link.label": "HKUST(GZ) rasmiy sayti ↗",
+      "projects.rise.details.gallery.3.category": "Texnologik kompaniyaga tashrif",
+      "projects.rise.details.gallery.1.description": "XPeng — Guanchjouda joylashgan, aqlli elektr avtomobillariga yo‘naltirilgan texnologik kompaniya. Tashrif mobilitet kompaniyalari avtomobil ishlab chiqishni dasturiy ta’minot, intellektual tizimlar va R&D bilan qanday birlashtirishini yaqindan ko‘rish imkonini berdi.",
+      "projects.rise.details.gallery.1.link.label": "XPeng rasmiy sayti ↗",
+      "projects.rise.details.gallery.2.description": "DJI ijodiy va professional sohalarda qo‘llanadigan dron, tasvirga olish va stabilizatsiya texnologiyalarini ishlab chiqadi. Tashrif ilg‘or apparat va dasturiy yechimlar turli sohalar uchun amaliy vositaga qanday aylanishini ko‘rsatdi.",
+      "projects.rise.details.gallery.2.link.label": "DJI rasmiy sayti ↗",
+      "projects.rise.details.gallery.3.description": "Pony.ai Robotaxi, Robotruck va shaxsiy avtomobillar uchun avtonom boshqaruv texnologiyalarini ishlab chiqadi. Tashrif haydovchisiz tizimlar real hayotda qo‘llash tomon qanday rivojlanayotganini ko‘rish imkonini berdi.",
+      "projects.rise.details.gallery.3.link.label": "Pony.ai rasmiy sayti ↗",
+      "projects.rise.details.certificate.title": "Ishtirok sertifikati",
+      "projects.rise.details.certificate.description": "Dastur sertifikati ishtirokning rasmiy tasdig‘i sifatida shu yerda saqlanadi.",
+      "projects.rise.details.certificate.label": "Ishtirok sertifikatini ko‘rish ↗",
+      "projects.rise.details.reflection.title": "Bu hafta menga nima berdi",
+      "projects.rise.details.reflection.blocks.0.parts.0.text": "Bu tajriba akademik ta’limni mobilitet, dronlar va avtonom texnologiyalar ustida ishlayotgan kompaniyalar bilan bog‘ladi hamda innovatsiya, raqamli transformatsiya va funksiyalararo muammolarni hal qilishga bo‘lgan qiziqishimni kuchaytirdi.",
+      "projects.rise.details.reflection.blocks.1.items.0": "Xalqaro ta’lim",
+      "projects.rise.details.reflection.blocks.1.items.1": "Texnologiyalar bilan tanishuv",
+      "projects.rise.details.reflection.blocks.1.items.2": "Universitet–sanoat aloqasi",
+      "projects.capacity.category": "Universitet loyihasi",
+      "projects.capacity.meta": "Industry 4.0 innovatsion loyihasi · 2026-yil bahor",
+      "projects.capacity.description": "Mijoz buyurtmalarini real vaqt ishlab chiqarish quvvati ma’lumotlari bilan bog‘laydigan Industry 4.0 konsepsiyasini ishlab chiqishga qaratilgan universitet jamoaviy loyihasi. Maqsad — Savdo va Operatsiyalar bo‘limlari bir xil ma’lumot asosida qaror qabul qilishi.",
+      "projects.capacity.tags.2": "Quvvatni rejalashtirish",
+      "projects.capacity.tags.3": "Savdo va operatsiyalar",
+      "projects.capacity.details.label": "Universitet guruh loyihasi · Industry 4.0",
+      "projects.capacity.details.title": "Ishlab chiqarish quvvatini real vaqtda monitoring qilish",
+      "projects.capacity.details.subtitle": "IMGT430 · 2026-yil bahor",
+      "projects.capacity.details.lead": "Real vaqt ishlab chiqarish ma’lumotlari Savdo bo‘limiga realistik yetkazib berish muddatlarini belgilashga va Operatsiyalar bo‘limiga quvvat cheklovlarini ertaroq aniqlashga qanday yordam berishini o‘rgangan universitet jamoaviy loyihasi.",
+      "projects.capacity.details.question": "Zavod mavjud uskunalarni to‘liq almashtirmasdan buyurtmalar, uskunalar holati va quvvat bo‘yicha qarorlarni qanday bog‘lashi mumkin?",
+      "projects.capacity.details.flow.0": "Mijoz buyurtmalari",
+      "projects.capacity.details.flow.1": "Uskunalarning IoT ma’lumotlari",
+      "projects.capacity.details.flow.2": "Quvvat hisoblash moduli",
+      "projects.capacity.details.flow.3": "Umumiy dashboard",
+      "projects.capacity.details.sections.0.title": "Biz yechishga harakat qilgan muammo",
+      "projects.capacity.details.sections.0.blocks.0.parts.0.text": "Jamoamiz Savdo va ishlab chiqarish operatsiyalari o‘rtasidagi keng tarqalgan uzilishga e’tibor qaratdi: buyurtmalar qo‘lda kiritilishi, Savdo bo‘limida sexning joriy quvvati bo‘yicha ma’lumot bo‘lmasligi va tor joylar faqat muddat yaqinlashganda ko‘rinishi mumkin.",
+      "projects.capacity.details.sections.1.title": "Taklif etilgan yechim",
+      "projects.capacity.details.sections.1.blocks.0.items.0": "Mijoz buyurtmalarini takroriy qo‘lda jadvalga kiritish o‘rniga bitta markaziy tizimda jamlash.",
+      "projects.capacity.details.sections.1.blocks.0.items.1": "Uskuna ishlayotgani, to‘xtagani yoki bo‘sh turganini aniqlash uchun qo‘shimcha IoT sensorlari yoki mavjud ma’lumot interfeyslaridan foydalanish.",
+      "projects.capacity.details.sections.1.blocks.0.items.2": "Uskuna ma’lumotlarini umumiy ma’lumot muhitiga yuborishdan oldin edge gateway orqali yig‘ish va qayta ishlash.",
+      "projects.capacity.details.sections.1.blocks.0.items.3": "Buyurtma talabini mavjud uskuna quvvati bilan birlashtirib, tor joylarni aniqlaydigan quvvat hisoblash modulidan foydalanish.",
+      "projects.capacity.details.sections.1.blocks.0.items.4": "Yetkazib berish va quvvat bo‘yicha qarorlar uchun Savdo va Operatsiyalar bo‘limlariga bir xil real vaqt dashboardini taqdim etish.",
+      "projects.capacity.details.sections.2.title": "Haqiqiy kompaniya tashrifi va maxfiylik",
+      "projects.capacity.details.sections.2.blocks.0.parts.0.text": "Loyiha haqiqiy ishlab chiqarish korxonasiga amalga oshirilgan tashrif davomida olingan amaliy kuzatuvlar bilan boyitildi. Bizga real ishlab chiqarish muhitini ko‘rish imkonini bergani uchun tashkilotga minnatdormiz. Kompaniyaning iltimosiga binoan uning nomi ommaga oshkor qilinmaydi. Shu sababli portfolioda kompaniyaning maxfiylik istagiga hurmat bilan faqat loyiha konsepsiyasi, jarayon kuzatuvlari va akademik tahlil taqdim etiladi.",
+      "projects.capacity.details.sections.3.title": "Konsepsiyaning amaliy tomoni",
+      "projects.capacity.details.sections.3.blocks.0.items.0": "Uskuna monitoringini alohida muhandislik dashboardi sifatida emas, balki mijoz buyurtmalari ma’lumotlarini ishlab chiqarish quvvati bilan bog‘langan holda ko‘radi.",
+      "projects.capacity.details.sections.3.blocks.0.items.1": "Vibratsiya yoki tok iste’molini kuzatuvchi qo‘shimcha sensorlar orqali eski uskunalar bilan ham ishlashi mumkin.",
+      "projects.capacity.details.sections.3.blocks.0.items.2": "Bosqichma-bosqich joriy etishni qo‘llab-quvvatlaydi: avval bitta liniyada sinab ko‘rish, konsepsiyani tasdiqlash va keyin kengaytirish.",
+      "projects.capacity.details.sections.3.blocks.0.items.3": "To‘liq 3D digital twin talab qilmasdan mavjud quvvatning soddalashtirilgan raqamli ko‘rinishidan foydalanadi.",
+      "projects.capacity.details.sections.4.title": "Moliyaviy amalga oshirish modeli",
+      "projects.capacity.details.sections.4.blocks.0.parts.0.text": "Akademik loyiha doirasida jamoamiz bitta ishlab chiqarish liniyasi uchun namunaviy pilot biznes-model ishlab chiqdi. Modelda taxminan $120 000 boshlang‘ich investitsiya, yiliga taxminan $68 000 sof foyda va qariyb 21 oylik qoplanish muddati hisoblangan.",
+      "projects.capacity.details.sections.4.blocks.1.items.0.label": "Namunaviy pilot investitsiyasi",
+      "projects.capacity.details.sections.4.blocks.1.items.1.label": "Prognoz qilingan sof yillik foyda",
+      "projects.capacity.details.sections.4.blocks.1.items.2.label": "Taxminiy qoplanish muddati",
+      "projects.capacity.details.sections.4.blocks.2.parts.0.text": "Bu raqamlar model farazlariga asoslangan akademik loyiha baholaridir; ular tashrif buyurilgan kompaniyaning audit qilingan natijalari yoki oshkor qilingan moliyaviy ma’lumotlari emas.",
+      "projects.capacity.details.sections.5.title": "Joriy etish yondashuvi",
+      "projects.capacity.details.sections.5.blocks.0.items.0": "1-bosqich: jarayonni xaritalash, pilot liniyani tanlash va zarur ma’lumotlarni belgilash.",
+      "projects.capacity.details.sections.5.blocks.0.items.1": "2-bosqich: sensorlarni o‘rnatish, gatewayni sozlash va dastlabki dashboardni yaratish.",
+      "projects.capacity.details.sections.5.blocks.0.items.2": "3-bosqich: Savdo va Operatsiyalar fikr-mulohazalari bilan pilotni o‘tkazish va tizimni takomillashtirish.",
+      "projects.capacity.details.sections.5.blocks.0.items.3": "4-bosqich: boshqa ishlab chiqarish liniyalariga kengaytirish va prognozlash yoki avtomatik ogohlantirishlarni qo‘shish.",
+      "projects.capacity.details.sections.6.blocks.0.items.1": "IoT konsepsiyalari",
+      "projects.capacity.details.sections.6.blocks.0.items.2": "Jarayonlar tahlili",
+      "projects.capacity.details.sections.6.blocks.0.items.4": "Xarajat va foyda tahlili",
+      "projects.capacity.details.sections.6.blocks.0.items.5": "Savdo va operatsiyalarni muvofiqlashtirish",
+      "projects.capacity.details.sections.6.blocks.0.items.6": "Jamoaviy loyiha ishi",
+      "projects.capacity.details.reflection.blocks.0.parts.0.text": "Savdo va Operatsiyalar bo‘limlariga quvvatning umumiy real vaqt ko‘rinishini berib, mijozlarga berilgan va’dalar bilan ishlab chiqarishdagi real holat o‘rtasidagi axborot uzilishini kamaytirish.",
+      "projects.capacity.details.reflection.blocks.1.parts.0.text": "Universitet guruh loyihasi · tizimning konseptual dizayni va amalga oshirish tahlili · hisobot fayli saytga joylashtirilmagan.",
+      "profile.location": "Toshkent, O‘zbekiston",
+      "experience.0.tags.0": "Loyihalarni muvofiqlashtirish",
+      "experience.0.tags.1": "Talablar",
+      "experience.0.tags.2": "Jarayonlarni loyihalash",
+      "experience.1.tags.0": "Biznes tahlili",
+      "experience.2.tags.1": "Xalqaro tajriba",
+      "projects.erp.tags.3": "Ishlab chiqarish",
+      "projects.erp.details.sections.1.title": "Mening hissam",
+      "projects.erp.details.sections.4.title": "Ko‘rsatilgan ko‘nikmalar",
+      "projects.capacity.title": "Ishlab chiqarish quvvatini real vaqtda monitoring qilish",
+      "projects.capacity.details.reflection.title": "Loyiha maqsadi",
+      "projects.magmastore.description": "O‘zbekistonda bizneslarni yetkazib beruvchilar bilan bog‘laydigan B2B e-commerce platformasi. Men loyiha muvofiqlashtiruvi, marketplace tuzilmasi, ish jarayonlarini loyihalash va jarayonlarni takomillashtirishga hissa qo‘shaman.",
+      "projects.magmastore.tags.3": "Jarayonlarni loyihalash",
+      "projects.rise.tags.0": "Xalqaro tajriba",
+      "projects.rise.details.gallery.1.category": "Texnologik kompaniyaga tashrif",
+      "projects.rise.details.gallery.2.category": "Texnologik kompaniyaga tashrif",
+      "projects.odoo.category": "Sertifikatlar",
+      "profile.role": "Sanoat menejmenti · Biznes tahlili · Raqamli va barqaror operatsiyalar",
+      "profile.intro": "Mustahkam akademik tayyorgarlik va amaliy loyiha tajribasiga ega, biznes tahlili, ishlab chiqarish operatsiyalari va raqamli transformatsiyani bog‘lovchi sanoat menejmenti bitiruvchisi.",
+      "profile.focus": "Tadqiqot, xarajatlar tahlili va loyihalarni muvofiqlashtirish tajribasiga tayangan holda ERP tizimlaridan foydalanish, ma’lumotlarga asoslangan operatsiyalar va barqaror boshqaruvga qiziqaman.",
+      "experience.0.description": "O‘zbekistondagi biznes xaridorlari va yetkazib beruvchilarini bog‘lovchi B2B platformada talablar, ish jarayonlari va funksiyalararo loyiha ishlarini muvofiqlashtiraman. Platforma tuzilmasi va jarayonlarni takomillashtirishga hissa qo‘shaman.",
+      "experience.1.description": "Biznes talablarini tahlil qildim, jarayonlarni aniq ish oqimlariga aylantirdim va operatsion qarorlar hamda tartibli loyiha ijrosi uchun KPI hisobotlari bilan ishladim.",
+      "experience.2.description": "Germaniyaning Nyurnberg shahrida obyektlarga xizmat ko‘rsatish sohasida ishladim; xalqaro muhitda mustaqil yashash va ishlash davomida kundalik operatsiyalar hamda jamoaviy ish tajribasini orttirdim.",
+      "projects.magmastore.details.label": "Amaliy boshqaruv · B2B platforma",
+      "projects.magmastore.details.title": "Biznes operatsiyalari uchun B2B platforma tuzilmasini shakllantirish.",
+      "projects.magmastore.details.subtitle": "MAGMASTORE · Loyiha menejeri",
+      "projects.magmastore.details.question": "Platforma talablarini qanday qilib aniq operatsion jarayonlarga aylantirish mumkin?",
+      "projects.magmastore.details.sections.0.title": "Biznes konteksti",
+      "projects.magmastore.details.sections.0.blocks.0.parts.0.text": "MAGMASTORE O‘zbekistondagi biznes xaridorlari va yetkazib beruvchilarini bog‘laydi. Faoliyatim ushbu munosabatlarni qo‘llab-quvvatlovchi talablar, platforma tuzilmasi va ish jarayonlariga qaratilgan.",
+      "projects.magmastore.details.sections.1.blocks.0.items.0": "Talablar va funksiyalararo loyiha ijrosini muvofiqlashtirish.",
+      "projects.magmastore.details.sections.1.blocks.0.items.1": "Platforma tuzilmasi va ish jarayonlarini loyihalashga hissa qo‘shish.",
+      "projects.magmastore.details.sections.1.blocks.0.items.2": "Biznes operatsiyalari nuqtayi nazaridan jarayonlarni takomillashtirishni qo‘llab-quvvatlash.",
+      "projects.magmastore.details.sections.2.title": "Qamrov va dalillar",
+      "projects.magmastore.details.sections.2.blocks.0.parts.0.text": "Ushbu loyiha tavsifi portfolioda qayd etilgan vazifalarni umumlashtiradi. Unda o‘lchangan biznes natijalari da’vo qilinmaydi va kompaniyaning ichki ma’lumotlari oshkor etilmaydi.",
+      "projects.magmastore.details.reflection.title": "Boshqaruv nuqtayi nazari",
+      "skills.core.title": "Asosiy kompetensiyalar",
+      "skills.core.items.0": "Biznes tahlili",
+      "skills.core.items.2": "Loyihalarni boshqarish / muvofiqlashtirish",
+      "skills.core.items.4": "Xarajatlar / moliyaviy tahlil",
+      "skills.core.items.5": "ERP va raqamli transformatsiya",
+      "skills.analytics.title": "Tahlil va biznes vositalari",
+      "skills.productivity.title": "Samaradorlik va kommunikatsiya",
+      "transcript.title": "Akademik transkript",
+      "transcript.summary.0.label": "Yakuniy GPA",
+      "transcript.summary.1.label": "O‘zlashtirilgan kreditlar",
+      "transcript.courseworkLabel": "Barcha fanlar va baholar",
+      "transcript.courseworkTitle": "O‘qilgan fanlar",
+      "transcript.years.0.semesters.0.headers.0": "Fan",
+      "transcript.years.0.semesters.0.headers.2": "Baho",
+      "transcript.years.0.semesters.0.headers.3": "GPA qiymati",
+      "transcript.years.0.semesters.1.headers.0": "Fan",
+      "transcript.years.0.semesters.1.headers.2": "Baho",
+      "transcript.years.0.semesters.1.headers.3": "GPA qiymati",
+      "transcript.years.1.semesters.0.headers.0": "Fan",
+      "transcript.years.1.semesters.0.headers.2": "Baho",
+      "transcript.years.1.semesters.0.headers.3": "GPA qiymati",
+      "transcript.years.1.semesters.1.headers.0": "Fan",
+      "transcript.years.1.semesters.1.headers.2": "Baho",
+      "transcript.years.1.semesters.1.headers.3": "GPA qiymati",
+      "transcript.years.2.semesters.0.headers.0": "Fan",
+      "transcript.years.2.semesters.0.headers.2": "Baho",
+      "transcript.years.2.semesters.0.headers.3": "GPA qiymati",
+      "transcript.years.2.semesters.0.rows.0.0": "Sifat boshqaruvi va Six Sigma",
+      "transcript.years.2.semesters.0.rows.4.0": "Xarajatlarni boshqarish",
+      "transcript.years.2.semesters.1.headers.0": "Fan",
+      "transcript.years.2.semesters.1.headers.2": "Baho",
+      "transcript.years.2.semesters.1.headers.3": "GPA qiymati",
+      "transcript.years.2.semesters.1.rows.0.0": "Logistika va ta’minot zanjiri boshqaruvi",
+      "transcript.years.3.semesters.0.headers.0": "Fan",
+      "transcript.years.3.semesters.0.headers.2": "Baho",
+      "transcript.years.3.semesters.0.headers.3": "GPA qiymati",
+      "transcript.years.3.semesters.0.rows.4.0": "Strategik boshqaruv",
+      "transcript.years.3.semesters.1.headers.0": "Fan",
+      "transcript.years.3.semesters.1.headers.2": "Baho",
+      "transcript.years.3.semesters.1.headers.3": "GPA qiymati",
+      "transcript.years.3.semesters.1.rows.3.0": "Ishlab chiqarishni rejalashtirish va boshqarish",
+      "transcript.grading.label": "Universitet shkalasi",
+      "transcript.grading.title": "Baholash tizimi",
+      "transcript.grading.note": "Maksimal GPA: 4.5",
+      "transcript.grading.headers.0": "Foiz",
+      "transcript.grading.headers.1": "Baho",
+      "transcript.grading.headers.2": "GPA qiymati",
+      "transcript.grading.headers.3": "Izoh",
+      "experience.0.tags.3": "B2B elektron savdo",
+      "education.courses.4.name": "Sanoat 4.0",
+      "projects.capacity.tags.0": "Sanoat 4.0",
+      "projects.capacity.details.sections.6.blocks.0.items.0": "Sanoat 4.0",
+      "projects.capacity.details.sections.6.blocks.0.items.3": "Quvvatni rejalashtirish",
+      "projects.magmastore.title": "MAGMASTORE — B2B elektron savdo platformasi",
+      "projects.magmastore.tags.0": "B2B elektron savdo",
+      "projects.magmastore.details.reflection.blocks.0.items.3": "B2B elektron savdo",
+      "projects.rise.title": "CFT RBM xalqaro talabalar tajriba haftaligi (RISE Week)",
+      "projects.odoo.title": "Odoo talaba diplomi",
+      "projects.odoo.details.sections.1.blocks.0.parts.0.text": "Potensial mijoz → Tijorat taklifi → Sotuv buyurtmasi → Xarid / Zaxirani to‘ldirish → Ombor → Yetkazib berish → Hisob-faktura → To‘lov → Buxgalteriya.",
+      "projects.odoo.details.sections.2.blocks.0.items.1": "Savdo",
+      "projects.cisco.title": "Ma’lumotlar faniga kirish",
+      "projects.cisco.tags.0": "Ma’lumotlar fani",
+      "projects.cisco.details.title": "Ma’lumotlar faniga kirish",
+      "ui.excellent_exceeds_the_highest_standards": "A’lo — eng yuqori talablardan ustun",
+      "ui.excellent_meets_the_highest_standards": "A’lo — eng yuqori talablarga javob beradi",
+      "ui.very_good_meets_standards": "Juda yaxshi — talablarga javob beradi",
+      "ui.good_competent": "Yaxshi — yetarli bilimga ega",
+      "ui.minimally_acceptable_lowest_passing_grade": "Minimal qoniqarli — eng past o‘tish bahosi",
+      "transcript.lead": "Fanlarim, baholarim va universitet baholash tizimining portfolio ko‘rinishi. Inglizcha ko‘rinishda fanlarning rasmiy nomlari saqlangan; tarjimalar tanishishni osonlashtiradi. Shaxsiy identifikatorlar ko‘rsatilmaydi.",
+      "transcript.years.0.semesters.0.title": "Kuz 2022",
+      "transcript.years.0.semesters.0.rows.0.0": "Akademik va muloqot ko‘nikmalari",
+      "transcript.years.0.semesters.0.rows.1.0": "Akademik ingliz tili 1",
+      "transcript.years.0.semesters.0.rows.2.0": "Matematik analizga tayyorgarlik",
+      "transcript.years.0.semesters.0.rows.3.0": "Fizika I",
+      "transcript.years.0.semesters.0.rows.4.0": "Kompyuter savodxonligi",
+      "transcript.years.0.semesters.1.title": "Bahor 2023",
+      "transcript.years.0.semesters.1.rows.0.0": "Ijodiy fikrlash va dizayn",
+      "transcript.years.0.semesters.1.rows.1.0": "Akademik ingliz tili 2",
+      "transcript.years.0.semesters.1.rows.2.0": "Matematik analiz 1",
+      "transcript.years.0.semesters.1.rows.3.0": "Ijtimoiy fanlar mavzulari",
+      "transcript.years.0.semesters.1.rows.4.0": "Biznes asoslari",
+      "transcript.years.1.semesters.0.title": "Kuz 2023",
+      "transcript.years.1.semesters.0.rows.0.0": "Mikroiqtisodiyot 1",
+      "transcript.years.1.semesters.0.rows.1.0": "Tadbirkorlikka kirish",
+      "transcript.years.1.semesters.0.rows.2.0": "Moliyaviy hisob",
+      "transcript.years.1.semesters.0.rows.3.0": "Sanoat menejmentiga kirish",
+      "transcript.years.1.semesters.0.rows.4.0": "Statistik usullar va ularning qo‘llanilishi",
+      "transcript.years.1.semesters.1.title": "Bahor 2024",
+      "transcript.years.1.semesters.1.rows.0.0": "Tadbirkorlik marketingi",
+      "transcript.years.1.semesters.1.rows.1.0": "Xarajatlar hisobi",
+      "transcript.years.1.semesters.1.rows.2.0": "Muloqot etikasi",
+      "transcript.years.1.semesters.1.rows.3.0": "Ishlab chiqarish jarayonlariga kirish",
+      "transcript.years.1.semesters.1.rows.4.0": "Biznes kommunikatsiyalari",
+      "transcript.years.1.semesters.1.rows.5.0": "Chiziqli algebra",
+      "transcript.years.2.semesters.0.title": "Kuz 2024",
+      "transcript.years.2.semesters.0.rows.1.0": "Barqaror investitsiyalar va moliyaviy boshqaruv",
+      "transcript.years.2.semesters.0.rows.2.0": "Makroiqtisodiyot 1",
+      "transcript.years.2.semesters.0.rows.3.0": "Ergonomika",
+      "transcript.years.2.semesters.1.title": "Bahor 2025",
+      "transcript.years.2.semesters.1.rows.1.0": "Biznes etikasi va huquqi",
+      "transcript.years.2.semesters.1.rows.2.0": "Biznes modeli innovatsiyasi",
+      "transcript.years.2.semesters.1.rows.3.0": "Falsafa",
+      "transcript.years.2.semesters.1.rows.4.0": "Mehnat va sanoat xavfsizligi",
+      "transcript.years.3.semesters.0.title": "Kuz 2025",
+      "transcript.years.3.semesters.0.rows.0.0": "Bitiruv loyihasi 1 / Amaliyot 1",
+      "transcript.years.3.semesters.0.rows.1.0": "Barqaror operatsiyalar va atrof-muhitni boshqarish",
+      "transcript.years.3.semesters.0.rows.2.0": "Boshqaruv axborot tizimlari",
+      "transcript.years.3.semesters.0.rows.3.0": "Optimallashtirish va o‘yinlar nazariyasi",
+      "transcript.years.3.semesters.1.title": "Bahor 2026",
+      "transcript.years.3.semesters.1.rows.0.0": "O‘zbekiston tarixi",
+      "transcript.years.3.semesters.1.rows.1.0": "Sanoat 4.0",
+      "transcript.years.3.semesters.1.rows.2.0": "Biznes intellekti",
+      "transcript.years.3.semesters.1.rows.4.0": "Bitiruv loyihasi 2 / Amaliyot 2",
+      "transcript.years.3.semesters.1.rows.5.0": "Bitiruv amaliyoti",
+      "transcript.years.3.semesters.1.rows.6.0": "Bitiruv loyihasi",
+      "transcript.grading.rows.4.3": "Qoniqarli",
+      "transcript.grading.rows.5.3": "Qoniqarli",
+      "transcript.grading.rows.7.3": "Qoniqarsiz",
+      "transcript.grading.rows.8.3": "O‘tdi/o‘tmadi tizimida D yoki undan yuqori",
+      "transcript.grading.rows.9.3": "O‘tdi/o‘tmadi tizimida o‘tmadi; GPA hisobiga kiritiladi",
+      "transcript.grading.rows.10.3": "Ko‘chirilgan kredit",
+      "transcript.grading.rows.11.3": "Kursdan chiqish",
+      "transcript.label": "Akademik natijalar · New Uzbekistan University",
+      "transcript.grading.rows.0.3": "A’lo — eng yuqori talablardan ustun",
+      "transcript.grading.rows.1.3": "A’lo — eng yuqori talablarga javob beradi",
+      "transcript.grading.rows.2.3": "Juda yaxshi — talablarga javob beradi",
+      "transcript.grading.rows.3.3": "Yaxshi — yetarli bilimga ega",
+      "transcript.grading.rows.6.3": "Minimal qoniqarli — eng past o‘tish bahosi"
+    },
+    "ru": {
+      "ui.skip_to_content": "Перейти к содержимому",
+      "ui.main_navigation": "Основная навигация",
+      "ui.open_navigation": "Открыть меню",
+      "ui.language": "Язык",
+      "ui.choose_language": "Выбрать язык",
+      "sections.education.label": "Образование",
+      "sections.about.label": "Академический профиль",
+      "sections.projects.label": "Исследования и достижения",
+      "sections.experience.label": "Опыт",
+      "sections.recommendations.label": "Рекомендации",
+      "ui.recommendations": "Рекомендации.",
+      "ui.academic_and_professional_recommendations_that_provide_third_party_context_on_my_work_char": "Академические и профессиональные рекомендации, которые дополняют мой профиль независимой оценкой моей работы, личных качеств и потенциала.",
+      "ui.back_to_recommendations": "← К рекомендациям",
+      "ui.recommendation": "Рекомендация",
+      "ui.view_recommendation": "Открыть рекомендацию →",
+      "ui.view_original_letter": "Открыть оригинал письма",
+      "ui.professor_website": "Сайт профессора ↗",
+      "recommendations.0.title": "Академическая рекомендация — Prof. Dr. Dr. Paul P. Momtaz",
+      "recommendations.0.position": "Профессор предпринимательских финансов",
+      "recommendations.0.organization": "TUM School of Management · Технический университет Мюнхена",
+      "recommendations.0.relationship": "Приглашённый лектор в New Uzbekistan University",
+      "recommendations.0.date": "Март 2025",
+      "recommendations.0.summary": "После гостевой лекции в New Uzbekistan University профессор Момтаз отметил мою академическую вовлечённость, качество участия в обсуждениях, зрелость, надёжность и способность эффективно взаимодействовать с людьми разного происхождения и безоговорочно рекомендовал меня.",
+      "recommendations.0.details.0.heading": "Академическая вовлечённость",
+      "recommendations.0.details.0.body": "Профессор Момтаз впервые познакомился с моей работой во время гостевой лекции в New Uzbekistan University в марте 2025 года. В письме он отмечает, что я был одним из самых активных участников и выделялся качеством своих выступлений в ходе обсуждений.",
+      "recommendations.0.details.1.heading": "Личные качества и сотрудничество",
+      "recommendations.0.details.1.body": "В письме он характеризует меня как интеллектуально сильного, скромного, зрелого и надёжного человека, отдельно отмечая спокойствие, порядочность и взаимное уважение в работе с другими.",
+      "recommendations.0.details.2.heading": "Коммуникация и социальные навыки",
+      "recommendations.0.details.2.body": "Он подчёркивает мою способность общаться и находить подход к людям с разным опытом и происхождением, положительно оценивая мои навыки выстраивания связей и социальные навыки, а также внеучебную активность.",
+      "recommendations.0.details.3.heading": "Обучение и стремления",
+      "recommendations.0.details.3.body": "Он отмечает моё стремление учиться и одновременно готовность делиться опытом с другими сильными студентами, а также желание внести вклад в развитие менеджмента и экономики.",
+      "recommendations.0.details.4.heading": "Итоговая оценка",
+      "recommendations.0.details.4.body": "Опираясь на свой преподавательский опыт в TUM, Goethe University Frankfurt и UCLA, в том числе с MBA и Executive MBA, профессор Момтаз относит меня к самым сильным выпускникам New Uzbekistan University и рекомендует меня без каких-либо оговорок.",
+      "sections.skills.label": "Навыки и технические инструменты",
+      "sections.contact.label": "Контакты",
+      "education.location": "Ташкент, Узбекистан",
+      "ui.get_in_touch": "Связаться",
+      "ui.print_save_cv": "Печать / Сохранить CV",
+      "ui.phone": "Телефон",
+      "ui.personal_portfolio_cv": "Личное портфолио / CV",
+      "ui.profile_at_a_glance": "Краткий профиль",
+      "profile.availability": "Открыт к обучению в магистратуре и профессиональным возможностям",
+      "profile.headline": "Сильная академическая база. Практический опыт.",
+      "ui.education_research_experience": "Образование. Исследования. Опыт.",
+      "ui.explore_the_profile": "Смотреть профиль",
+      "ui.academic_foundation": "Академическая база.",
+      "ui.management_operations_analytics_and_business": "Менеджмент, операционное управление, аналитика и бизнес.",
+      "ui.2022_2026_tashkent_uzbekistan": "2022 — 2026 · Ташкент, Узбекистан",
+      "education.degree": "Бакалаврская программа «Industrial Management»",
+      "education.note": "Обучение по программе полностью ведётся на английском языке.",
+      "education.stats.0.label": "Итоговый GPA",
+      "education.stats.1.label": "Освоено кредитов",
+      "education.stats.2.value": "С отличием",
+      "education.stats.2.label": "Диплом с отличием",
+      "ui.full_academic_transcript": "Полная академическая выписка",
+      "ui.courses_grades_grading_system": "Курсы · Оценки · Система оценивания",
+      "ui.back_to_education": "← К образованию",
+      "ui.academic_record_new_uzbekistan_university": "Академическая успеваемость · New Uzbekistan University",
+      "ui.academic_transcript": "Академическая выписка",
+      "ui.complete_coursework_and_grades": "Все дисциплины и оценки",
+      "ui.subjects_studied": "Изученные дисциплины",
+      "ui.academic_year": "Учебный год",
+      "ui.course": "Дисциплина",
+      "ui.grade": "Оценка",
+      "ui.gpa_value": "Значение GPA",
+      "ui.university_scale": "Шкала университета",
+      "ui.grading_system": "Система оценивания",
+      "ui.maximum_gpa_4_5": "Максимальный GPA: 4.5",
+      "ui.percentage": "Процент",
+      "ui.meaning": "Описание",
+      "education.courses.0.name": "Стратегический менеджмент",
+      "education.courses.1.name": "Планирование и управление производством",
+      "education.courses.2.name": "Логистика и управление цепями поставок",
+      "education.courses.3.name": "Управление качеством и Six Sigma",
+      "ui.cost_management": "Управление затратами",
+      "ui.perspective_purpose": "Профиль и цели",
+      "about.title": "Академический профиль, сформированный аналитическим и управленческим мышлением.",
+      "about.paragraphs.0": "Я окончил бакалаврскую программу «Industrial Management» в New Uzbekistan University, где обучение полностью проходило на английском языке. Моя академическая подготовка охватывает финансы, бухгалтерский учёт, экономику, аналитику, операционное управление и менеджмент.",
+      "about.paragraphs.1": "Я готовлюсь к обучению в магистратуре по направлениям, объединяющим менеджмент с финансами, аналитикой, устойчивым развитием и цифровой трансформацией, опираясь на практический опыт в бизнес-анализе и реализации проектов.",
+      "ui.projects_achievements": "Проекты и достижения.",
+      "ui.research_and_experiences_that_shaped_how_i_approach_complex_business_problems": "Исследования и опыт, сформировавшие мой подход к решению сложных бизнес-задач.",
+      "ui.filter_projects_by_category": "Фильтр проектов по категориям",
+      "ui.all": "Все",
+      "projects.erp.category": "Исследования",
+      "projects.cisco.category": "Сертификаты",
+      "projects.rise.category": "Международное",
+      "projects.mathematics.category": "Академическое",
+      "projects.magmastore.category": "Цифровой проект",
+      "projects.magmastore.meta": "Управление проектами · E-commerce · Бизнес-операции",
+      "projects.magmastore.details.lead": "B2B e-commerce платформа в Узбекистане, соединяющая компании с поставщиками. Я участвую в координации проекта, развитии структуры маркетплейса, проектировании рабочих процессов и совершенствовании процессов.",
+      "projects.magmastore.tags.1": "Управление проектами",
+      "projects.magmastore.linkLabel": "Перейти на MAGMASTORE",
+      "ui.search_selected_work": "Поиск по проектам",
+      "ui.try_erp_or_mathematics": "Например: ERP или математика",
+      "projects.erp.meta": "Бакалаврское исследование · Оценка A",
+      "projects.erp.title": "ERP после внедрения: производственные компании Узбекистана",
+      "projects.erp.description": "Изучение принятия ERP пользователями и операционной эффективности после внедрения системы в производственных компаниях Узбекистана.",
+      "projects.erp.tags.1": "Принятие пользователями",
+      "projects.erp.tags.2": "Операционная эффективность",
+      "projects.capacity.tags.4": "Производство",
+      "projects.odoo.description": "Сертификат достижений Odoo S.A. за успешное прохождение Odoo Student Diploma. Сертификат № 0001078256.",
+      "projects.odoo.tags.2": "Бизнес-ПО",
+      "ui.view_certificate": "Открыть сертификат",
+      "projects.rise.meta": "HKUST (Guangzhou) · 16 янв. 2026",
+      "projects.rise.details.facts.2": "Международный опыт",
+      "projects.cisco.meta": "Cisco Networking Academy · 08 февр. 2026",
+      "projects.cisco.description": "Сертификат о завершении курса по анализу данных, роли данных в ИИ и машинном обучении, а также карьерным направлениям в области аналитики данных.",
+      "projects.cisco.tags.1": "Аналитика данных",
+      "projects.cisco.tags.2": "ИИ и машинное обучение",
+      "projects.mathematics.title": "Отбор на Национальную математическую олимпиаду",
+      "projects.mathematics.meta": "Академическое достижение · июнь 2022",
+      "projects.mathematics.description": "Отобран как один из трёх учащихся своего региона для участия на национальном уровне.",
+      "ui.no_matching_projects": "Подходящие проекты не найдены",
+      "ui.try_another_keyword_or_show_all_selected_work": "Попробуйте другое ключевое слово или покажите все проекты.",
+      "ui.clear_filters": "Сбросить фильтры",
+      "ui.where_i_ve_worked": "Где я работал.",
+      "ui.roles_spanning_project_management_business_analysis_and_international_operations": "Опыт в управлении проектами, бизнес-анализе и международной операционной среде.",
+      "experience.0.period": "Сент. 2026 — по настоящее время",
+      "experience.0.role": "Менеджер проектов",
+      "projects.magmastore.details.reflection.blocks.0.items.0": "Координация проектов",
+      "projects.magmastore.details.reflection.blocks.0.items.1": "Требования",
+      "projects.magmastore.details.reflection.blocks.0.items.2": "Проектирование процессов",
+      "experience.1.period": "Дек. 2025 — сент. 2026",
+      "experience.1.role": "Бизнес-аналитик",
+      "projects.magmastore.tags.2": "Бизнес-анализ",
+      "experience.1.tags.1": "Моделирование процессов",
+      "experience.1.tags.2": "Отчётность по KPI",
+      "experience.1.tags.3": "Заинтересованные стороны",
+      "experience.2.period": "Июнь — авг. 2025",
+      "experience.2.role": "Сотрудник по эксплуатации объектов",
+      "experience.2.company": "RAY Facility Management · Германия",
+      "experience.2.tags.0": "Операционная деятельность",
+      "experience.2.tags.2": "Командная работа",
+      "ui.analytical_managerial_digital_toolkit": "Аналитические, управленческие и цифровые компетенции.",
+      "ui.capabilities_and_tools_i_use_across_business_analysis_research_management_and_communicatio": "Компетенции и инструменты, которые я использую в бизнес-анализе, исследованиях, управлении и коммуникации.",
+      "skills.core.items.6": "KPI и анализ эффективности",
+      "skills.analytics.items.3": "Статистический анализ",
+      "skills.core.items.1": "Анализ бизнес-процессов",
+      "skills.core.items.3": "Цепи поставок и операционное управление",
+      "skills.core.items.7": "Управление качеством / Six Sigma",
+      "skills.research.title": "Исследования и ИИ",
+      "skills.research.items.0": "Академические исследования",
+      "skills.research.items.1": "Обзор литературы",
+      "skills.research.items.2": "Исследования с использованием ИИ",
+      "skills.research.items.3": "Анализ данных с использованием ИИ",
+      "skills.research.items.4": "Генеративный ИИ",
+      "skills.languages.title": "Языки",
+      "skills.languages.items.0": "Узбекский — родной",
+      "skills.languages.items.1": "Английский — IELTS 7.0",
+      "skills.languages.items.2": "Русский — B1",
+      "contact.title": "Есть возможность, которую стоит обсудить?",
+      "contact.intro": "По вопросам магистратуры, академических возможностей, профессионального сотрудничества или проектов — буду рад связаться.",
+      "ui.copy_email_address": "Скопировать email",
+      "ui.email": "Email",
+      "ui.location": "Местоположение",
+      "ui.back_to_top": "Наверх ↑",
+      "ui.opens_in_new_tab": "(откроется в новой вкладке)",
+      "ui.view_project": "Подробнее о проекте →",
+      "ui.back_to_projects": "← Назад к проектам",
+      "ui.close": "× Закрыть",
+      "projects.erp.details.label": "Исследование ERP",
+      "projects.erp.details.title": "Люди, от которых зависит эффективность ERP.",
+      "projects.erp.details.subtitle": "Бакалаврская работа · Промышленный менеджмент",
+      "projects.erp.details.lead": "Моя работа изучает, что происходит после запуска ERP: как сотрудники включают систему в повседневную работу и как её использование может быть связано с эффективностью производства.",
+      "projects.erp.details.question": "Система установлена. Что помогает людям получать от неё пользу каждый день?",
+      "projects.erp.details.sections.0.title": "Над чем я работал",
+      "projects.erp.details.sections.0.blocks.0.parts.0.text": "Я сосредоточился на использовании ERP после внедрения в производственных компаниях Узбекистана, связав академические исследования с практическими вопросами повседневной работы.",
+      "projects.magmastore.details.sections.1.title": "Мой вклад",
+      "projects.erp.details.sections.1.blocks.0.items.0": "Изучил существующие исследования об использовании ERP после запуска.",
+      "projects.erp.details.sections.1.blocks.0.items.1": "Разработал исследовательскую модель, связывающую повседневное использование системы с операционной эффективностью.",
+      "projects.erp.details.sections.1.blocks.0.items.2": "Подготовил план исследования на основе опроса сотрудников, использующих ERP в работе.",
+      "projects.erp.details.sections.1.blocks.0.items.3": "Построил исследование на основе существующих опросных шкал; английская и узбекская версии помогают обеспечить участие местных сотрудников.",
+      "projects.erp.details.sections.2.title": "Почему это важно",
+      "projects.erp.details.sections.2.blocks.0.parts.0.text": "Производство, склад и закупки зависят от общей информации. Исследование рассматривает, что поддерживает последовательное использование ERP в повседневных операциях.",
+      "projects.erp.details.sections.3.title": "Кому это может помочь",
+      "projects.erp.details.sections.3.blocks.0.items.0": "Руководителям производства: более обоснованные решения о поддержке сотрудников после запуска.",
+      "projects.erp.details.sections.3.blocks.0.items.1": "Сотрудникам: больше внимания к их повседневному опыту работы с системой.",
+      "projects.erp.details.sections.3.blocks.0.items.2": "Операционным командам: идеи, которые могут помочь улучшить координацию и надёжность информации.",
+      "projects.capacity.details.sections.6.title": "Продемонстрированные навыки",
+      "projects.erp.details.sections.4.blocks.0.items.0": "Планирование исследования",
+      "projects.erp.details.sections.4.blocks.0.items.1": "Критический анализ",
+      "projects.erp.details.sections.4.blocks.0.items.2": "Понимание бизнес-процессов",
+      "projects.erp.details.sections.4.blocks.0.items.3": "Академическая коммуникация",
+      "projects.erp.details.sections.5.title": "Научное руководство",
+      "projects.erp.details.sections.5.blocks.0.parts.0.text": "Научный руководитель",
+      "projects.erp.details.sections.5.blocks.1.parts.0.text": "Консультации и рекомендации по исследованию",
+      "projects.erp.details.sections.6.title": "Местный контекст",
+      "projects.erp.details.sections.6.blocks.0.parts.0.text": "Исследование включает опыт пользователей ERP в Узбекистане в более широкую дискуссию о цифровой трансформации с учётом местных рабочих практик.",
+      "projects.erp.details.reflection.title": "Ожидаемая польза",
+      "projects.erp.details.reflection.blocks.0.parts.0.text": "Помочь производителям понять, как превратить инвестиции в ERP в более эффективное повседневное использование для улучшения координации и операционной эффективности.",
+      "projects.erp.details.reflection.blocks.1.parts.0.text": "Фокус исследования: план исследования и ожидаемый вклад. Операционные преимущества ещё предстоит оценить.",
+      "ui.digital_transformation": "Цифровая трансформация",
+      "projects.odoo.details.label": "ERP-проект · Odoo",
+      "projects.odoo.details.title": "Как интегрированная ERP объединяет бизнес.",
+      "projects.odoo.details.subtitle": "Функциональное изучение ERP · Взгляд на бизнес-процессы",
+      "projects.odoo.details.lead": "Этот проект отражает моё практическое изучение Odoo как интегрированной ERP-платформы и того, как её модули поддерживают межфункциональные бизнес-процессы.",
+      "projects.odoo.details.question": "Как одна система может связать клиентов, продажи, закупки, запасы, операции, финансы и управление?",
+      "projects.odoo.details.sections.0.title": "Что я изучаю",
+      "projects.odoo.details.sections.0.blocks.0.parts.0.text": "Я изучаю Odoo с функциональной точки зрения и с позиции бизнес-процессов: как разные подразделения работают в единой связанной ERP-среде, а не в изолированных инструментах.",
+      "projects.odoo.details.sections.1.title": "Сквозной бизнес-процесс",
+      "projects.odoo.details.sections.1.blocks.1.parts.0.text": "Этот процесс помогает мне понять, как одна бизнес-транзакция проходит через коммерческие, операционные и финансовые функции.",
+      "projects.odoo.details.sections.2.title": "Основные модули Odoo",
+      "projects.odoo.details.sections.2.blocks.0.items.2": "Закупки",
+      "projects.odoo.details.sections.2.blocks.0.items.3": "Запасы",
+      "projects.odoo.details.sections.2.blocks.0.items.4": "Бухгалтерский учёт",
+      "projects.odoo.details.sections.2.blocks.0.items.5": "Производство / MRP",
+      "projects.odoo.details.sections.2.blocks.0.items.7": "Проекты",
+      "projects.odoo.details.sections.2.blocks.0.items.8": "Сайт / eCommerce",
+      "projects.odoo.details.sections.3.title": "Бизнес-ценность, которую я анализирую",
+      "projects.odoo.details.sections.3.blocks.0.items.0": "Связанные рабочие процессы между подразделениями.",
+      "projects.odoo.details.sections.3.blocks.0.items.1": "Единый источник операционной и финансовой информации.",
+      "projects.odoo.details.sections.3.blocks.0.items.2": "Автоматизация процессов и более понятная передача задач между функциями.",
+      "projects.odoo.details.sections.3.blocks.0.items.3": "Отчётность, связывающая транзакции с результатами бизнеса.",
+      "projects.odoo.details.sections.4.title": "Навыки, которые я развиваю",
+      "projects.odoo.details.sections.4.blocks.0.items.0": "Моделирование ERP-процессов",
+      "projects.odoo.details.sections.4.blocks.0.items.1": "Бизнес-требования",
+      "projects.odoo.details.sections.4.blocks.0.items.2": "Межфункциональный анализ",
+      "projects.odoo.details.sections.4.blocks.0.items.3": "Проектирование рабочих процессов",
+      "projects.odoo.details.sections.4.blocks.0.items.4": "Данные и отчётность",
+      "projects.odoo.details.sections.5.title": "Изучение Odoo и сертификация",
+      "projects.odoo.details.sections.5.blocks.0.parts.0.text": "Я завершил Odoo Student Diploma и продолжаю изучать более широкую функциональную экосистему Odoo. Официальная Odoo Functional Certification — это отдельная сертификация, привязанная к конкретной версии.",
+      "projects.odoo.details.sections.6.title": "Официальная платформа Odoo",
+      "projects.odoo.details.sections.6.blocks.0.parts.0.text": "Odoo — модульная бизнес-платформа, объединяющая множество бизнес-функций в одной интегрированной среде.",
+      "projects.odoo.details.sections.6.blocks.1.parts.0.text": "Официальный сайт Odoo ↗",
+      "projects.odoo.details.reflection.title": "Цель проекта",
+      "projects.odoo.details.reflection.blocks.0.parts.0.text": "Сформировать практическое понимание того, как ERP-системы связывают бизнес-процессы, данные и принятие решений во всей организации.",
+      "projects.odoo.details.reflection.blocks.1.parts.0.text": "Фокус: функциональное понимание ERP, интеграция процессов и бизнес-процессы на базе Odoo.",
+      "projects.odoo.details.sections.5.blocks.1.parts.0.text": "Смотреть сертификат Odoo Student Diploma ↗",
+      "projects.cisco.details.subtitle": "Сертификат о завершении курса · Начальный уровень · 6 часов",
+      "projects.cisco.details.lead": "Этот курс Cisco Networking Academy познакомил меня с основами Data Science, анализа данных и инженерии данных, а также с тем, как искусственный интеллект и машинное обучение используют данные для принятия решений и прогнозирования.",
+      "projects.cisco.details.question": "Как исходные данные превращаются в информацию, которая помогает принимать более обоснованные решения?",
+      "projects.cisco.details.sections.0.title": "Что охватывает курс",
+      "projects.cisco.details.sections.0.blocks.0.parts.0.text": "Курс формирует базовое понимание Data Science и объясняет взаимосвязь между анализом данных, инженерией данных, Data Science, искусственным интеллектом и машинным обучением.",
+      "projects.cisco.details.sections.1.title": "Содержание курса",
+      "projects.cisco.details.sections.1.blocks.0.items.0": "Практика аналитики",
+      "projects.cisco.details.sections.1.blocks.0.items.1": "Сбор и хранение данных",
+      "projects.cisco.details.sections.1.blocks.0.items.2": "Искусственный интеллект и машинное обучение",
+      "projects.cisco.details.sections.1.blocks.0.items.3": "Начало карьеры в аналитике данных",
+      "projects.cisco.details.sections.2.title": "Формат обучения",
+      "projects.cisco.details.sections.2.blocks.0.items.0": "Начальный уровень, рекомендуемых предварительных требований нет.",
+      "projects.cisco.details.sections.2.blocks.0.items.1": "Примерно 6 часов обучения.",
+      "projects.cisco.details.sections.2.blocks.0.items.2": "4 модуля и 5 практических лабораторных заданий.",
+      "projects.cisco.details.sections.2.blocks.0.items.3": "Видеоматериалы, проверки знаний, тесты по модулям и итоговый экзамен.",
+      "projects.cisco.details.sections.3.title": "Знания и навыки",
+      "projects.cisco.details.sections.3.blocks.0.items.0": "Понимание того, как аналитика данных поддерживает принятие решений на основе данных.",
+      "projects.cisco.details.sections.3.blocks.0.items.1": "Распознавание структурированных, полуструктурированных и неструктурированных данных.",
+      "projects.cisco.details.sections.3.blocks.0.items.2": "Понимание сбора, хранения и подготовки данных к анализу.",
+      "projects.cisco.details.sections.3.blocks.0.items.3": "Изучение 5V больших данных: объём, скорость, разнообразие, достоверность и ценность.",
+      "projects.cisco.details.sections.3.blocks.0.items.4": "Понимание того, как ИИ и машинное обучение используют данные.",
+      "projects.cisco.details.sections.3.blocks.0.items.5": "Понимание различий между ролями аналитика данных, инженера данных и специалиста по Data Science.",
+      "projects.cisco.details.sections.4.title": "Подтверждение прохождения",
+      "projects.cisco.details.sections.4.blocks.0.parts.0.text": "Cisco Networking Academy подтверждает завершение курса. Cisco также предлагает связанный цифровой бейдж; опубликованные критерии его получения указывают проходной балл 70% за комплексный экзамен.",
+      "projects.cisco.details.sections.5.title": "Почему это важно для моего профиля",
+      "projects.cisco.details.sections.5.blocks.0.parts.0.text": "Курс укрепляет мою базу в принятии решений на основе данных и дополняет мою работу в бизнес-аналитике, менеджменте и цифровой трансформации.",
+      "projects.cisco.details.sections.6.title": "Сертификат и официальный курс",
+      "projects.cisco.details.sections.6.blocks.0.parts.0.text": "Посмотреть мой сертификат Cisco ↗",
+      "projects.cisco.details.sections.6.blocks.1.parts.0.text": "Открыть официальный курс Cisco ↗",
+      "projects.cisco.details.reflection.title": "Что это добавляет к моему профилю",
+      "projects.cisco.details.reflection.blocks.0.parts.0.text": "Структурированная база по данным, аналитике, ИИ/ML и карьерным направлениям в сфере данных, помогающая более осознанно использовать данные в бизнесе и менеджменте.",
+      "projects.cisco.details.reflection.blocks.1.parts.0.text": "Cisco Networking Academy · Introduction to Data Science · Сертификат получен в 2026 году.",
+      "projects.rise.description": "Международная студенческая неделя в HKUST (Guangzhou), объединившая лекции и посещение лабораторий с визитами в технологические компании XPeng, DJI и Pony.ai.",
+      "projects.rise.tags.3": "Технологические визиты",
+      "projects.rise.details.label": "Международный опыт · RBM RISE Week",
+      "projects.rise.details.title": "RISE Week в HKUST (Guangzhou)",
+      "projects.rise.details.subtitle": "College of Future Technology · январь 2026",
+      "projects.rise.details.lead": "Я принял участие в CFT RBM International Student Experience Week и увидел, как междисциплинарное обучение связывает университетские исследования с развивающимися технологическими компаниями.",
+      "projects.rise.details.facts.0": "Гуанчжоу, Китай",
+      "projects.rise.details.facts.1": "Визиты в университет и компании",
+      "projects.rise.details.question": "От междисциплинарного обучения до умной мобильности, дронов и автономного вождения.",
+      "projects.rise.details.gallery.0.category": "Визит в университет",
+      "projects.rise.details.gallery.0.description": "Во время RISE Week я посещал лекции и лаборатории HKUST(GZ). College of Future Technology использует междисциплинарное проектное обучение, связывая академическую подготовку с реальными задачами.",
+      "projects.rise.details.gallery.0.link.label": "Официальный сайт HKUST(GZ) ↗",
+      "projects.rise.details.gallery.3.category": "Визит в технологическую компанию",
+      "projects.rise.details.gallery.1.description": "XPeng — технологическая компания со штаб-квартирой в Гуанчжоу, специализирующаяся на умных электромобилях. Визит позволил ближе увидеть, как компании в сфере мобильности объединяют разработку автомобилей с программным обеспечением, интеллектуальными системами и R&D.",
+      "projects.rise.details.gallery.1.link.label": "Официальный сайт XPeng ↗",
+      "projects.rise.details.gallery.2.description": "DJI разрабатывает технологии дронов, съёмки и стабилизации, применяемые в творческих и профессиональных сферах. Визит показал, как передовое аппаратное и программное обеспечение превращается в практические инструменты для отраслей.",
+      "projects.rise.details.gallery.2.link.label": "Официальный сайт DJI ↗",
+      "projects.rise.details.gallery.3.description": "Pony.ai разрабатывает технологии автономного вождения для Robotaxi, Robotruck и личных автомобилей. Визит дал представление о том, как системы беспилотного вождения развиваются в направлении практического применения.",
+      "projects.rise.details.gallery.3.link.label": "Официальный сайт Pony.ai ↗",
+      "projects.rise.details.certificate.title": "Сертификат участника",
+      "projects.rise.details.certificate.description": "Сертификат программы остаётся доступным здесь как официальное подтверждение участия.",
+      "projects.rise.details.certificate.label": "Открыть сертификат участника ↗",
+      "projects.rise.details.reflection.title": "Что эта неделя добавила к моему опыту",
+      "projects.rise.details.reflection.blocks.0.parts.0.text": "Этот опыт связал академическое обучение с технологическими компаниями, работающими в сфере мобильности, дронов и автономных систем, и усилил мой интерес к инновациям, цифровой трансформации и межфункциональному решению задач.",
+      "projects.rise.details.reflection.blocks.1.items.0": "Международное обучение",
+      "projects.rise.details.reflection.blocks.1.items.1": "Знакомство с технологиями",
+      "projects.rise.details.reflection.blocks.1.items.2": "Связь университета и индустрии",
+      "projects.capacity.category": "Университетский проект",
+      "projects.capacity.meta": "Инновационный проект Industry 4.0 · Весна 2026",
+      "projects.capacity.description": "Командный университетский проект по разработке концепции Industry 4.0, которая связывает заказы клиентов с актуальными данными о производственных мощностях, чтобы отдел продаж и операционная команда принимали решения на основе единой информации.",
+      "projects.capacity.tags.2": "Планирование мощностей",
+      "projects.capacity.tags.3": "Продажи и операционная деятельность",
+      "projects.capacity.details.label": "Университетский групповой проект · Industry 4.0",
+      "projects.capacity.details.title": "Мониторинг производственных мощностей в реальном времени",
+      "projects.capacity.details.subtitle": "IMGT430 · Весна 2026",
+      "projects.capacity.details.lead": "Командный университетский проект о том, как производственные данные в реальном времени могут помочь отделу продаж давать более реалистичные обещания по срокам, а операционной команде — раньше выявлять ограничения мощностей.",
+      "projects.capacity.details.question": "Как связать входящие заказы, состояние оборудования и решения по мощностям без полной замены существующего оборудования?",
+      "projects.capacity.details.flow.0": "Заказы клиентов",
+      "projects.capacity.details.flow.1": "IoT-данные оборудования",
+      "projects.capacity.details.flow.2": "Модуль расчёта мощностей",
+      "projects.capacity.details.flow.3": "Общая панель",
+      "projects.capacity.details.sections.0.title": "Проблема, над которой мы работали",
+      "projects.capacity.details.sections.0.blocks.0.parts.0.text": "Наша команда сосредоточилась на типичном разрыве между продажами и производством: заказы могут фиксироваться вручную, у отдела продаж может не быть актуальной информации о загрузке цеха, а узкие места становятся заметны лишь незадолго до срока выполнения.",
+      "projects.capacity.details.sections.1.title": "Предлагаемое решение",
+      "projects.capacity.details.sections.1.blocks.0.items.0": "Централизовать входящие заказы клиентов вместо повторного ручного ввода в таблицы.",
+      "projects.capacity.details.sections.1.blocks.0.items.1": "Использовать дооснащаемые IoT-датчики или существующие интерфейсы оборудования, чтобы определять, работает ли машина, остановлена или простаивает.",
+      "projects.capacity.details.sections.1.blocks.0.items.2": "Собирать и предварительно обрабатывать данные оборудования через edge-шлюз перед передачей в общую среду данных.",
+      "projects.capacity.details.sections.1.blocks.0.items.3": "Использовать модуль расчёта мощностей, объединяющий спрос по заказам с доступной производительностью оборудования и выявляющий узкие места.",
+      "projects.capacity.details.sections.1.blocks.0.items.4": "Предоставить отделу продаж и операционной команде единую панель в реальном времени для решений по срокам и загрузке.",
+      "projects.capacity.details.sections.2.title": "Реальный визит в компанию и конфиденциальность",
+      "projects.capacity.details.sections.2.blocks.0.parts.0.text": "Проект был дополнен практическими наблюдениями во время визита на реальное производственное предприятие. Мы благодарны организации за возможность познакомиться с её операционной средой. По просьбе компании её название публично не раскрывается. Поэтому в портфолио представлены только концепция проекта, наблюдения за процессами и академический анализ с уважением к предпочтению компании по конфиденциальности.",
+      "projects.capacity.details.sections.3.title": "Почему концепция практична",
+      "projects.capacity.details.sections.3.blocks.0.items.0": "Связывает данные о заказах клиентов с данными о производственных мощностях, а не рассматривает мониторинг оборудования как отдельную инженерную панель.",
+      "projects.capacity.details.sections.3.blocks.0.items.1": "Может работать со старым оборудованием благодаря дооснащаемым датчикам, например для мониторинга вибрации или потребляемого тока.",
+      "projects.capacity.details.sections.3.blocks.0.items.2": "Поддерживает поэтапное внедрение: начать с одной производственной линии, проверить концепцию и затем масштабировать.",
+      "projects.capacity.details.sections.3.blocks.0.items.3": "Использует облегчённое цифровое представление доступных мощностей без необходимости полноценного 3D-цифрового двойника.",
+      "projects.capacity.details.sections.4.title": "Модель финансовой осуществимости",
+      "projects.capacity.details.sections.4.blocks.0.parts.0.text": "В рамках академического проекта наша команда разработала иллюстративную бизнес-модель пилота для одной производственной линии. Модель предполагала начальные инвестиции около $120 000, прогнозируемый чистый годовой эффект около $68 000 и ориентировочный срок окупаемости около 21 месяца.",
+      "projects.capacity.details.sections.4.blocks.1.items.0.label": "Иллюстративные инвестиции в пилот",
+      "projects.capacity.details.sections.4.blocks.1.items.1.label": "Прогнозируемый чистый годовой эффект",
+      "projects.capacity.details.sections.4.blocks.1.items.2.label": "Оценочный срок окупаемости",
+      "projects.capacity.details.sections.4.blocks.2.parts.0.text": "Эти показатели являются оценками академического проекта на основе модельных допущений; они не являются аудированными результатами или раскрытыми финансовыми данными посещённой компании.",
+      "projects.capacity.details.sections.5.title": "Подход к внедрению",
+      "projects.capacity.details.sections.5.blocks.0.items.0": "Этап 1: описать процесс, выбрать пилотную линию и определить необходимые данные.",
+      "projects.capacity.details.sections.5.blocks.0.items.1": "Этап 2: установить датчики, настроить шлюз и создать первую версию панели.",
+      "projects.capacity.details.sections.5.blocks.0.items.2": "Этап 3: провести пилот с обратной связью от продаж и операционной команды и доработать систему.",
+      "projects.capacity.details.sections.5.blocks.0.items.3": "Этап 4: распространить решение на другие линии и добавить прогнозирование или автоматические уведомления.",
+      "projects.capacity.details.sections.6.blocks.0.items.1": "Концепции IoT",
+      "projects.capacity.details.sections.6.blocks.0.items.2": "Анализ процессов",
+      "projects.capacity.details.sections.6.blocks.0.items.4": "Анализ затрат и выгод",
+      "projects.capacity.details.sections.6.blocks.0.items.5": "Согласование продаж и операций",
+      "projects.capacity.details.sections.6.blocks.0.items.6": "Командная проектная работа",
+      "projects.capacity.details.reflection.blocks.0.parts.0.text": "Сократить информационный разрыв между обещаниями клиентам и реальной производственной ситуацией, предоставив продажам и операционной команде общий обзор мощностей в реальном времени.",
+      "projects.capacity.details.reflection.blocks.1.parts.0.text": "Университетский групповой проект · концептуальное проектирование системы и анализ осуществимости · файл отчёта на сайте не публикуется.",
+      "profile.location": "Ташкент, Узбекистан",
+      "experience.0.tags.0": "Координация проектов",
+      "experience.0.tags.1": "Требования",
+      "experience.0.tags.2": "Проектирование процессов",
+      "experience.1.tags.0": "Бизнес-анализ",
+      "experience.2.tags.1": "Международный опыт",
+      "projects.erp.tags.3": "Производство",
+      "projects.erp.details.sections.1.title": "Мой вклад",
+      "projects.erp.details.sections.4.title": "Продемонстрированные навыки",
+      "projects.capacity.title": "Мониторинг производственных мощностей в реальном времени",
+      "projects.capacity.details.reflection.title": "Цель проекта",
+      "projects.magmastore.description": "B2B e-commerce платформа в Узбекистане, соединяющая компании с поставщиками. Я участвую в координации проекта, развитии структуры маркетплейса, проектировании рабочих процессов и совершенствовании процессов.",
+      "projects.magmastore.tags.3": "Проектирование процессов",
+      "projects.rise.tags.0": "Международный опыт",
+      "projects.rise.details.gallery.1.category": "Визит в технологическую компанию",
+      "projects.rise.details.gallery.2.category": "Визит в технологическую компанию",
+      "projects.odoo.category": "Сертификаты",
+      "profile.role": "Промышленный менеджмент · Бизнес-аналитика · Цифровые и устойчивые операции",
+      "profile.intro": "Выпускник промышленного менеджмента с сильной академической подготовкой и практическим проектным опытом, объединяющий бизнес-аналитику, производственные операции и цифровую трансформацию.",
+      "profile.focus": "Интересуюсь использованием ERP, операционным управлением на основе данных и устойчивым менеджментом, опираясь на исследования, анализ затрат и координацию проектов.",
+      "experience.0.description": "Координирую требования, определение рабочих процессов и межфункциональную реализацию B2B-платформы для бизнес-покупателей и поставщиков Узбекистана. Участвую в проработке структуры маркетплейса и улучшении процессов.",
+      "experience.1.description": "Анализировал бизнес-требования и описывал процессы в виде определённых рабочих потоков, используя KPI-отчётность для поддержки операционных решений и более организованной реализации.",
+      "experience.2.description": "Работал в сфере эксплуатации объектов в Нюрнберге, Германия, приобретая опыт повседневных операций и командной работы, самостоятельно проживая и работая в международной среде.",
+      "projects.magmastore.details.label": "Прикладной менеджмент · B2B-маркетплейс",
+      "projects.magmastore.details.title": "Структурирование B2B-маркетплейса для бизнес-операций.",
+      "projects.magmastore.details.subtitle": "MAGMASTORE · Руководитель проекта",
+      "projects.magmastore.details.question": "Как превратить требования маркетплейса в понятные операционные процессы?",
+      "projects.magmastore.details.sections.0.title": "Бизнес-контекст",
+      "projects.magmastore.details.sections.0.blocks.0.parts.0.text": "MAGMASTORE соединяет бизнес-покупателей и поставщиков в Узбекистане. Моя работа сосредоточена на требованиях, структуре маркетплейса и рабочих процессах, поддерживающих эти деловые отношения.",
+      "projects.magmastore.details.sections.1.blocks.0.items.0": "Координация требований и межфункциональной реализации проекта.",
+      "projects.magmastore.details.sections.1.blocks.0.items.1": "Участие в проработке структуры маркетплейса и рабочих процессов.",
+      "projects.magmastore.details.sections.1.blocks.0.items.2": "Поддержка улучшения процессов с позиции бизнес-операций.",
+      "projects.magmastore.details.sections.2.title": "Границы и основания",
+      "projects.magmastore.details.sections.2.blocks.0.parts.0.text": "Этот кейс обобщает обязанности, отражённые в портфолио. Он не заявляет измеренных бизнес-результатов и не раскрывает внутреннюю информацию компании.",
+      "projects.magmastore.details.reflection.title": "Управленческая перспектива",
+      "skills.core.title": "Ключевые компетенции",
+      "skills.core.items.0": "Бизнес-аналитика",
+      "skills.core.items.2": "Управление / координация проектов",
+      "skills.core.items.4": "Анализ затрат / финансовый анализ",
+      "skills.core.items.5": "ERP и цифровая трансформация",
+      "skills.analytics.title": "Инструменты аналитики и бизнеса",
+      "skills.productivity.title": "Продуктивность и коммуникации",
+      "transcript.title": "Академическая выписка",
+      "transcript.summary.0.label": "Итоговый GPA",
+      "transcript.summary.1.label": "Освоено кредитов",
+      "transcript.courseworkLabel": "Все дисциплины и оценки",
+      "transcript.courseworkTitle": "Изученные дисциплины",
+      "transcript.years.0.semesters.0.headers.0": "Дисциплина",
+      "transcript.years.0.semesters.0.headers.2": "Оценка",
+      "transcript.years.0.semesters.0.headers.3": "Значение GPA",
+      "transcript.years.0.semesters.1.headers.0": "Дисциплина",
+      "transcript.years.0.semesters.1.headers.2": "Оценка",
+      "transcript.years.0.semesters.1.headers.3": "Значение GPA",
+      "transcript.years.1.semesters.0.headers.0": "Дисциплина",
+      "transcript.years.1.semesters.0.headers.2": "Оценка",
+      "transcript.years.1.semesters.0.headers.3": "Значение GPA",
+      "transcript.years.1.semesters.1.headers.0": "Дисциплина",
+      "transcript.years.1.semesters.1.headers.2": "Оценка",
+      "transcript.years.1.semesters.1.headers.3": "Значение GPA",
+      "transcript.years.2.semesters.0.headers.0": "Дисциплина",
+      "transcript.years.2.semesters.0.headers.2": "Оценка",
+      "transcript.years.2.semesters.0.headers.3": "Значение GPA",
+      "transcript.years.2.semesters.0.rows.0.0": "Управление качеством и Six Sigma",
+      "transcript.years.2.semesters.0.rows.4.0": "Управление затратами",
+      "transcript.years.2.semesters.1.headers.0": "Дисциплина",
+      "transcript.years.2.semesters.1.headers.2": "Оценка",
+      "transcript.years.2.semesters.1.headers.3": "Значение GPA",
+      "transcript.years.2.semesters.1.rows.0.0": "Логистика и управление цепями поставок",
+      "transcript.years.3.semesters.0.headers.0": "Дисциплина",
+      "transcript.years.3.semesters.0.headers.2": "Оценка",
+      "transcript.years.3.semesters.0.headers.3": "Значение GPA",
+      "transcript.years.3.semesters.0.rows.4.0": "Стратегический менеджмент",
+      "transcript.years.3.semesters.1.headers.0": "Дисциплина",
+      "transcript.years.3.semesters.1.headers.2": "Оценка",
+      "transcript.years.3.semesters.1.headers.3": "Значение GPA",
+      "transcript.years.3.semesters.1.rows.3.0": "Планирование и управление производством",
+      "transcript.grading.label": "Шкала университета",
+      "transcript.grading.title": "Система оценивания",
+      "transcript.grading.note": "Максимальный GPA: 4.5",
+      "transcript.grading.headers.0": "Процент",
+      "transcript.grading.headers.1": "Оценка",
+      "transcript.grading.headers.2": "Значение GPA",
+      "transcript.grading.headers.3": "Описание",
+      "experience.0.tags.3": "Электронная коммерция B2B",
+      "education.courses.4.name": "Индустрия 4.0",
+      "projects.capacity.tags.0": "Индустрия 4.0",
+      "projects.capacity.details.sections.6.blocks.0.items.0": "Индустрия 4.0",
+      "projects.capacity.details.sections.6.blocks.0.items.3": "Планирование мощностей",
+      "projects.magmastore.title": "MAGMASTORE — платформа электронной коммерции B2B",
+      "projects.magmastore.tags.0": "Электронная коммерция B2B",
+      "projects.magmastore.details.reflection.blocks.0.items.3": "Электронная коммерция B2B",
+      "projects.rise.title": "Международная студенческая неделя CFT RBM (RISE Week)",
+      "projects.odoo.title": "Студенческий диплом Odoo",
+      "projects.odoo.details.sections.1.blocks.0.parts.0.text": "Потенциальный клиент → Предложение → Заказ на продажу → Закупка / Пополнение → Склад → Доставка → Счёт → Оплата → Бухгалтерия.",
+      "projects.odoo.details.sections.2.blocks.0.items.1": "Продажи",
+      "projects.cisco.title": "Введение в науку о данных",
+      "projects.cisco.tags.0": "Наука о данных",
+      "projects.cisco.details.title": "Введение в науку о данных",
+      "ui.excellent_exceeds_the_highest_standards": "Отлично — превышает высшие стандарты",
+      "ui.excellent_meets_the_highest_standards": "Отлично — соответствует высшим стандартам",
+      "ui.very_good_meets_standards": "Очень хорошо — соответствует стандартам",
+      "ui.good_competent": "Хорошо — компетентный уровень",
+      "ui.minimally_acceptable_lowest_passing_grade": "Минимально приемлемо — низшая проходная оценка",
+      "transcript.lead": "Обзор пройденных дисциплин, оценок и шкалы университета. Английская версия сохраняет официальные названия курсов; переводы помогают навигации. Личные идентификаторы не отображаются.",
+      "transcript.years.0.semesters.0.title": "Осень 2022",
+      "transcript.years.0.semesters.0.rows.0.0": "Академические и коммуникативные навыки",
+      "transcript.years.0.semesters.0.rows.1.0": "Академический английский 1",
+      "transcript.years.0.semesters.0.rows.2.0": "Введение в математический анализ",
+      "transcript.years.0.semesters.0.rows.3.0": "Физика I",
+      "transcript.years.0.semesters.0.rows.4.0": "Компьютерная грамотность",
+      "transcript.years.0.semesters.1.title": "Весна 2023",
+      "transcript.years.0.semesters.1.rows.0.0": "Творческое мышление и дизайн",
+      "transcript.years.0.semesters.1.rows.1.0": "Академический английский 2",
+      "transcript.years.0.semesters.1.rows.2.0": "Математический анализ 1",
+      "transcript.years.0.semesters.1.rows.3.0": "Темы социальных наук",
+      "transcript.years.0.semesters.1.rows.4.0": "Основы бизнеса",
+      "transcript.years.1.semesters.0.title": "Осень 2023",
+      "transcript.years.1.semesters.0.rows.0.0": "Микроэкономика 1",
+      "transcript.years.1.semesters.0.rows.1.0": "Введение в предпринимательство",
+      "transcript.years.1.semesters.0.rows.2.0": "Финансовый учёт",
+      "transcript.years.1.semesters.0.rows.3.0": "Введение в промышленный менеджмент",
+      "transcript.years.1.semesters.0.rows.4.0": "Статистические методы и их применение",
+      "transcript.years.1.semesters.1.title": "Весна 2024",
+      "transcript.years.1.semesters.1.rows.0.0": "Предпринимательский маркетинг",
+      "transcript.years.1.semesters.1.rows.1.0": "Учёт затрат",
+      "transcript.years.1.semesters.1.rows.2.0": "Этика коммуникаций",
+      "transcript.years.1.semesters.1.rows.3.0": "Введение в производственные процессы",
+      "transcript.years.1.semesters.1.rows.4.0": "Деловые коммуникации",
+      "transcript.years.1.semesters.1.rows.5.0": "Линейная алгебра",
+      "transcript.years.2.semesters.0.title": "Осень 2024",
+      "transcript.years.2.semesters.0.rows.1.0": "Устойчивые инвестиции и финансовый менеджмент",
+      "transcript.years.2.semesters.0.rows.2.0": "Макроэкономика 1",
+      "transcript.years.2.semesters.0.rows.3.0": "Эргономика",
+      "transcript.years.2.semesters.1.title": "Весна 2025",
+      "transcript.years.2.semesters.1.rows.1.0": "Деловая этика и право",
+      "transcript.years.2.semesters.1.rows.2.0": "Инновации бизнес-моделей",
+      "transcript.years.2.semesters.1.rows.3.0": "Философия",
+      "transcript.years.2.semesters.1.rows.4.0": "Охрана труда и промышленная безопасность",
+      "transcript.years.3.semesters.0.title": "Осень 2025",
+      "transcript.years.3.semesters.0.rows.0.0": "Выпускной проект 1 / Стажировка 1",
+      "transcript.years.3.semesters.0.rows.1.0": "Устойчивые операции и экологический менеджмент",
+      "transcript.years.3.semesters.0.rows.2.0": "Управленческие информационные системы",
+      "transcript.years.3.semesters.0.rows.3.0": "Оптимизация и теория игр",
+      "transcript.years.3.semesters.1.title": "Весна 2026",
+      "transcript.years.3.semesters.1.rows.0.0": "История Узбекистана",
+      "transcript.years.3.semesters.1.rows.1.0": "Индустрия 4.0",
+      "transcript.years.3.semesters.1.rows.2.0": "Бизнес-аналитика",
+      "transcript.years.3.semesters.1.rows.4.0": "Выпускной проект 2 / Стажировка 2",
+      "transcript.years.3.semesters.1.rows.5.0": "Преддипломная практика",
+      "transcript.years.3.semesters.1.rows.6.0": "Выпускной проект",
+      "transcript.grading.rows.4.3": "Приемлемо",
+      "transcript.grading.rows.5.3": "Приемлемо",
+      "transcript.grading.rows.7.3": "Неудовлетворительно",
+      "transcript.grading.rows.8.3": "Зачёт: оценка D или выше",
+      "transcript.grading.rows.9.3": "Незачёт; учитывается при расчёте GPA",
+      "transcript.grading.rows.10.3": "Перезачтённый кредит",
+      "transcript.grading.rows.11.3": "Отказ от курса",
+      "transcript.label": "Академическая успеваемость · New Uzbekistan University",
+      "transcript.grading.rows.0.3": "Отлично — превышает высшие стандарты",
+      "transcript.grading.rows.1.3": "Отлично — соответствует высшим стандартам",
+      "transcript.grading.rows.2.3": "Очень хорошо — соответствует стандартам",
+      "transcript.grading.rows.3.3": "Хорошо — компетентный уровень",
+      "transcript.grading.rows.6.3": "Минимально приемлемо — низшая проходная оценка"
+    }
+  },
+  "seo": {
+    "canonicalUrl": "https://jmshd37.github.io/my-website/",
+    "image": "assets/jn-moon-logo.webp",
+    "imageAlt": "JN — Jamshidbek Nurmukhammadov"
+  },
+  "transcript": {
+    "label": "Academic record · New Uzbekistan University",
+    "title": "Academic Transcript",
+    "subtitle": "Bachelor’s Programme in Industrial Management · 2022–2026",
+    "lead": "A portfolio view of my coursework, grades and the university grading scale. The English view preserves official course titles; translations support navigation. Personal identifiers are not displayed.",
+    "summary": [
+      {
+        "value": "4.01 / 4.5",
+        "label": "Final GPA"
+      },
+      {
+        "value": "248 ECTS",
+        "label": "Completed credits"
+      }
+    ],
+    "courseworkLabel": "Complete coursework and grades",
+    "courseworkTitle": "Subjects studied",
+    "years": [
+      {
+        "year": "2022–2023",
+        "semesters": [
+          {
+            "title": "Fall 2022",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Academic and Communication Skills",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Academic English 1",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Precalculus",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Physics I",
+                "6",
+                "B+",
+                "3.5"
+              ],
+              [
+                "Computer Literacy",
+                "6",
+                "B+",
+                "3.5"
+              ]
+            ]
+          },
+          {
+            "title": "Spring 2023",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Creative Thinking and Design",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Academic English 2",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Calculus 1",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Themes in Social Science",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Business Studies",
+                "6",
+                "A",
+                "4.0"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023–2024",
+        "semesters": [
+          {
+            "title": "Fall 2023",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Microeconomics 1",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Introduction to Entrepreneurship",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Financial Accounting",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Introduction to Industrial Management",
+                "6",
+                "B+",
+                "3.5"
+              ],
+              [
+                "Statistical Methods and Applications",
+                "6",
+                "A",
+                "4.0"
+              ]
+            ]
+          },
+          {
+            "title": "Spring 2024",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Entrepreneurial Marketing",
+                "6",
+                "B+",
+                "3.5"
+              ],
+              [
+                "Cost Accounting",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Communications Ethics",
+                "6",
+                "P",
+                "—"
+              ],
+              [
+                "Introduction to Manufacturing Processes",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Business Communications",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Linear Algebra",
+                "6",
+                "A+",
+                "4.5"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024–2025",
+        "semesters": [
+          {
+            "title": "Fall 2024",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Quality Management and Six Sigma",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Sustainable Investment and Financial Management",
+                "6",
+                "B+",
+                "3.5"
+              ],
+              [
+                "Macroeconomics 1",
+                "6",
+                "B+",
+                "3.5"
+              ],
+              [
+                "Ergonomics",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Cost Management",
+                "6",
+                "A+",
+                "4.5"
+              ]
+            ]
+          },
+          {
+            "title": "Spring 2025",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Logistics and Supply Chain Management",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Business Ethics and Law",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Business Model Innovation",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Philosophy",
+                "6",
+                "P",
+                "—"
+              ],
+              [
+                "Occupational and Industrial Safety",
+                "6",
+                "B",
+                "3.0"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025–2026",
+        "semesters": [
+          {
+            "title": "Fall 2025",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "Graduation Project 1 / Internship 1",
+                "8",
+                "P",
+                "—"
+              ],
+              [
+                "Sustainable Operations and Environment Management",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Management Information Systems",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Optimization and Game Theory",
+                "6",
+                "B+",
+                "3.5"
+              ],
+              [
+                "Strategic Management",
+                "6",
+                "A",
+                "4.0"
+              ]
+            ]
+          },
+          {
+            "title": "Spring 2026",
+            "headers": [
+              "Course",
+              "ECTS",
+              "Grade",
+              "GPA value"
+            ],
+            "rows": [
+              [
+                "History of Uzbekistan",
+                "4",
+                "P",
+                "—"
+              ],
+              [
+                "Industry 4.0",
+                "6",
+                "A+",
+                "4.5"
+              ],
+              [
+                "Business Intelligence",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Factory Planning and Management",
+                "6",
+                "A",
+                "4.0"
+              ],
+              [
+                "Graduation Project 2 / Internship 2",
+                "8",
+                "P",
+                "—"
+              ],
+              [
+                "Graduation Internship",
+                "0",
+                "P",
+                "—"
+              ],
+              [
+                "Graduation Project",
+                "0",
+                "A",
+                "4.0"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "grading": {
+      "label": "University scale",
+      "title": "Grading system",
+      "note": "Maximum GPA: 4.5",
+      "headers": [
+        "Percentage",
+        "Grade",
+        "GPA value",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "93–100",
+          "A+",
+          "4.5",
+          "Excellent — exceeds the highest standards"
+        ],
+        [
+          "85–92.9999",
+          "A",
+          "4.0",
+          "Excellent — meets the highest standards"
+        ],
+        [
+          "75–84.9999",
+          "B+",
+          "3.5",
+          "Very good — meets standards"
+        ],
+        [
+          "65–74.9999",
+          "B",
+          "3.0",
+          "Good — competent"
+        ],
+        [
+          "60–64.9999",
+          "C+",
+          "2.75",
+          "Acceptable"
+        ],
+        [
+          "50–59.9999",
+          "C",
+          "2.5",
+          "Acceptable"
+        ],
+        [
+          "40–49.9999",
+          "D",
+          "2.0",
+          "Minimally acceptable — lowest passing grade"
+        ],
+        [
+          "0–39.9999",
+          "F",
+          "0",
+          "Failing"
+        ],
+        [
+          "40–100",
+          "P",
+          "—",
+          "Pass/Fail option representing D or better"
+        ],
+        [
+          "0–39.99",
+          "F",
+          "0",
+          "Fail in the Pass/Fail option; used in GPA calculation"
+        ],
+        [
+          "40–100",
+          "TC",
+          "N/A",
+          "Transfer credit"
+        ],
+        [
+          "0",
+          "W",
+          "—",
+          "Withdraw"
+        ]
+      ]
+    }
   }
 }

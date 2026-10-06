@@ -1,11 +1,12 @@
 import { render, validate } from "./render.mjs";
+import { discoveryFiles } from './seo.mjs';
 let draft;
 let dirty = false;
 let counter = 0;
 const form = document.querySelector("#editor");
 const status = document.querySelector("#editor-status");
 const preview = document.querySelector("#preview");
-const controls = ["preview-button","download-content","download-page"].map(id => document.getElementById(id));
+const controls = ["preview-button","download-content","download-page","download-robots","download-sitemap"].map(id => document.getElementById(id));
 const labelFor = key => key.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/^./,char => char.toUpperCase());
 function changed() {
   dirty = true;
@@ -40,7 +41,7 @@ function editorFor(value, key, set, root = false) {
     add.addEventListener("click", () => {
       const examples = {
         experience:{period:"New period",role:"New role",company:"Company",description:"Describe your responsibilities.",tags:[]},
-        projects:{title:"New project",category:"Research",meta:"Project context",description:"Describe your work.",tags:[],featured:false,url:""},
+        projects:{id:"project-" + Date.now(),title:"New project",category:"Research",meta:"Project context",description:"Describe your work.",tags:[],featured:false,url:""},
         skills:{title:"New skill group",items:[]},
         courses:{name:"Course name",grade:"Grade"},
         stats:{value:"Value",label:"Label"},
@@ -65,7 +66,7 @@ function editorFor(value, key, set, root = false) {
   label.htmlFor = field.id; label.append(document.createTextNode(labelFor(key)));
   if (typeof value === "boolean") { field.type = "checkbox"; field.checked = value; }
   else { field.value = value ?? ""; }
-  field.addEventListener("input", () => { set(field.type === "checkbox" ? field.checked : field.value); changed(); });
+  field.addEventListener("input", () => { set(field.type === "checkbox" ? field.checked : typeof value === "number" ? Number(field.value) : field.value); changed(); });
   label.append(field); return label;
 }
 function refreshForm(openKey) {
@@ -101,6 +102,12 @@ document.getElementById("download-content").addEventListener("click", () => {
 });
 document.getElementById("download-page").addEventListener("click", () => {
   if (valid()) download("index.html",render(draft),"text/html");
+});
+document.getElementById('download-robots').addEventListener('click',()=>{
+  if(valid()) download('robots.txt',discoveryFiles(draft).robots,'text/plain');
+});
+document.getElementById('download-sitemap').addEventListener('click',()=>{
+  if(valid()) download('sitemap.xml',discoveryFiles(draft).sitemap,'application/xml');
 });
 document.getElementById("import").addEventListener("change", async event => {
   const file = event.target.files[0]; if (!file) return;

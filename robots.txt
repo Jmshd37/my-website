@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jmshd37.github.io/my-website/sitemap.xml
