@@ -5,9 +5,9 @@
   --paper: #f6f3ed;
   --paper-2: #ede9e1;
   --white: #ffffff;
-  --muted: #677083;
+  --muted: #596377;
   --line: rgba(10, 16, 32, 0.12);
-  --blue: #4b67ff;
+  --blue: #3657e8;
   --blue-soft: #e8ecff;
   --green: #30c78d;
   --shadow: 0 28px 80px rgba(18, 27, 45, 0.12);
@@ -775,16 +775,6 @@ img, svg { display: block; max-width: 100%; }
 }
 
 .project-card.erp-card-clickable:focus-visible {
-  outline: 3px solid var(--blue);
-  outline-offset: 4px;
-}
-
-.project-card.magma-card-link {
-  position: relative;
-  cursor: pointer;
-}
-
-.project-card.magma-card-link:focus-visible {
   outline: 3px solid var(--blue);
   outline-offset: 4px;
 }
@@ -1838,9 +1828,7 @@ main section[id] { scroll-margin-top: 104px; }
   margin-top: 16px;
   overflow: hidden;
   border-radius: 20px;
-  background-image:
-    linear-gradient(135deg, rgba(10,16,32,.16), rgba(10,16,32,.58)),
-    url("assets/rbm/rise-week-cover.jpg");
+
   background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
@@ -1918,34 +1906,24 @@ main section[id] { scroll-margin-top: 104px; }
 }
 .rbm-photo-cover {
   min-height: 390px;
-  background-image:
-    linear-gradient(135deg, rgba(75,103,255,.12), rgba(10,16,32,.40)),
-    url("assets/rbm/rise-week-cover.jpg");
+
   background-position: center 28%;
 }
 .rbm-photo-hkust {
-  background-image:
-    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/hkust-gz.jpg");
+
   background-position: center 30%;
 }
 .rbm-photo-xpeng {
-  background-image:
-    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/xpeng.JPG");
+
   /* Keep the visitor's face inside the visible crop. */
   background-position: center 8%;
 }
 .rbm-photo-dji {
-  background-image:
-    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/dji.JPG");
+
   background-position: center 38%;
 }
 .rbm-photo-pony {
-  background-image:
-    linear-gradient(135deg, rgba(75,103,255,.10), rgba(10,16,32,.40)),
-    url("assets/rbm/pony-ai.JPG");
+
   /* Favor the upper part of the portrait so the full face remains visible. */
   background-position: center 6%;
 }
@@ -1981,7 +1959,7 @@ main section[id] { scroll-margin-top: 104px; }
 .rbm-visit-copy { padding: 23px; }
 .rbm-kicker {
   margin: 0 0 9px !important;
-  color: #6673cf !important;
+  color: #4d5bac !important;
   font-size: 10px !important;
   font-weight: 850;
   text-transform: uppercase;
@@ -2093,11 +2071,11 @@ main section[id] { scroll-margin-top: 104px; }
   grid-row: span 1;
 }
 
-/* RISE Week is currently the only large project. */
+/* Supporting experience keeps a regular rail footprint. */
 .project-grid .rbm-card {
-  grid-column: span 2;
-  grid-row: span 2;
-  min-height: 655px;
+  grid-column: auto;
+  grid-row: span 1;
+  min-height: 320px;
 }
 
 .project-scroll {
@@ -2147,8 +2125,8 @@ main section[id] { scroll-margin-top: 104px; }
 
   .project-grid .rbm-card {
     grid-column: auto;
-    grid-row: span 2;
-    min-height: 635px;
+    grid-row: span 1;
+    min-height: 320px;
   }
 }
 
@@ -2922,52 +2900,13 @@ main section[id] { scroll-margin-top: 104px; }
 }
 @media print { .theme-picker { display: none !important; } }
 
-/* Phone projects: swipe one full-width card at a time, retaining card typography and spacing. */
+/* Phone project rail: current card height keeps controls attached to the content. */
 @media screen and (max-width: 767px) {
-  .project-carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    min-width: 0;
-  }
-  .project-carousel .project-grid {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    min-width: 0;
-    width: 100%;
-    grid-template-columns: none;
-    grid-template-rows: auto;
-    grid-auto-flow: column;
-    grid-auto-columns: 100%;
-    align-items: start;
-    gap: 15px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 8px 0 12px;
-    scroll-snap-type: x mandatory;
-    overscroll-behavior-inline: contain;
-  }
-  .project-grid .project-card {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-  }
+  .project-carousel .project-grid { width: 100%; gap: 15px; overflow-x: auto; overflow-y: hidden; padding: 8px 0 12px; scroll-snap-type: x mandatory; overscroll-behavior-inline: contain; }
+  .project-grid .project-card { scroll-snap-align: start; scroll-snap-stop: always; }
   .project-grid .project-no { flex-shrink: 0; white-space: nowrap; }
-  .project-carousel .project-scroll {
-    position: static;
-    display: grid;
-    grid-row: 2;
-    transform: none;
-    width: 46px;
-    height: 46px;
-  }
+  .project-carousel .project-scroll { display: grid; width: 46px; height: 46px; transform: none; }
   .project-carousel .project-scroll:hover:not(:disabled) { transform: none; }
-  .project-carousel .project-scroll-prev { grid-column: 1; justify-self: end; }
-  .project-carousel .project-scroll-next { grid-column: 2; justify-self: start; }
-}
-
-/* Keep each card's intrinsic height when the phone rail follows the active card. */
-@media screen and (max-width: 767px) {
-  .project-carousel .project-grid { grid-template-rows: max-content; }
 }
 
 /* A flex rail avoids the tallest off-screen grid track determining the controls' position. */
@@ -3049,3 +2988,27 @@ main section[id] { scroll-margin-top: 104px; }
   .skills-scroll:hover:not(:disabled) { background: rgba(255,255,255,.18); }
   .skills-scroll:disabled { opacity: .3; cursor: default; }
 }
+
+/* Case-study hierarchy and responsive photos retain the established visual language. */
+.project-flagship:not(.project-featured) { border-top: 3px solid var(--blue); }
+.rbm-photo img, .rbm-card-visual img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.rbm-photo::before, .rbm-card-visual::before { z-index: 1; pointer-events: none; }
+.rbm-photo-cover img { object-position: center 28%; }
+.rbm-visit-card .rbm-photo img { object-position: center 15%; }
+.skill-core { border-color: rgba(189,200,255,.55); }
+.skill-productivity li { color: #b4bfd2; }
+.project-link, .erp-control, .erp-detail summary { min-height: 44px; }
+.project-link { display: inline-flex; align-items: center; }
+.project-no { color: var(--blue); }
+.project-featured .project-no { color: #aabcff; }
+.skip-link, .brand-mark { background-color: #0a1020; color: #fff; }
+@media screen and (max-width: 1024px) {
+  .rbm-photo img, .rbm-card-visual img { object-fit: contain; }
+}
+@media screen {
+  [data-theme="dark"] .erp-panel { background: var(--paper); color: var(--ink); }
+  [data-theme="dark"] .erp-bar { background: var(--paper); border-color: var(--line); }
+  [data-theme="dark"] .erp-control { background: var(--white); color: var(--ink); border-color: var(--line); }
+  [data-theme="dark"] .erp-benefit, [data-theme="dark"] .transcript-year { background: var(--paper-2); border-color: var(--line); }
+}
+@media print { .skills-scroll-controls, #site-catalog { display: none !important; } }

@@ -49,7 +49,7 @@
     }, { rootMargin: "-15% 0px -65% 0px", threshold: 0 });
     document.querySelectorAll("main section[id]").forEach(section => observer.observe(section));
   }
-  const cards = [...document.querySelectorAll(".project-card")];
+  const cards = [...document.querySelectorAll("#project-grid > .project-card")];
 
   // Horizontal two-row project rail controls.
   const projectGrid = document.querySelector("#project-grid");
@@ -89,13 +89,17 @@
   const moveProjectRail = direction => {
     if (!projectGrid) return;
     const distance = Math.max(300, projectGrid.clientWidth * .82);
-    projectGrid.scrollBy({ left: distance * direction, behavior: "smooth" });
+    projectGrid.scrollBy({ left: distance * direction, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
   };
   if (projectGrid && projectPrev && projectNext) {
     projectPrev.addEventListener("click", () => moveProjectRail(-1));
     projectNext.addEventListener("click", () => moveProjectRail(1));
     projectGrid.addEventListener("scroll", updateProjectScrollControls, { passive: true });
     window.addEventListener("resize", updateProjectScrollControls);
+    projectGrid.addEventListener('keydown', event => {
+      if (event.target !== projectGrid || !['ArrowLeft','ArrowRight'].includes(event.key)) return;
+      event.preventDefault(); moveProjectRail(event.key === 'ArrowLeft' ? -1 : 1);
+    });
     requestAnimationFrame(updateProjectScrollControls);
     if ("ResizeObserver" in window) {
       const cardSizes = new ResizeObserver(() => requestAnimationFrame(updateProjectScrollControls));
@@ -104,32 +108,6 @@
     document.fonts?.ready.then(() => requestAnimationFrame(updateProjectScrollControls));
   }
 
-  // MAGMASTORE: make the entire project card behave like its external website link.
-  cards.filter(card => card.classList.contains("magma-card-link")).forEach(card => {
-    const link = card.querySelector(".project-link[href]");
-    if (!link) return;
-
-    card.setAttribute("role", "link");
-    card.tabIndex = 0;
-    card.setAttribute("aria-label", link.textContent.trim());
-
-    const followLink = () => {
-      if (link.target === "_blank") window.open(link.href, "_blank", "noopener,noreferrer");
-      else window.location.href = link.href;
-    };
-
-    card.addEventListener("click", event => {
-      if (event.target.closest("a, button, input, select, textarea, summary")) return;
-      followLink();
-    });
-
-    card.addEventListener("keydown", event => {
-      if (event.key !== "Enter" && event.key !== " ") return;
-      if (event.target.closest("a, button, input, select, textarea, summary")) return;
-      event.preventDefault();
-      followLink();
-    });
-  });
   const search = document.querySelector("#project-search");
   const filters = [...document.querySelectorAll("[data-filter]")];
   const counter = document.querySelector("#project-count");
@@ -148,7 +126,7 @@
     counter.textContent = tr("projectCount", "Showing " + count + " of " + cards.length + " projects", { count, total: cards.length });
     empty.hidden = count !== 0;
     if (projectGrid) {
-      projectGrid.scrollTo({ left: 0, behavior: "smooth" });
+      projectGrid.scrollTo({ left: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
       requestAnimationFrame(updateProjectScrollControls);
     }
   };
@@ -306,22 +284,14 @@
       if (!card) return;
 
       card.classList.add("erp-card-clickable");
-      card.setAttribute("role", "button");
-      card.tabIndex = 0;
-      const title = card.querySelector("h3")?.textContent?.trim();
-      if (title) card.setAttribute("aria-label", title);
+
 
       card.addEventListener("click", event => {
         if (event.target.closest("a, button, input, select, textarea, summary")) return;
-        open(card);
+        open(trigger);
       });
 
-      card.addEventListener("keydown", event => {
-        if (event.key !== "Enter" && event.key !== " ") return;
-        if (event.target.closest("a, button, input, select, textarea, summary")) return;
-        event.preventDefault();
-        open(card);
-      });
+
     });
 
     panel.querySelectorAll(closeSelector).forEach(button => button.addEventListener("click", close));
@@ -357,34 +327,9 @@
     closeSelector: "[data-transcript-close]"
   });
 
-  setupProjectPanel({
-    panelId: "erp-project-panel",
-    openSelector: "[data-erp-open]",
-    closeSelector: "[data-erp-close]"
-  });
-
-  setupProjectPanel({
-    panelId: "odoo-erp-panel",
-    openSelector: "[data-odoo-erp-open]",
-    closeSelector: "[data-odoo-erp-close]"
-  });
-
-  setupProjectPanel({
-    panelId: "rbm-experience-panel",
-    openSelector: "[data-rbm-open]",
-    closeSelector: "[data-rbm-close]"
-  });
-
-  setupProjectPanel({
-    panelId: "industry4-project-panel",
-    openSelector: "[data-industry4-open]",
-    closeSelector: "[data-industry4-close]"
-  });
-
-  setupProjectPanel({
-    panelId: "cisco-data-panel",
-    openSelector: "[data-cisco-open]",
-    closeSelector: "[data-cisco-close]"
+  document.querySelectorAll('[data-project-open][aria-controls]').forEach(trigger => {
+    const panelId = trigger.getAttribute('aria-controls');
+    setupProjectPanel({ panelId, openSelector: '[data-project-open][aria-controls="' + panelId + '"]', closeSelector: '[data-project-close]' });
   });
 
   document.querySelectorAll("[data-recommendation-open][aria-controls]").forEach(trigger => {
@@ -406,6 +351,8 @@
   if (!grid) return;
   const cards = [...grid.querySelectorAll(".skill-card")];
   if (!cards.length) return;
+
+
   const phone = window.matchMedia("(max-width: 767px)");
   const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
   const controls = document.createElement("div");
