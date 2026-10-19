@@ -26,7 +26,7 @@ node --test
 
 Edit **content.json**, then run the build and commit the JSON and generated **index.html**, **robots.txt** and **sitemap.xml**. Biography, contact details, experience, case studies, transcript, recommendations, skills and translations live in this one file. Never hand-edit the generated page: the build preserves the existing moon logo through `profile.logo`.
 
-- **profile.resumeUrl**: no CV PDF is currently supplied. Upload `assets/Jamshidbek-Nurmukhammadov-CV.pdf`, then set this field to that path. A dedicated Download CV link appears; Print / Save CV remains in the footer. An empty value does not create a broken download or an invented CV.
+- **profile.resumeUrl**: links to the uploaded `assets/Jamshidbek-Nurmukhammadov-CV.pdf`. The hero's Download CV button downloads this PDF; Print / Save CV remains in the footer. To update the CV, replace the PDF at the same path. An empty value switches the hero back to Print / Save CV.
 - **projects[].url**: optional public case-study or project link. Empty values produce no dead links.
 - **projects[].category**: creates project filters automatically. The label All is reserved.
 - **projects[].featured**: gives the project a dark featured treatment.

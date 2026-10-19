@@ -13,7 +13,7 @@
     "phone": "+998946460219",
     "phoneLabel": "+998 94 646 02 19",
     "github": "https://github.com/Jmshd37",
-    "resumeUrl": "",
+    "resumeUrl": "assets/Jamshidbek-Nurmukhammadov-CV.pdf",
     "photo": "assets/profile-portrait.svg",
     "stats": [
       {
@@ -1233,7 +1233,8 @@
     "excellent_meets_the_highest_standards": "Excellent — meets the highest standards",
     "very_good_meets_standards": "Very good — meets standards",
     "good_competent": "Good — competent",
-    "minimally_acceptable_lowest_passing_grade": "Minimally acceptable — lowest passing grade"
+    "minimally_acceptable_lowest_passing_grade": "Minimally acceptable — lowest passing grade",
+    "download_cv": "Download CV"
   },
   "locales": {
     "uz": {
@@ -1733,7 +1734,8 @@
       "transcript.grading.rows.1.3": "A’lo — eng yuqori talablarga javob beradi",
       "transcript.grading.rows.2.3": "Juda yaxshi — talablarga javob beradi",
       "transcript.grading.rows.3.3": "Yaxshi — yetarli bilimga ega",
-      "transcript.grading.rows.6.3": "Minimal qoniqarli — eng past o‘tish bahosi"
+      "transcript.grading.rows.6.3": "Minimal qoniqarli — eng past o‘tish bahosi",
+      "ui.download_cv": "CVni yuklab olish"
     },
     "ru": {
       "ui.skip_to_content": "Перейти к содержимому",
@@ -2232,7 +2234,8 @@
       "transcript.grading.rows.1.3": "Отлично — соответствует высшим стандартам",
       "transcript.grading.rows.2.3": "Очень хорошо — соответствует стандартам",
       "transcript.grading.rows.3.3": "Хорошо — компетентный уровень",
-      "transcript.grading.rows.6.3": "Минимально приемлемо — низшая проходная оценка"
+      "transcript.grading.rows.6.3": "Минимально приемлемо — низшая проходная оценка",
+      "ui.download_cv": "Скачать CV"
     }
   },
   "seo": {
